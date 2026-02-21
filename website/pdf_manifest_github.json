@@ -1,0 +1,4230 @@
+{
+  "generated": "2026-02-21T22:03:23.616238",
+  "total_pdfs": 530,
+  "repository": "https://github.com/username/BTech_CSE_Study_Materials",
+  "raw_content_url": "https://raw.githubusercontent.com/username/BTech_CSE_Study_Materials/main",
+  "structure": {
+    "Year 1": {
+      "Semester 1": {
+        "Subject_101": {
+          "PYQs": [
+            {
+              "name": "Artificial Intelligence- MCS-143.pdf",
+              "size": 615646,
+              "size_mb": 0.59,
+              "path": "Year 1\\Semester 1\\Subject_101\\PYQs\\Artificial Intelligence- MCS-143.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-134 END 2025.pdf",
+              "size": 795693,
+              "size_mb": 0.76,
+              "path": "Year 1\\Semester 1\\Subject_101\\PYQs\\MCS-134 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-134,END-2024.pdf",
+              "size": 406713,
+              "size_mb": 0.39,
+              "path": "Year 1\\Semester 1\\Subject_101\\PYQs\\MCS-134,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-143,MID-2024.pdf",
+              "size": 204293,
+              "size_mb": 0.19,
+              "path": "Year 1\\Semester 1\\Subject_101\\PYQs\\MCS-143,MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-101,MID TERM,OCT-2024.pdf",
+              "size": 1055929,
+              "size_mb": 1.01,
+              "path": "Year 1\\Semester 1\\Subject_101\\PYQs\\TEC-101,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_102": {
+          "PYQs": [
+            {
+              "name": "Artificial Intelligence- MCS-143.pdf",
+              "size": 615646,
+              "size_mb": 0.59,
+              "path": "Year 1\\Semester 1\\Subject_102\\PYQs\\Artificial Intelligence- MCS-143.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Internet of Things MCS-134.pdf",
+              "size": 437506,
+              "size_mb": 0.42,
+              "path": "Year 1\\Semester 1\\Subject_102\\PYQs\\Internet of Things MCS-134.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-134,MID-2024.pdf",
+              "size": 200508,
+              "size_mb": 0.19,
+              "path": "Year 1\\Semester 1\\Subject_102\\PYQs\\MCS-134,MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-141 END 2025.pdf",
+              "size": 1163795,
+              "size_mb": 1.11,
+              "path": "Year 1\\Semester 1\\Subject_102\\PYQs\\MCS-141 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEE-101,MID TERM,OCT-2024.pdf",
+              "size": 976535,
+              "size_mb": 0.93,
+              "path": "Year 1\\Semester 1\\Subject_102\\PYQs\\TEE-101,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_103": {
+          "PYQs": [
+            {
+              "name": "Internet of Things MCS-134.pdf",
+              "size": 437506,
+              "size_mb": 0.42,
+              "path": "Year 1\\Semester 1\\Subject_103\\PYQs\\Internet of Things MCS-134.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-129 Big Data Analytics.pdf",
+              "size": 401632,
+              "size_mb": 0.38,
+              "path": "Year 1\\Semester 1\\Subject_103\\PYQs\\MCS-129 Big Data Analytics.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-141,MID-2024.pdf",
+              "size": 265434,
+              "size_mb": 0.25,
+              "path": "Year 1\\Semester 1\\Subject_103\\PYQs\\MCS-141,MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-142 END 2025.pdf",
+              "size": 693190,
+              "size_mb": 0.66,
+              "path": "Year 1\\Semester 1\\Subject_103\\PYQs\\MCS-142 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THU-101,MID TERM,OCT-2024.pdf",
+              "size": 1780372,
+              "size_mb": 1.7,
+              "path": "Year 1\\Semester 1\\Subject_103\\PYQs\\THU-101,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_104": {
+          "PYQs": [
+            {
+              "name": "MCS-129 Big Data Analytics.pdf",
+              "size": 401632,
+              "size_mb": 0.38,
+              "path": "Year 1\\Semester 1\\Subject_104\\PYQs\\MCS-129 Big Data Analytics.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-141 Data Structures & Algorithms.pdf",
+              "size": 573305,
+              "size_mb": 0.55,
+              "path": "Year 1\\Semester 1\\Subject_104\\PYQs\\MCS-141 Data Structures & Algorithms.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-142,MID-2024.pdf",
+              "size": 218527,
+              "size_mb": 0.21,
+              "path": "Year 1\\Semester 1\\Subject_104\\PYQs\\MCS-142,MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-143 END 2025.pdf",
+              "size": 601968,
+              "size_mb": 0.57,
+              "path": "Year 1\\Semester 1\\Subject_104\\PYQs\\MCS-143 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-101,MID TERM,OCT-2024.pdf",
+              "size": 784675,
+              "size_mb": 0.75,
+              "path": "Year 1\\Semester 1\\Subject_104\\PYQs\\TMA-101,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_105": {
+          "PYQs": [
+            {
+              "name": "MCS-141 Data Structures & Algorithms.pdf",
+              "size": 573305,
+              "size_mb": 0.55,
+              "path": "Year 1\\Semester 1\\Subject_105\\PYQs\\MCS-141 Data Structures & Algorithms.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-142 Cryptography and Network Security.pdf",
+              "size": 587839,
+              "size_mb": 0.56,
+              "path": "Year 1\\Semester 1\\Subject_105\\PYQs\\MCS-142 Cryptography and Network Security.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-143,END TERM.pdf",
+              "size": 269920,
+              "size_mb": 0.26,
+              "path": "Year 1\\Semester 1\\Subject_105\\PYQs\\MCS-143,END TERM.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCH-101,MID TERM,OCT-2024.pdf",
+              "size": 696635,
+              "size_mb": 0.66,
+              "path": "Year 1\\Semester 1\\Subject_105\\PYQs\\TCH-101,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TPH-101,MID TERM,OCT-2024.pdf",
+              "size": 1168009,
+              "size_mb": 1.11,
+              "path": "Year 1\\Semester 1\\Subject_105\\PYQs\\TPH-101,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_106": {
+          "PYQs": [
+            {
+              "name": "MCS-129 END 2025.pdf",
+              "size": 531201,
+              "size_mb": 0.51,
+              "path": "Year 1\\Semester 1\\Subject_106\\PYQs\\MCS-129 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-142 Cryptography and Network Security.pdf",
+              "size": 587839,
+              "size_mb": 0.56,
+              "path": "Year 1\\Semester 1\\Subject_106\\PYQs\\MCS-142 Cryptography and Network Security.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-143,END-2024.pdf",
+              "size": 233337,
+              "size_mb": 0.22,
+              "path": "Year 1\\Semester 1\\Subject_106\\PYQs\\MCS-143,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS_101,MID TERMOCT-2024.pdf",
+              "size": 1335886,
+              "size_mb": 1.27,
+              "path": "Year 1\\Semester 1\\Subject_106\\PYQs\\TCS_101,MID TERMOCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      },
+      "Semester 2": {
+        "Subject_201": {
+          "PYQs": [
+            {
+              "name": "DTEN-205-MID-2025.pdf",
+              "size": 209929,
+              "size_mb": 0.2,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\DTEN-205-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-232-MID-2025.pdf",
+              "size": 76573,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\MCS-232-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-251-MID-2025.pdf",
+              "size": 94757,
+              "size_mb": 0.09,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\MCS-251-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-252-END-2025.pdf",
+              "size": 136108,
+              "size_mb": 0.13,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\MCS-252-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCH 201, END, 2024.pdf",
+              "size": 179130,
+              "size_mb": 0.17,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TCH 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCH-201-MID-2025.pdf",
+              "size": 73807,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TCH-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-201-MID-2024.pdf",
+              "size": 1340394,
+              "size_mb": 1.28,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TCS-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEE-201-MID-2024.pdf",
+              "size": 860796,
+              "size_mb": 0.82,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TEE-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THU-201-MID-2025.pdf",
+              "size": 125169,
+              "size_mb": 0.12,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\THU-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA 201, END, 2024.pdf",
+              "size": 214974,
+              "size_mb": 0.21,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TMA 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-201-END-2025.pdf",
+              "size": 127307,
+              "size_mb": 0.12,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TMA-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TPH-201-MID-2024.pdf",
+              "size": 1068548,
+              "size_mb": 1.02,
+              "path": "Year 1\\Semester 2\\Subject_201\\PYQs\\TPH-201-MID-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_202": {
+          "PYQs": [
+            {
+              "name": "DTEN-205-END-2025.pdf",
+              "size": 167023,
+              "size_mb": 0.16,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\DTEN-205-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTIT-204-MID-2025.pdf",
+              "size": 69145,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\DTIT-204-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-251-MID-2025.pdf",
+              "size": 94757,
+              "size_mb": 0.09,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\MCS-251-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-252-MID-2025.pdf",
+              "size": 113201,
+              "size_mb": 0.11,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\MCS-252-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-253-END-2025.pdf",
+              "size": 109594,
+              "size_mb": 0.1,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\MCS-253-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-201-MID-2025.pdf",
+              "size": 187749,
+              "size_mb": 0.18,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TCS-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC 201, END, 2024.pdf",
+              "size": 311965,
+              "size_mb": 0.3,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TEC 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-201-MID-2024.pdf",
+              "size": 1009595,
+              "size_mb": 0.96,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TEC-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEV-201-MID-2024.pdf",
+              "size": 654868,
+              "size_mb": 0.62,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TEV-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA 201, END, BACK PAPER 2024.pdf",
+              "size": 160012,
+              "size_mb": 0.15,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TMA 201, END, BACK PAPER 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-201-MID-2025.pdf",
+              "size": 93803,
+              "size_mb": 0.09,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TMA-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMC-201-END-2025.pdf",
+              "size": 143886,
+              "size_mb": 0.14,
+              "path": "Year 1\\Semester 2\\Subject_202\\PYQs\\TMC-201-END-2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_203": {
+          "PYQs": [
+            {
+              "name": "DTIT-204-END-2025.pdf",
+              "size": 71367,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\DTIT-204-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTMA-201-MID-2025.pdf",
+              "size": 119217,
+              "size_mb": 0.11,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\DTMA-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-252-MID-2025.pdf",
+              "size": 113201,
+              "size_mb": 0.11,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\MCS-252-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-253-MID-2025.pdf",
+              "size": 77871,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\MCS-253-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-201-MID-2024.pdf",
+              "size": 630050,
+              "size_mb": 0.6,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TCE-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCH-201-END-2025.pdf",
+              "size": 127943,
+              "size_mb": 0.12,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TCH-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-201-MID-2025.pdf",
+              "size": 106227,
+              "size_mb": 0.1,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TEC-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEE 201, END, 2024.pdf",
+              "size": 270736,
+              "size_mb": 0.26,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TEE 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEE-201-MID-2024.pdf",
+              "size": 860796,
+              "size_mb": 0.82,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TEE-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THU-201-MID-2024.pdf",
+              "size": 1195310,
+              "size_mb": 1.14,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\THU-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMC-202-END-2025.pdf",
+              "size": 108298,
+              "size_mb": 0.1,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TMC-202-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TPH 201, END, 2024.pdf",
+              "size": 239047,
+              "size_mb": 0.23,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TPH 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TPH-201-MID-2025.pdf",
+              "size": 82331,
+              "size_mb": 0.08,
+              "path": "Year 1\\Semester 2\\Subject_203\\PYQs\\TPH-201-MID-2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_204": {
+          "PYQs": [
+            {
+              "name": "DTMA-201-END-2025.pdf",
+              "size": 98344,
+              "size_mb": 0.09,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\DTMA-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTPH-202-MID-2025.pdf",
+              "size": 113604,
+              "size_mb": 0.11,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\DTPH-202-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-253-MID-2025.pdf",
+              "size": 77871,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\MCS-253-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCH-201-MID-2024.pdf",
+              "size": 731434,
+              "size_mb": 0.7,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TCH-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-201-END-2025.pdf",
+              "size": 566895,
+              "size_mb": 0.54,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TCS-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEE-201-NID-2025.pdf",
+              "size": 169461,
+              "size_mb": 0.16,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TEE-201-NID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEV 201, END, 2024.pdf",
+              "size": 119113,
+              "size_mb": 0.11,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TEV 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEV-201-MID-2024.pdf",
+              "size": 654868,
+              "size_mb": 0.62,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TEV-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-201-MID-2024.pdf",
+              "size": 495160,
+              "size_mb": 0.47,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TMA-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMC-211-END-2025.pdf",
+              "size": 158594,
+              "size_mb": 0.15,
+              "path": "Year 1\\Semester 2\\Subject_204\\PYQs\\TMC-211-END-2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_205": {
+          "PYQs": [
+            {
+              "name": "DTPH-202-END-2025.pdf",
+              "size": 100353,
+              "size_mb": 0.1,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\DTPH-202-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-232-END-2025.pdf",
+              "size": 100016,
+              "size_mb": 0.1,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\MCS-232-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-201-MID-2024.pdf",
+              "size": 630050,
+              "size_mb": 0.6,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\TCE-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-201-MID-2024.pdf",
+              "size": 1340394,
+              "size_mb": 1.28,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\TCS-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEE-201-END-2025.pdf",
+              "size": 174072,
+              "size_mb": 0.17,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\TEE-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEV-201-MID-2025.pdf",
+              "size": 93092,
+              "size_mb": 0.09,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\TEV-201-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THF 201, END, 2024.pdf",
+              "size": 558631,
+              "size_mb": 0.53,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\THF 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THU-201-MID-2024.pdf",
+              "size": 1195310,
+              "size_mb": 1.14,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\THU-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TPH-201-END-2025.pdf",
+              "size": 121340,
+              "size_mb": 0.12,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\TPH-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TPH-201-MID-2024.pdf",
+              "size": 1068548,
+              "size_mb": 1.02,
+              "path": "Year 1\\Semester 2\\Subject_205\\PYQs\\TPH-201-MID-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_206": {
+          "PYQs": [
+            {
+              "name": "DTCH-203-MID-2025.pdf",
+              "size": 84768,
+              "size_mb": 0.08,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\DTCH-203-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-232-MID-2025.pdf",
+              "size": 76573,
+              "size_mb": 0.07,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\MCS-232-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-251-END-2025.pdf",
+              "size": 150901,
+              "size_mb": 0.14,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\MCS-251-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE 201, END, 2024.pdf",
+              "size": 166391,
+              "size_mb": 0.16,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\TCE 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCH-201-MID-2024.pdf",
+              "size": 731434,
+              "size_mb": 0.7,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\TCH-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-201-MID-2024.pdf",
+              "size": 1009595,
+              "size_mb": 0.96,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\TEC-201-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEV-211-MID-2025.pdf",
+              "size": 56650,
+              "size_mb": 0.05,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\TEV-211-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THU 201, END, 2024.pdf",
+              "size": 629612,
+              "size_mb": 0.6,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\THU 201, END, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THU-201-END-2025.pdf",
+              "size": 119241,
+              "size_mb": 0.11,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\THU-201-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-201-MID-2024.pdf",
+              "size": 495160,
+              "size_mb": 0.47,
+              "path": "Year 1\\Semester 2\\Subject_206\\PYQs\\TMA-201-MID-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      }
+    },
+    "Year 2": {
+      "Semester 3": {
+        "Subject_301": {
+          "PYQs": [
+            {
+              "name": "B.TECH (CE) UHV-301, 2024 (MID TERM).pdf",
+              "size": 648527,
+              "size_mb": 0.62,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\B.TECH (CE) UHV-301, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-302 Digital Logic.pdf",
+              "size": 516907,
+              "size_mb": 0.49,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\DTCS-302 Digital Logic.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MRD- 302 Introduction to Research Methodology.pdf",
+              "size": 480557,
+              "size_mb": 0.46,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\MRD- 302 Introduction to Research Methodology.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Quantum Computing MCS-373.pdf",
+              "size": 414652,
+              "size_mb": 0.4,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\Quantum Computing MCS-373.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-301, 2024 (MID TERM).pdf",
+              "size": 1094990,
+              "size_mb": 1.04,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TCE-301, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-302,END-2024.pdf",
+              "size": 413635,
+              "size_mb": 0.39,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TCE-302,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307 MID 2025 (LATE ADMISSION).pdf",
+              "size": 745309,
+              "size_mb": 0.71,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TCS-307 MID 2025 (LATE ADMISSION).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307,MID TERM,OCT-2024.pdf",
+              "size": 814001,
+              "size_mb": 0.78,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TCS-307,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-392 END 2025.pdf",
+              "size": 697371,
+              "size_mb": 0.67,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TCS-392 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-392-END-2023.pdf",
+              "size": 139226,
+              "size_mb": 0.13,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TCS-392-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-301,MID TERM,OCT-2024.pdf",
+              "size": 721518,
+              "size_mb": 0.69,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TEC-301,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-304_End Term(Back)_June 2024.pdf",
+              "size": 581845,
+              "size_mb": 0.55,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TEC-304_End Term(Back)_June 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-316 MID 2025 (LATE ADMISSION).pdf",
+              "size": 506397,
+              "size_mb": 0.48,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TMA-316 MID 2025 (LATE ADMISSION).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-316,END-2024.pdf",
+              "size": 408395,
+              "size_mb": 0.39,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TMA-316,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-302,MID TERM,OT-2024.pdf",
+              "size": 608438,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 3\\Subject_301\\PYQs\\TME-302,MID TERM,OT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_302": {
+          "PYQs": [
+            {
+              "name": "CE, TCE-302, 2024 (MID TERM).pdf",
+              "size": 647179,
+              "size_mb": 0.62,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\CE, TCE-302, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-303 Relational Database Management Systems.pdf",
+              "size": 399165,
+              "size_mb": 0.38,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\DTCS-303 Relational Database Management Systems.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-303,MID TERM,OCT-2024.pdf",
+              "size": 498257,
+              "size_mb": 0.48,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\MCS-303,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Quantum Computing MCS-373.pdf",
+              "size": 414652,
+              "size_mb": 0.4,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\Quantum Computing MCS-373.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-303,END-2024.pdf",
+              "size": 310021,
+              "size_mb": 0.3,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TCE-303,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-301-MID-2023.pdf",
+              "size": 113638,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TCS-301-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-302 END 2025.pdf",
+              "size": 1507213,
+              "size_mb": 1.44,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TCS-302 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-302,END-2024.pdf",
+              "size": 545991,
+              "size_mb": 0.52,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TCS-302,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307 Object Oriented Programming wiith C++.pdf",
+              "size": 572344,
+              "size_mb": 0.55,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TCS-307 Object Oriented Programming wiith C++.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-308,MID TERM,OCT-2024.pdf",
+              "size": 877090,
+              "size_mb": 0.84,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TCS-308,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-303,MID TERM,OCT-2024.pdf",
+              "size": 550464,
+              "size_mb": 0.52,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TEC-303,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-316 END 2025 .pdf",
+              "size": 908178,
+              "size_mb": 0.87,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TMA-316 END 2025 .pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-306,MID TERM,OCT-2024.pdf",
+              "size": 1047999,
+              "size_mb": 1.0,
+              "path": "Year 2\\Semester 3\\Subject_302\\PYQs\\TME-306,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_303": {
+          "PYQs": [
+            {
+              "name": "BSC-301,END-2024.pdf",
+              "size": 397171,
+              "size_mb": 0.38,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\BSC-301,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "CE, TCE-303, 2024 (MID TERM).pdf",
+              "size": 1144494,
+              "size_mb": 1.09,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\CE, TCE-303, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-304, Software Engineering.pdf",
+              "size": 434556,
+              "size_mb": 0.41,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\DTCS-304, Software Engineering.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-314,END-2024.pdf",
+              "size": 336600,
+              "size_mb": 0.32,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\MCS-314,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-304,END-2024.pdf",
+              "size": 341402,
+              "size_mb": 0.33,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TCE-304,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307 END 2025.pdf",
+              "size": 970237,
+              "size_mb": 0.93,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TCS-307 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307,END-2024.pdf",
+              "size": 1045902,
+              "size_mb": 1.0,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TCS-307,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307-MID-2023.pdf",
+              "size": 301807,
+              "size_mb": 0.29,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TCS-307-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-308 Logic Design & Computer Organization.pdf",
+              "size": 341007,
+              "size_mb": 0.33,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TCS-308 Logic Design & Computer Organization.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-346,MID TERM,OCT-2024.pdf",
+              "size": 1008998,
+              "size_mb": 0.96,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TCS-346,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-308,MID TERM,OCT-2024.pdf",
+              "size": 917962,
+              "size_mb": 0.88,
+              "path": "Year 2\\Semester 3\\Subject_303\\PYQs\\TME-308,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_304": {
+          "PYQs": [
+            {
+              "name": "CE, TCE-304, 2024 (MID TERM).pdf",
+              "size": 707594,
+              "size_mb": 0.67,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\CE, TCE-304, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTMA-301 MID 2025 LATE ADMISSION.pdf",
+              "size": 477382,
+              "size_mb": 0.46,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\DTMA-301 MID 2025 LATE ADMISSION.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, BSC-301, 2024 (MID TERM).pdf",
+              "size": 964177,
+              "size_mb": 0.92,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\ECE, BSC-301, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-314,MID TERM,OCT-2024.pdf",
+              "size": 640671,
+              "size_mb": 0.61,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\MCS-314,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-307-END-2023.pdf",
+              "size": 359772,
+              "size_mb": 0.34,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TCS-307-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-308 END 2025.pdf",
+              "size": 412733,
+              "size_mb": 0.39,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TCS-308 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-308,END-2024.pdf",
+              "size": 347215,
+              "size_mb": 0.33,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TCS-308,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-308-MID-2023.pdf",
+              "size": 177839,
+              "size_mb": 0.17,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TCS-308-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-346 MID 2025.pdf",
+              "size": 1279234,
+              "size_mb": 1.22,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TCS-346 MID 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-364,MID TERM,OCT-2024.pdf",
+              "size": 2222839,
+              "size_mb": 2.12,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TCS-364,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-301, END-2024.pdf",
+              "size": 604775,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TEC-301, END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-306,END-2024.pdf",
+              "size": 698448,
+              "size_mb": 0.67,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TME-306,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-309,MID TERM,OCT-2024.pdf",
+              "size": 589161,
+              "size_mb": 0.56,
+              "path": "Year 2\\Semester 3\\Subject_304\\PYQs\\TME-309,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_305": {
+          "PYQs": [
+            {
+              "name": "CE, TEC-301, 2024 (MID TERM).pdf",
+              "size": 1232363,
+              "size_mb": 1.18,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\CE, TEC-301, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTMA-301,305 Applied Mathematics.pdf",
+              "size": 496287,
+              "size_mb": 0.47,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\DTMA-301,305 Applied Mathematics.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, TEC-302, 2024 (MID TERM).pdf",
+              "size": 1258412,
+              "size_mb": 1.2,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\ECE, TEC-302, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Fundamentals of AI and ML TCS-364.pdf",
+              "size": 643854,
+              "size_mb": 0.61,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\Fundamentals of AI and ML TCS-364.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-329,END-2024.pdf",
+              "size": 360100,
+              "size_mb": 0.34,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\MCS-329,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-373 END 2025.pdf",
+              "size": 813115,
+              "size_mb": 0.78,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\MCS-373 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-308-END-2023.pdf",
+              "size": 264991,
+              "size_mb": 0.25,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TCS-308-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-343-MID-2023.pdf",
+              "size": 86524,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TCS-343-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-346 END 2025.pdf",
+              "size": 1259419,
+              "size_mb": 1.2,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TCS-346 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-346, END-2024.pdf",
+              "size": 865278,
+              "size_mb": 0.83,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TCS-346, END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-364 MID 2025 (LATE ADMISSION).pdf",
+              "size": 555069,
+              "size_mb": 0.53,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TCS-364 MID 2025 (LATE ADMISSION).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-392,MID TERM,OCT-2024.pdf",
+              "size": 1281501,
+              "size_mb": 1.22,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TCS-392,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-302, END-2024.pdf",
+              "size": 626811,
+              "size_mb": 0.6,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TEC-302, END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-308,END-2024.pdf",
+              "size": 415117,
+              "size_mb": 0.4,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TME-308,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-310,MID TERM,OCT-2024.pdf",
+              "size": 860024,
+              "size_mb": 0.82,
+              "path": "Year 2\\Semester 3\\Subject_305\\PYQs\\TME-310,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_306": {
+          "PYQs": [
+            {
+              "name": "CE, TMA-302, 2024 (MID TERM).pdf",
+              "size": 1124656,
+              "size_mb": 1.07,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\CE, TMA-302, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-301, Object Oriented Programming.pdf",
+              "size": 376141,
+              "size_mb": 0.36,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\DTCS-301, Object Oriented Programming.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, TEC-304, 2024 (MID TERM).pdf",
+              "size": 727650,
+              "size_mb": 0.69,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\ECE, TEC-304, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-329,MID TERM,OCT-2024.pdf",
+              "size": 746030,
+              "size_mb": 0.71,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\MCS-329,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MRD- 302 Introduction to Research Methodology.pdf",
+              "size": 480557,
+              "size_mb": 0.46,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\MRD- 302 Introduction to Research Methodology.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MRD-302 END 2025.pdf",
+              "size": 455962,
+              "size_mb": 0.43,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\MRD-302 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Python Programming TCS-346.pdf",
+              "size": 623129,
+              "size_mb": 0.59,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\Python Programming TCS-346.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-302,IBTCS-302,MID TERM,OCT-2024.pdf",
+              "size": 1110855,
+              "size_mb": 1.06,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TCS-302,IBTCS-302,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-343-END-2023.pdf",
+              "size": 205751,
+              "size_mb": 0.2,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TCS-343-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-364 END 2025.pdf",
+              "size": 1102958,
+              "size_mb": 1.05,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TCS-364 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-392,END-2024.pdf",
+              "size": 457498,
+              "size_mb": 0.44,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TCS-392,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-392-MID-2023.pdf",
+              "size": 214650,
+              "size_mb": 0.2,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TCS-392-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-303,END-2024.pdf",
+              "size": 549345,
+              "size_mb": 0.52,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TEC-303,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-303,MID TERM,OCT-2024.pdf",
+              "size": 892997,
+              "size_mb": 0.85,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TMA-303,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-316 Discrete Structures and Combinatorics.pdf",
+              "size": 622215,
+              "size_mb": 0.59,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TMA-316 Discrete Structures and Combinatorics.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-316,MID TERM,OCT-2024.pdf",
+              "size": 1056384,
+              "size_mb": 1.01,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TMA-316,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-310,END-2024.pdf",
+              "size": 294181,
+              "size_mb": 0.28,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\TME-310,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "UHV-301,MID TERM,OCT-2024.pdf",
+              "size": 611569,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 3\\Subject_306\\PYQs\\UHV-301,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      },
+      "Semester 4": {
+        "Subject_401": {
+          "PYQs": [
+            {
+              "name": "DTCS-402-END-2025.pdf",
+              "size": 122963,
+              "size_mb": 0.12,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\DTCS-402-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-403-MID-2025.pdf",
+              "size": 101572,
+              "size_mb": 0.1,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\DTCS-403-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-405-MID-2025.pdf",
+              "size": 80400,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\DTCS-405-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-405_2024_END.pdf",
+              "size": 1203963,
+              "size_mb": 1.15,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\DTCS-405_2024_END.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-427-END-2025.pdf",
+              "size": 110430,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\MCS-427-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-404-MID-2025.pdf",
+              "size": 69483,
+              "size_mb": 0.07,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCE-404-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-END-2023.pdf",
+              "size": 197903,
+              "size_mb": 0.19,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-402-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-MID-2025.pdf",
+              "size": 61639,
+              "size_mb": 0.06,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-403-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-404-MID-2023.pdf",
+              "size": 266048,
+              "size_mb": 0.25,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-404-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410-END-2025.pdf",
+              "size": 107257,
+              "size_mb": 0.1,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-410-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-421-END-2023.pdf",
+              "size": 360480,
+              "size_mb": 0.34,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-421-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-471-MID-2024.pdf",
+              "size": 1030400,
+              "size_mb": 0.98,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-471-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-471-MID-2024_1.pdf",
+              "size": 1030400,
+              "size_mb": 0.98,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TCS-471-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-402.pdf",
+              "size": 605351,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TEC-402.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-408-MID-2024.pdf",
+              "size": 989516,
+              "size_mb": 0.94,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TME-408-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-408-MID-2024_1.pdf",
+              "size": 989516,
+              "size_mb": 0.94,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\TME-408-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-400-(A)-MID-2023.pdf",
+              "size": 902049,
+              "size_mb": 0.86,
+              "path": "Year 2\\Semester 4\\Subject_401\\PYQs\\XCS-400-(A)-MID-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_402": {
+          "PYQs": [
+            {
+              "name": "DTCS-401_Mid_March 2024.pdf",
+              "size": 728881,
+              "size_mb": 0.7,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\DTCS-401_Mid_March 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-403-END-2025.pdf",
+              "size": 94764,
+              "size_mb": 0.09,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\DTCS-403-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-404-MID-2025.pdf",
+              "size": 60650,
+              "size_mb": 0.06,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\DTCS-404-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "HSMC-401.pdf",
+              "size": 1017221,
+              "size_mb": 0.97,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\HSMC-401.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MNG-400-END-2025.pdf",
+              "size": 664941,
+              "size_mb": 0.63,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\MNG-400-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-411-MID-2025.pdf",
+              "size": 83126,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCE-411-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-MID-2024.pdf",
+              "size": 942709,
+              "size_mb": 0.9,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-402-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-MID-2024_1.pdf",
+              "size": 942709,
+              "size_mb": 0.9,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-402-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-MID-2025.pdf",
+              "size": 136507,
+              "size_mb": 0.13,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-402-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-END-2023.pdf",
+              "size": 172317,
+              "size_mb": 0.16,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-403-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-MID-2023.pdf",
+              "size": 207344,
+              "size_mb": 0.2,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-408-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-MID-2025.pdf",
+              "size": 112364,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-408-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-421-END-2025.pdf",
+              "size": 175697,
+              "size_mb": 0.17,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-421-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-491-END-2023.pdf",
+              "size": 374803,
+              "size_mb": 0.36,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TCS-491-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-403.pdf",
+              "size": 611747,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\TEC-403.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-400-(B)-MID-2023.pdf",
+              "size": 910642,
+              "size_mb": 0.87,
+              "path": "Year 2\\Semester 4\\Subject_402\\PYQs\\XCS-400-(B)-MID-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_403": {
+          "PYQs": [
+            {
+              "name": "DTCS-401-MID-2025.pdf",
+              "size": 207870,
+              "size_mb": 0.2,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\DTCS-401-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-401_2024_END.pdf",
+              "size": 720592,
+              "size_mb": 0.69,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\DTCS-401_2024_END.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-402_Mid_March 2024.pdf",
+              "size": 936035,
+              "size_mb": 0.89,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\DTCS-402_Mid_March 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-405-END-2025.pdf",
+              "size": 76682,
+              "size_mb": 0.07,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\DTCS-405-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-405-MID-2025.pdf",
+              "size": 80400,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\DTCS-405-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-END-2025.pdf",
+              "size": 197166,
+              "size_mb": 0.19,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-402-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-MID-2024.pdf",
+              "size": 795943,
+              "size_mb": 0.76,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-403-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-MID-2024_1.pdf",
+              "size": 795943,
+              "size_mb": 0.76,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-403-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-MID-2025.pdf",
+              "size": 61639,
+              "size_mb": 0.06,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-403-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-404-END-2023.pdf",
+              "size": 193076,
+              "size_mb": 0.18,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-404-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-409-MID-2023.pdf",
+              "size": 137370,
+              "size_mb": 0.13,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-409-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410-MID-2025.pdf",
+              "size": 57169,
+              "size_mb": 0.05,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-410-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410.pdf",
+              "size": 819180,
+              "size_mb": 0.78,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-410.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-464-END-2025.pdf",
+              "size": 166344,
+              "size_mb": 0.16,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\TCS-464-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-400-(B)-END-2023.pdf",
+              "size": 2756972,
+              "size_mb": 2.63,
+              "path": "Year 2\\Semester 4\\Subject_403\\PYQs\\XCS-400-(B)-END-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_404": {
+          "PYQs": [
+            {
+              "name": "DTCS-402-MID-2025.pdf",
+              "size": 117693,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\DTCS-402-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-402_2024_END.pdf",
+              "size": 1264922,
+              "size_mb": 1.21,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\DTCS-402_2024_END.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-403_Mid_March 2024.pdf",
+              "size": 971088,
+              "size_mb": 0.93,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\DTCS-403_Mid_March 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "HSMC-401.pdf",
+              "size": 1017221,
+              "size_mb": 0.97,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\HSMC-401.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-401-MID-2025.pdf",
+              "size": 72676,
+              "size_mb": 0.07,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\MCS-401-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-401-MID-2025.pdf",
+              "size": 80174,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCE-401-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-END-2025.pdf",
+              "size": 56037,
+              "size_mb": 0.05,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-403-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-END-2023.pdf",
+              "size": 420551,
+              "size_mb": 0.4,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-408-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-MID-2024.pdf",
+              "size": 1233127,
+              "size_mb": 1.18,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-408-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-MID-2024_1.pdf",
+              "size": 1233127,
+              "size_mb": 1.18,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-408-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-MID-2025.pdf",
+              "size": 112364,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-408-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410-MID-2023.pdf",
+              "size": 105942,
+              "size_mb": 0.1,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-410-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-464-MID-2025.pdf",
+              "size": 75084,
+              "size_mb": 0.07,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-464-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-471-END-2025.pdf",
+              "size": 118079,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TCS-471-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-401.pdf",
+              "size": 831548,
+              "size_mb": 0.79,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TEC-401.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-403-MID-2024.pdf",
+              "size": 1072085,
+              "size_mb": 1.02,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TME-403-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-403-MID-2024_1.pdf",
+              "size": 1072085,
+              "size_mb": 1.02,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\TME-403-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-401-(A)-END-2023.pdf",
+              "size": 2774158,
+              "size_mb": 2.65,
+              "path": "Year 2\\Semester 4\\Subject_404\\PYQs\\XCS-401-(A)-END-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_405": {
+          "PYQs": [
+            {
+              "name": "DTCS-401-MID-2025.pdf",
+              "size": 207870,
+              "size_mb": 0.2,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\DTCS-401-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-403-MID-2025.pdf",
+              "size": 101572,
+              "size_mb": 0.1,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\DTCS-403-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-403_2024_END.pdf",
+              "size": 1299534,
+              "size_mb": 1.24,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\DTCS-403_2024_END.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-404_Mid_March 2024.pdf",
+              "size": 735217,
+              "size_mb": 0.7,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\DTCS-404_Mid_March 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-401-MID-2025.pdf",
+              "size": 72676,
+              "size_mb": 0.07,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\MCS-401-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-427-MID-2025.pdf",
+              "size": 79758,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\MCS-427-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-402-MID-2025.pdf",
+              "size": 93336,
+              "size_mb": 0.09,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCE-402-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-MID-2023.pdf",
+              "size": 178289,
+              "size_mb": 0.17,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-402-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-408-END-2025.pdf",
+              "size": 121355,
+              "size_mb": 0.12,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-408-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-409-END-2023.pdf",
+              "size": 427782,
+              "size_mb": 0.41,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-409-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-409-MID-2024.pdf",
+              "size": 845187,
+              "size_mb": 0.81,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-409-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-409-MID-2024_1.pdf",
+              "size": 845187,
+              "size_mb": 0.81,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-409-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410-MID-2025.pdf",
+              "size": 57169,
+              "size_mb": 0.05,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-410-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410.pdf",
+              "size": 819180,
+              "size_mb": 0.78,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-410.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-421-MID-2023.pdf",
+              "size": 166535,
+              "size_mb": 0.16,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-421-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-495-END-2025.pdf",
+              "size": 140089,
+              "size_mb": 0.13,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TCS-495-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-402.pdf",
+              "size": 605351,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TEC-402.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-406-MID-2024.pdf",
+              "size": 736959,
+              "size_mb": 0.7,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TME-406-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-406-MID-2024_1.pdf",
+              "size": 736959,
+              "size_mb": 0.7,
+              "path": "Year 2\\Semester 4\\Subject_405\\PYQs\\TME-406-MID-2024_1.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_406": {
+          "PYQs": [
+            {
+              "name": "DTCS-401-END-2025.pdf",
+              "size": 169246,
+              "size_mb": 0.16,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\DTCS-401-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-402-MID-2025.pdf",
+              "size": 117693,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\DTCS-402-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-404-MID-2025.pdf",
+              "size": 60650,
+              "size_mb": 0.06,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\DTCS-404-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-404_2024_END.pdf",
+              "size": 1069717,
+              "size_mb": 1.02,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\DTCS-404_2024_END.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-405_Mid_March 2024.pdf",
+              "size": 714512,
+              "size_mb": 0.68,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\DTCS-405_Mid_March 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-401-END-2025.pdf",
+              "size": 80880,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\MCS-401-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "MCS-427-MID-2025.pdf",
+              "size": 79758,
+              "size_mb": 0.08,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\MCS-427-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-403-MID-2025.pdf",
+              "size": 115253,
+              "size_mb": 0.11,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCE-403-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-402-MID-2025.pdf",
+              "size": 136507,
+              "size_mb": 0.13,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-402-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-403-MID-2023.pdf",
+              "size": 153030,
+              "size_mb": 0.15,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-403-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-409-END-2025.pdf",
+              "size": 154646,
+              "size_mb": 0.15,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-409-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-410-END-2023.pdf",
+              "size": 154187,
+              "size_mb": 0.15,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-410-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-421-MID-2024.pdf",
+              "size": 1059480,
+              "size_mb": 1.01,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-421-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-421-MID-2024_1.pdf",
+              "size": 1059480,
+              "size_mb": 1.01,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-421-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-464-MID-2025.pdf",
+              "size": 75084,
+              "size_mb": 0.07,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-464-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-491-MID-2023.pdf",
+              "size": 164321,
+              "size_mb": 0.16,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TCS-491-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-401.pdf",
+              "size": 831548,
+              "size_mb": 0.79,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TEC-401.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-403.pdf",
+              "size": 611747,
+              "size_mb": 0.58,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TEC-403.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-407-MID-2024.pdf",
+              "size": 717142,
+              "size_mb": 0.68,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TME-407-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-407-MID-2024_1.pdf",
+              "size": 717142,
+              "size_mb": 0.68,
+              "path": "Year 2\\Semester 4\\Subject_406\\PYQs\\TME-407-MID-2024_1.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      }
+    },
+    "Year 3": {
+      "Semester 5": {
+        "Subject_501": {
+          "PYQs": [
+            {
+              "name": "DTCS-502, Multimedia & Animation Techniques.pdf",
+              "size": 386822,
+              "size_mb": 0.37,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\DTCS-502, Multimedia & Animation Techniques.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TBC 501 MID 2023.pdf",
+              "size": 270349,
+              "size_mb": 0.26,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TBC 501 MID 2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-502,MID TERM,OCT-2024.pdf",
+              "size": 1006467,
+              "size_mb": 0.96,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TCS-502,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-511 Computer Networks.pdf",
+              "size": 859937,
+              "size_mb": 0.82,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TCS-511 Computer Networks.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-514 END 2025.pdf",
+              "size": 885233,
+              "size_mb": 0.84,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TCS-514 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-531,END-2024.pdf",
+              "size": 419190,
+              "size_mb": 0.4,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TCS-531,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-592,MID TERM,OCT-2024.pdf",
+              "size": 897566,
+              "size_mb": 0.86,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TCS-592,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-503,MID TERM,OCT-2024.pdf",
+              "size": 396079,
+              "size_mb": 0.38,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\TEC-503,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THV-501,END-2024.pdf",
+              "size": 254316,
+              "size_mb": 0.24,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\THV-501,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "THV-501,MID TERM,OCT-2024.pdf",
+              "size": 542078,
+              "size_mb": 0.52,
+              "path": "Year 3\\Semester 5\\Subject_501\\PYQs\\THV-501,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_502": {
+          "PYQs": [
+            {
+              "name": "Computer Networks-I, TCS-514.pdf",
+              "size": 616535,
+              "size_mb": 0.59,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\Computer Networks-I, TCS-514.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-503, Network Management & Administration.pdf",
+              "size": 513716,
+              "size_mb": 0.49,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\DTCS-503, Network Management & Administration.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-502-END-2023.pdf",
+              "size": 443574,
+              "size_mb": 0.42,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TCS-502-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-502-MID-2023.pdf",
+              "size": 358484,
+              "size_mb": 0.34,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TCS-502-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-503,END-2024.pdf",
+              "size": 949999,
+              "size_mb": 0.91,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TCS-503,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-503,MID TERM,OCT-2024.pdf",
+              "size": 1876390,
+              "size_mb": 1.79,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TCS-503,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-552 Cloud-Based Application Development & Managemenet.pdf",
+              "size": 372999,
+              "size_mb": 0.36,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TCS-552 Cloud-Based Application Development & Managemenet.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-552 END 2025.pdf",
+              "size": 471704,
+              "size_mb": 0.45,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TCS-552 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-501,END-2024.pdf",
+              "size": 357635,
+              "size_mb": 0.34,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TEC-501,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-503, 2024 (MID TERM).pdf",
+              "size": 632967,
+              "size_mb": 0.6,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TEC-503, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-502, END-2024.pdf",
+              "size": 528882,
+              "size_mb": 0.5,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TMA-502, END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-501,END-2024.pdf",
+              "size": 530359,
+              "size_mb": 0.51,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TME-501,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-501,MID TERM,OCT-2024.pdf",
+              "size": 1146052,
+              "size_mb": 1.09,
+              "path": "Year 3\\Semester 5\\Subject_502\\PYQs\\TME-501,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_503": {
+          "PYQs": [
+            {
+              "name": "Computer System Security TCS-591.pdf",
+              "size": 534746,
+              "size_mb": 0.51,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\Computer System Security TCS-591.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-504, Operating System.pdf",
+              "size": 339189,
+              "size_mb": 0.32,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\DTCS-504, Operating System.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, TEC-501, 2024 (MID TERM).pdf",
+              "size": 643758,
+              "size_mb": 0.61,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\ECE, TEC-501, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-502 END 2025.pdf",
+              "size": 731293,
+              "size_mb": 0.7,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-502 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-503-END-2023.pdf",
+              "size": 275232,
+              "size_mb": 0.26,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-503-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-509,END-2024.pdf",
+              "size": 839581,
+              "size_mb": 0.8,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-509,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-509,MID TERM,OCT-2024.pdf",
+              "size": 686268,
+              "size_mb": 0.65,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-509,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-509-MID-2023.pdf",
+              "size": 404036,
+              "size_mb": 0.39,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-509-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-564 END 2025.pdf",
+              "size": 779257,
+              "size_mb": 0.74,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-564 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-564 Natural Language Processing and Computer Vision.pdf",
+              "size": 558056,
+              "size_mb": 0.53,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TCS-564 Natural Language Processing and Computer Vision.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-502,END-2024.pdf",
+              "size": 293623,
+              "size_mb": 0.28,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TEC-502,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TMA-502,MID TERM,OCT-2024.pdf",
+              "size": 1060128,
+              "size_mb": 1.01,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TMA-502,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-502,END-2024.pdf",
+              "size": 443337,
+              "size_mb": 0.42,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TME-502,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-502,MID TERM,OCT-2024.pdf",
+              "size": 1047617,
+              "size_mb": 1.0,
+              "path": "Year 3\\Semester 5\\Subject_503\\PYQs\\TME-502,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_504": {
+          "PYQs": [
+            {
+              "name": "Computer System Security TCS-597.pdf",
+              "size": 353423,
+              "size_mb": 0.34,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\Computer System Security TCS-597.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-505, Java Programming.pdf",
+              "size": 382640,
+              "size_mb": 0.36,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\DTCS-505, Java Programming.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, TEC-502, 2024 (MID TERM).pdf",
+              "size": 1123644,
+              "size_mb": 1.07,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\ECE, TEC-502, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-503 END 2025.pdf",
+              "size": 680498,
+              "size_mb": 0.65,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TCS-503 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-509-END-2023.pdf",
+              "size": 267389,
+              "size_mb": 0.26,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TCS-509-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-511,END-2024.pdf",
+              "size": 615586,
+              "size_mb": 0.59,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TCS-511,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-511,MID TERM,OCT-2024.pdf",
+              "size": 861676,
+              "size_mb": 0.82,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TCS-511,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-595 END 2025.pdf",
+              "size": 629681,
+              "size_mb": 0.6,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TCS-595 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-595 MID 2025 (LATE ADMISSION).pdf",
+              "size": 800214,
+              "size_mb": 0.76,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TCS-595 MID 2025 (LATE ADMISSION).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-503,END-2024.pdf",
+              "size": 398111,
+              "size_mb": 0.38,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TEC-503,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-503,END-2024.pdf",
+              "size": 446126,
+              "size_mb": 0.43,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TME-503,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-503,MID TERM,OCT-2024.pdf",
+              "size": 1509253,
+              "size_mb": 1.44,
+              "path": "Year 3\\Semester 5\\Subject_504\\PYQs\\TME-503,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_505": {
+          "PYQs": [
+            {
+              "name": "ECE, TEC-505, 2024 (MID TERM).pdf",
+              "size": 589298,
+              "size_mb": 0.56,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\ECE, TEC-505, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Machine Learning TCS-509.pdf",
+              "size": 508549,
+              "size_mb": 0.48,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\Machine Learning TCS-509.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-509 END 2025.pdf",
+              "size": 770922,
+              "size_mb": 0.74,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TCS-509 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-512,END-2024.pdf",
+              "size": 529235,
+              "size_mb": 0.5,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TCS-512,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-512,MID TERM,OCT-2024.pdf",
+              "size": 687935,
+              "size_mb": 0.66,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TCS-512,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-548-END-2023.pdf",
+              "size": 216170,
+              "size_mb": 0.21,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TCS-548-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-597 END 2025.pdf",
+              "size": 730645,
+              "size_mb": 0.7,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TCS-597 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-505,END-2024.pdf",
+              "size": 418362,
+              "size_mb": 0.4,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TME-505,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-505,MID TERM,OCT-2024.pdf",
+              "size": 1029641,
+              "size_mb": 0.98,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TME-505,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-501,END-2024.pdf",
+              "size": 362386,
+              "size_mb": 0.35,
+              "path": "Year 3\\Semester 5\\Subject_505\\PYQs\\TOE-501,END-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_506": {
+          "PYQs": [
+            {
+              "name": "DTCS-501, Microprocessor & Programming.pdf",
+              "size": 389896,
+              "size_mb": 0.37,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\DTCS-501, Microprocessor & Programming.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, TOE-501, 2024 ( MID TERM).pdf",
+              "size": 619262,
+              "size_mb": 0.59,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\ECE, TOE-501, 2024 ( MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Security Audit and Complisnce-I TCS-595.pdf",
+              "size": 524364,
+              "size_mb": 0.5,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\Security Audit and Complisnce-I TCS-595.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-511 END 2025.pdf",
+              "size": 749644,
+              "size_mb": 0.71,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\TCS-511 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-519,END-2024.pdf",
+              "size": 289494,
+              "size_mb": 0.28,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\TCS-519,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-519,MID TERM,OCT-2024.pdf",
+              "size": 639655,
+              "size_mb": 0.61,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\TCS-519,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-592-END-2023.pdf",
+              "size": 108392,
+              "size_mb": 0.1,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\TCS-592-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-506,END-2024.pdf",
+              "size": 546755,
+              "size_mb": 0.52,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\TME-506,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-506,MID TERM,OCT-2024.pdf",
+              "size": 1789786,
+              "size_mb": 1.71,
+              "path": "Year 3\\Semester 5\\Subject_506\\PYQs\\TME-506,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      },
+      "Semester 6": {
+        "Subject_601": {
+          "PYQs": [
+            {
+              "name": "DIPLOMA 6TH- SEM, MID DTCS-601, 2024.pdf",
+              "size": 612432,
+              "size_mb": 0.58,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\DIPLOMA 6TH- SEM, MID DTCS-601, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-606-MID-2025.pdf",
+              "size": 67526,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\DTCS-606-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "HSMC-601.pdf",
+              "size": 721356,
+              "size_mb": 0.69,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\HSMC-601.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-MID-2023.pdf",
+              "size": 165441,
+              "size_mb": 0.16,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TCS-604-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-MID-2025.pdf",
+              "size": 94638,
+              "size_mb": 0.09,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TCS-604-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-611-END-2025.pdf",
+              "size": 115508,
+              "size_mb": 0.11,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TCS-611-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-632-END-2023.pdf",
+              "size": 167313,
+              "size_mb": 0.16,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TCS-632-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-682-MID-2025.pdf",
+              "size": 94031,
+              "size_mb": 0.09,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TCS-682-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-MID-2023.pdf",
+              "size": 162319,
+              "size_mb": 0.15,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TCS-693-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-601-MID-2025.pdf",
+              "size": 314135,
+              "size_mb": 0.3,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TEC-601-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-610-MID-2025.pdf",
+              "size": 152725,
+              "size_mb": 0.15,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TME-610-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-601.pdf",
+              "size": 715757,
+              "size_mb": 0.68,
+              "path": "Year 3\\Semester 6\\Subject_601\\PYQs\\TOE-601.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_602": {
+          "PYQs": [
+            {
+              "name": "DIPLOMA(CSE)6TH-SEM,MID DTCS-602, 2024.pdf",
+              "size": 650756,
+              "size_mb": 0.62,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\DIPLOMA(CSE)6TH-SEM,MID DTCS-602, 2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-601-MID-2025.pdf",
+              "size": 87524,
+              "size_mb": 0.08,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\DTCS-601-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-601-MID-2024.pdf",
+              "size": 1009743,
+              "size_mb": 0.96,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-601-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-601-MID-2024_1.pdf",
+              "size": 1009743,
+              "size_mb": 0.96,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-601-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-611-MID-2023.pdf",
+              "size": 148179,
+              "size_mb": 0.14,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-611-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-END-2025.pdf",
+              "size": 65486,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-619-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-MID-2025.pdf",
+              "size": 78064,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-619-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-691-END-2023.pdf",
+              "size": 383242,
+              "size_mb": 0.37,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-691-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-MID-2025.pdf",
+              "size": 127792,
+              "size_mb": 0.12,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TCS-693-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-601.pdf",
+              "size": 715938,
+              "size_mb": 0.68,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TEC-601.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-602-MID-2025.pdf",
+              "size": 124665,
+              "size_mb": 0.12,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\TEC-602-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-600-(A)MID-2023.pdf",
+              "size": 910897,
+              "size_mb": 0.87,
+              "path": "Year 3\\Semester 6\\Subject_602\\PYQs\\XCS-600-(A)MID-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_603": {
+          "PYQs": [
+            {
+              "name": "DIPLOMA,  DTCS-606, 2024 (END TERM).pdf",
+              "size": 961249,
+              "size_mb": 0.92,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\DIPLOMA,  DTCS-606, 2024 (END TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-602-MID-2025.pdf",
+              "size": 60928,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\DTCS-602-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "HSMC-601.pdf",
+              "size": 721356,
+              "size_mb": 0.69,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\HSMC-601.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-602-MID-2024.pdf",
+              "size": 858133,
+              "size_mb": 0.82,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCE-602-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-602-MID-2024_1.pdf",
+              "size": 858133,
+              "size_mb": 0.82,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCE-602-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-601-END-2023.pdf",
+              "size": 183129,
+              "size_mb": 0.17,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-601-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-MID-2024.pdf",
+              "size": 957460,
+              "size_mb": 0.91,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-604-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-MID-2024_1.pdf",
+              "size": 957460,
+              "size_mb": 0.91,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-604-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-MID-2023.pdf",
+              "size": 162630,
+              "size_mb": 0.16,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-619-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-682-END-2025.pdf",
+              "size": 88720,
+              "size_mb": 0.08,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-682-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-682-MID-2025.pdf",
+              "size": 94031,
+              "size_mb": 0.09,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-682-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-END-2023.pdf",
+              "size": 368371,
+              "size_mb": 0.35,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TCS-693-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-602.pdf",
+              "size": 723847,
+              "size_mb": 0.69,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TEC-602.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-611-MID-2025.pdf",
+              "size": 85654,
+              "size_mb": 0.08,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TEC-611-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME -614-MID-2025.pdf",
+              "size": 59736,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\TME -614-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-600-(B)-MID-2023.pdf",
+              "size": 915853,
+              "size_mb": 0.87,
+              "path": "Year 3\\Semester 6\\Subject_603\\PYQs\\XCS-600-(B)-MID-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_604": {
+          "PYQs": [
+            {
+              "name": "DIPLOMA, DTCS-601, 2024 (END TERM).pdf",
+              "size": 1068427,
+              "size_mb": 1.02,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\DIPLOMA, DTCS-601, 2024 (END TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-601-MID-2025.pdf",
+              "size": 87524,
+              "size_mb": 0.08,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\DTCS-601-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-602-END-2025.pdf",
+              "size": 101909,
+              "size_mb": 0.1,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\DTCS-602-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-603-MID-2025.pdf",
+              "size": 89093,
+              "size_mb": 0.08,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\DTCS-603-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-603-MID-2024.pdf",
+              "size": 1145450,
+              "size_mb": 1.09,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCE-603-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-603-MID-2024_1.pdf",
+              "size": 1145450,
+              "size_mb": 1.09,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCE-603-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-END-2023.pdf",
+              "size": 343806,
+              "size_mb": 0.33,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCS-604-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-611-MID-2024.pdf",
+              "size": 844524,
+              "size_mb": 0.81,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCS-611-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-611-MID-2024_1.pdf",
+              "size": 844524,
+              "size_mb": 0.81,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCS-611-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-632-MID-2023.pdf",
+              "size": 151784,
+              "size_mb": 0.14,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCS-632-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-END-2025.pdf",
+              "size": 168985,
+              "size_mb": 0.16,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCS-693-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-MID-2025.pdf",
+              "size": 127792,
+              "size_mb": 0.12,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TCS-693-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-601.pdf",
+              "size": 715938,
+              "size_mb": 0.68,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TEC-601.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-611.pdf",
+              "size": 503905,
+              "size_mb": 0.48,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TEC-611.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-602-MID-2025.pdf",
+              "size": 107350,
+              "size_mb": 0.1,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TME-602-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-601-MID-2025.pdf",
+              "size": 74415,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\TOE-601-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-601-(A)-END-2023.pdf",
+              "size": 2786534,
+              "size_mb": 2.66,
+              "path": "Year 3\\Semester 6\\Subject_604\\PYQs\\XCS-601-(A)-END-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_605": {
+          "PYQs": [
+            {
+              "name": "DIPLOMA, DTCS-602, 2024 (END TERM).pdf",
+              "size": 1046173,
+              "size_mb": 1.0,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\DIPLOMA, DTCS-602, 2024 (END TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-602-MID-2025.pdf",
+              "size": 60928,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\DTCS-602-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-606-END-2025.pdf",
+              "size": 71032,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\DTCS-606-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-606-MID-2025.pdf",
+              "size": 67526,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\DTCS-606-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-604-MID-2024.pdf",
+              "size": 1034515,
+              "size_mb": 0.99,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCE-604-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-604-MID-2024_1.pdf",
+              "size": 1034515,
+              "size_mb": 0.99,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCE-604-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-601-END-2025.pdf",
+              "size": 291398,
+              "size_mb": 0.28,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCS-601-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-MID-2025.pdf",
+              "size": 94638,
+              "size_mb": 0.09,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCS-604-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-611-END-2023.pdf",
+              "size": 177743,
+              "size_mb": 0.17,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCS-611-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-MID-2024.pdf",
+              "size": 950964,
+              "size_mb": 0.91,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCS-619-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-MID-2024_1.pdf",
+              "size": 950964,
+              "size_mb": 0.91,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCS-619-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-671-MID-2023.pdf",
+              "size": 181493,
+              "size_mb": 0.17,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TCS-671-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-602.pdf",
+              "size": 723847,
+              "size_mb": 0.69,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TEC-602.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-606-MID-2025.pdf",
+              "size": 68288,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TME-606-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-601.pdf",
+              "size": 715757,
+              "size_mb": 0.68,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TOE-601.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-602-MID-2025.pdf",
+              "size": 77429,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\TOE-602-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "XCS-601-(B)-END-2023.pdf",
+              "size": 2679753,
+              "size_mb": 2.56,
+              "path": "Year 3\\Semester 6\\Subject_605\\PYQs\\XCS-601-(B)-END-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_606": {
+          "PYQs": [
+            {
+              "name": "DIPLOMA, DTCS-603, 2024 (END TERM).pdf",
+              "size": 999641,
+              "size_mb": 0.95,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\DIPLOMA, DTCS-603, 2024 (END TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "DTCS-603-MID-2025.pdf",
+              "size": 89093,
+              "size_mb": 0.08,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\DTCS-603-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "HSMC-601-MID-2025.pdf",
+              "size": 64562,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\HSMC-601-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-601-MID-2023.pdf",
+              "size": 167399,
+              "size_mb": 0.16,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-601-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-604-END-2025.pdf",
+              "size": 77778,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-604-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-END-2023.pdf",
+              "size": 188878,
+              "size_mb": 0.18,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-619-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-619-MID-2025.pdf",
+              "size": 78064,
+              "size_mb": 0.07,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-619-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-691-MID-2023.pdf",
+              "size": 177131,
+              "size_mb": 0.17,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-691-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-MID-2024.pdf",
+              "size": 1341058,
+              "size_mb": 1.28,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-693-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-693-MID-2024_1.pdf",
+              "size": 1341058,
+              "size_mb": 1.28,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TCS-693-MID-2024_1.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-611.pdf",
+              "size": 503905,
+              "size_mb": 0.48,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TEC-611.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-609-MID-2025.pdf",
+              "size": 59017,
+              "size_mb": 0.06,
+              "path": "Year 3\\Semester 6\\Subject_606\\PYQs\\TME-609-MID-2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      }
+    },
+    "Year 4": {
+      "Semester 7": {
+        "Subject_701": {
+          "PYQs": [
+            {
+              "name": "CE, TCE-713, 2024 (MID TERM).pdf",
+              "size": 1249075,
+              "size_mb": 1.19,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\CE, TCE-713, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-703 END 2025.pdf",
+              "size": 696222,
+              "size_mb": 0.66,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TCS-703 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-703,MID TERM,OCT-2024.pdf",
+              "size": 728577,
+              "size_mb": 0.69,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TCS-703,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-704-END-2023.pdf",
+              "size": 170133,
+              "size_mb": 0.16,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TCS-704-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-706 MID 2025.pdf",
+              "size": 647612,
+              "size_mb": 0.62,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TCS-706 MID 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-706,END-2024.pdf",
+              "size": 607456,
+              "size_mb": 0.58,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TCS-706,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-731-MID-2023.pdf",
+              "size": 227176,
+              "size_mb": 0.22,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TCS-731-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-703,END-2024.pdf",
+              "size": 287844,
+              "size_mb": 0.27,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TEC-703,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TIT-704,MID TERM,OCT-2024.pdf",
+              "size": 862239,
+              "size_mb": 0.82,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TIT-704,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TIT-704-END-2023.pdf",
+              "size": 125888,
+              "size_mb": 0.12,
+              "path": "Year 4\\Semester 7\\Subject_701\\PYQs\\TIT-704-END-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_702": {
+          "PYQs": [
+            {
+              "name": "ECE, HSMC-701, 2024 (MID TERM).pdf",
+              "size": 656312,
+              "size_mb": 0.63,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\ECE, HSMC-701, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-701,END-2024.pdf",
+              "size": 235273,
+              "size_mb": 0.22,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCE-701,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-722,MID TERM,OCT-2024.pdf",
+              "size": 418692,
+              "size_mb": 0.4,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCE-722,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-704 END 2025.pdf",
+              "size": 660534,
+              "size_mb": 0.63,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCS-704 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-704,MID TERM,OCT-2024.pdf",
+              "size": 770761,
+              "size_mb": 0.74,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCS-704,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-706-END-2023.pdf",
+              "size": 183208,
+              "size_mb": 0.17,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCS-706-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-722,END-2024.pdf",
+              "size": 566032,
+              "size_mb": 0.54,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCS-722,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-756 MID 2025 (LATE ADMISSION).pdf",
+              "size": 1207363,
+              "size_mb": 1.15,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCS-756 MID 2025 (LATE ADMISSION).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-756-MID-2023.pdf",
+              "size": 220427,
+              "size_mb": 0.21,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TCS-756-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-701,END-2024.pdf",
+              "size": 331281,
+              "size_mb": 0.32,
+              "path": "Year 4\\Semester 7\\Subject_702\\PYQs\\TOE-701,END-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_703": {
+          "PYQs": [
+            {
+              "name": "ECE, TEC-702, 2024 (MID TERM).pdf",
+              "size": 615418,
+              "size_mb": 0.59,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\ECE, TEC-702, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-702,END-2024.pdf",
+              "size": 291534,
+              "size_mb": 0.28,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCE-702,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-706,MID TERM,OCT-2024.pdf",
+              "size": 802360,
+              "size_mb": 0.77,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCS-706,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-731-END-2023.pdf",
+              "size": 119508,
+              "size_mb": 0.11,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCS-731-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-756 END 2025.pdf",
+              "size": 937555,
+              "size_mb": 0.89,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCS-756 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-756,END-2024.pdf",
+              "size": 529098,
+              "size_mb": 0.5,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCS-756,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-771-MID-2023.pdf",
+              "size": 84347,
+              "size_mb": 0.08,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCS-771-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-795 MID 2025.pdf",
+              "size": 590953,
+              "size_mb": 0.56,
+              "path": "Year 4\\Semester 7\\Subject_703\\PYQs\\TCS-795 MID 2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_704": {
+          "PYQs": [
+            {
+              "name": "ECE, TEC-703, 2024 (MID TERM).pdf",
+              "size": 659695,
+              "size_mb": 0.63,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\ECE, TEC-703, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "HSMC-701,END-2024.pdf",
+              "size": 261985,
+              "size_mb": 0.25,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\HSMC-701,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "Human Computer Interaction TCS-756.pdf",
+              "size": 551121,
+              "size_mb": 0.53,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\Human Computer Interaction TCS-756.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-713,END-2024.pdf",
+              "size": 334639,
+              "size_mb": 0.32,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TCE-713,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-703,END-2024.pdf",
+              "size": 546143,
+              "size_mb": 0.52,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TCS-703,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-722,MID TERM,OCT-2024.pdf",
+              "size": 1100557,
+              "size_mb": 1.05,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TCS-722,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-756-END-2023.pdf",
+              "size": 203156,
+              "size_mb": 0.19,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TCS-756-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-795 END 2025.pdf",
+              "size": 695078,
+              "size_mb": 0.66,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TCS-795 END 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TIT-704 MID 2025.pdf",
+              "size": 495371,
+              "size_mb": 0.47,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TIT-704 MID 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TIT-704,END-2024.pdf",
+              "size": 452041,
+              "size_mb": 0.43,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TIT-704,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TIT-704-MID-2023.pdf",
+              "size": 203234,
+              "size_mb": 0.19,
+              "path": "Year 4\\Semester 7\\Subject_704\\PYQs\\TIT-704-MID-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_705": {
+          "PYQs": [
+            {
+              "name": "CE, TCE-702, 2024 (MID TERM).pdf",
+              "size": 1280978,
+              "size_mb": 1.22,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\CE, TCE-702, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "ECE, TOE- 701, 2024 (MID TERM).pdf",
+              "size": 639105,
+              "size_mb": 0.61,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\ECE, TOE- 701, 2024 (MID TERM).pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-722,END-2024.pdf",
+              "size": 256050,
+              "size_mb": 0.24,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCE-722,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-703-ENS-2023.pdf",
+              "size": 104483,
+              "size_mb": 0.1,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCS-703-ENS-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-703-MID-2023.pdf",
+              "size": 297585,
+              "size_mb": 0.28,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCS-703-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-704 MID 2025.pdf",
+              "size": 825081,
+              "size_mb": 0.79,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCS-704 MID 2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-704,END-2024.pdf",
+              "size": 626110,
+              "size_mb": 0.6,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCS-704,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-756,MID TERM,OCT-2024.pdf",
+              "size": 702626,
+              "size_mb": 0.67,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCS-756,MID TERM,OCT-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-771-END-2023.pdf",
+              "size": 108193,
+              "size_mb": 0.1,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TCS-771-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-702,END-2024.pdf",
+              "size": 362291,
+              "size_mb": 0.35,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TEC-702,END-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TIT-704 END 2025.pdf",
+              "size": 479008,
+              "size_mb": 0.46,
+              "path": "Year 4\\Semester 7\\Subject_705\\PYQs\\TIT-704 END 2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      },
+      "Semester 8": {
+        "Subject_801": {
+          "PYQs": [
+            {
+              "name": "HSMC-801.pdf",
+              "size": 540623,
+              "size_mb": 0.52,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\HSMC-801.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-801-MID-2024.pdf",
+              "size": 865545,
+              "size_mb": 0.83,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TCE-801-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-822-MID-2025.pdf",
+              "size": 74063,
+              "size_mb": 0.07,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TCS-822-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881-END-2023.pdf",
+              "size": 147563,
+              "size_mb": 0.14,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TDM-881-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881-MID-2024.pdf",
+              "size": 655282,
+              "size_mb": 0.62,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TDM-881-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-801-MID-2025.pdf",
+              "size": 67180,
+              "size_mb": 0.06,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TEC-801-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-802.pdf",
+              "size": 589379,
+              "size_mb": 0.56,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TEC-802.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-815.pdf",
+              "size": 799490,
+              "size_mb": 0.76,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TME-815.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-803-MID-2025.pdf",
+              "size": 54686,
+              "size_mb": 0.05,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TOE-803-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-MID-2024.pdf",
+              "size": 1035622,
+              "size_mb": 0.99,
+              "path": "Year 4\\Semester 8\\Subject_801\\PYQs\\TOE-811-MID-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_802": {
+          "PYQs": [
+            {
+              "name": "HSMC-801-END-2025.pdf",
+              "size": 71062,
+              "size_mb": 0.07,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\HSMC-801-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-801-MID-2024.pdf",
+              "size": 865545,
+              "size_mb": 0.83,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TCE-801-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-822-MID-2025.pdf",
+              "size": 74063,
+              "size_mb": 0.07,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TCS-822-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881,MID-2025.pdf",
+              "size": 440613,
+              "size_mb": 0.42,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TDM-881,MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-801.pdf",
+              "size": 696378,
+              "size_mb": 0.66,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TEC-801.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-802-MID-2025.pdf",
+              "size": 66257,
+              "size_mb": 0.06,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TEC-802-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TME-815.pdf",
+              "size": 799490,
+              "size_mb": 0.76,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TME-815.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-803-MID-2024.pdf",
+              "size": 589810,
+              "size_mb": 0.56,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TOE-803-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-END-2023.pdf",
+              "size": 268343,
+              "size_mb": 0.26,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TOE-811-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-MID-2024.pdf",
+              "size": 1035622,
+              "size_mb": 0.99,
+              "path": "Year 4\\Semester 8\\Subject_802\\PYQs\\TOE-811-MID-2024.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_803": {
+          "PYQs": [
+            {
+              "name": "TCS-821-MID-2023.pdf",
+              "size": 87464,
+              "size_mb": 0.08,
+              "path": "Year 4\\Semester 8\\Subject_803\\PYQs\\TCS-821-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-822-END-2025.pdf",
+              "size": 110658,
+              "size_mb": 0.11,
+              "path": "Year 4\\Semester 8\\Subject_803\\PYQs\\TCS-822-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881,MID-2025.pdf",
+              "size": 440613,
+              "size_mb": 0.42,
+              "path": "Year 4\\Semester 8\\Subject_803\\PYQs\\TDM-881,MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-802.pdf",
+              "size": 589379,
+              "size_mb": 0.56,
+              "path": "Year 4\\Semester 8\\Subject_803\\PYQs\\TEC-802.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-803-MID-2024.pdf",
+              "size": 589810,
+              "size_mb": 0.56,
+              "path": "Year 4\\Semester 8\\Subject_803\\PYQs\\TOE-803-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-MID-2025.pdf",
+              "size": 69506,
+              "size_mb": 0.07,
+              "path": "Year 4\\Semester 8\\Subject_803\\PYQs\\TOE-811-MID-2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_804": {
+          "PYQs": [
+            {
+              "name": "HSMC-801.pdf",
+              "size": 540623,
+              "size_mb": 0.52,
+              "path": "Year 4\\Semester 8\\Subject_804\\PYQs\\HSMC-801.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-801-MID-2025.pdf",
+              "size": 120916,
+              "size_mb": 0.12,
+              "path": "Year 4\\Semester 8\\Subject_804\\PYQs\\TCE-801-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-822-MID-2024.pdf",
+              "size": 809241,
+              "size_mb": 0.77,
+              "path": "Year 4\\Semester 8\\Subject_804\\PYQs\\TCS-822-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881-END-2025.pdf",
+              "size": 82568,
+              "size_mb": 0.08,
+              "path": "Year 4\\Semester 8\\Subject_804\\PYQs\\TDM-881-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881-MID-2023.pdf",
+              "size": 92056,
+              "size_mb": 0.09,
+              "path": "Year 4\\Semester 8\\Subject_804\\PYQs\\TDM-881-MID-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-MID-2025.pdf",
+              "size": 69506,
+              "size_mb": 0.07,
+              "path": "Year 4\\Semester 8\\Subject_804\\PYQs\\TOE-811-MID-2025.pdf",
+              "type": "PYQs"
+            }
+          ]
+        },
+        "Subject_805": {
+          "PYQs": [
+            {
+              "name": "HSMC-801-MID-2025.pdf",
+              "size": 55347,
+              "size_mb": 0.05,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\HSMC-801-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCE-811-MID-2025.pdf",
+              "size": 118054,
+              "size_mb": 0.11,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TCE-811-MID-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-821-END-2023.pdf",
+              "size": 181487,
+              "size_mb": 0.17,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TCS-821-END-2023.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TCS-822-MID-2024.pdf",
+              "size": 809241,
+              "size_mb": 0.77,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TCS-822-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TDM-881-MID-2024.pdf",
+              "size": 655282,
+              "size_mb": 0.62,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TDM-881-MID-2024.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TEC-801.pdf",
+              "size": 696378,
+              "size_mb": 0.66,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TEC-801.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-END-2025.pdf",
+              "size": 75912,
+              "size_mb": 0.07,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TOE-811-END-2025.pdf",
+              "type": "PYQs"
+            },
+            {
+              "name": "TOE-811-MID-2023.pdf",
+              "size": 163388,
+              "size_mb": 0.16,
+              "path": "Year 4\\Semester 8\\Subject_805\\PYQs\\TOE-811-MID-2023.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "statistics": {
+    "by_year": {
+      "1": 96,
+      "2": 190,
+      "3": 154,
+      "4": 90
+    },
+    "by_semester": {
+      "1": 29,
+      "2": 67,
+      "3": 85,
+      "4": 105,
+      "5": 68,
+      "6": 86,
+      "7": 50,
+      "8": 40
+    },
+    "by_type": {
+      "Assignments": 0,
+      "Books": 0,
+      "Lab": 0,
+      "Notes": 0,
+      "PYQs": 530
+    },
+    "total_size": 278910321
+  },
+  "subjects": [
+    {
+      "code": "Subject_101",
+      "year": 1,
+      "semester": 1,
+      "path": "Year 1\\Semester 1\\Subject_101"
+    },
+    {
+      "code": "Subject_102",
+      "year": 1,
+      "semester": 1,
+      "path": "Year 1\\Semester 1\\Subject_102"
+    },
+    {
+      "code": "Subject_103",
+      "year": 1,
+      "semester": 1,
+      "path": "Year 1\\Semester 1\\Subject_103"
+    },
+    {
+      "code": "Subject_104",
+      "year": 1,
+      "semester": 1,
+      "path": "Year 1\\Semester 1\\Subject_104"
+    },
+    {
+      "code": "Subject_105",
+      "year": 1,
+      "semester": 1,
+      "path": "Year 1\\Semester 1\\Subject_105"
+    },
+    {
+      "code": "Subject_106",
+      "year": 1,
+      "semester": 1,
+      "path": "Year 1\\Semester 1\\Subject_106"
+    },
+    {
+      "code": "Subject_201",
+      "year": 1,
+      "semester": 2,
+      "path": "Year 1\\Semester 2\\Subject_201"
+    },
+    {
+      "code": "Subject_202",
+      "year": 1,
+      "semester": 2,
+      "path": "Year 1\\Semester 2\\Subject_202"
+    },
+    {
+      "code": "Subject_203",
+      "year": 1,
+      "semester": 2,
+      "path": "Year 1\\Semester 2\\Subject_203"
+    },
+    {
+      "code": "Subject_204",
+      "year": 1,
+      "semester": 2,
+      "path": "Year 1\\Semester 2\\Subject_204"
+    },
+    {
+      "code": "Subject_205",
+      "year": 1,
+      "semester": 2,
+      "path": "Year 1\\Semester 2\\Subject_205"
+    },
+    {
+      "code": "Subject_206",
+      "year": 1,
+      "semester": 2,
+      "path": "Year 1\\Semester 2\\Subject_206"
+    },
+    {
+      "code": "Subject_301",
+      "year": 2,
+      "semester": 3,
+      "path": "Year 2\\Semester 3\\Subject_301"
+    },
+    {
+      "code": "Subject_302",
+      "year": 2,
+      "semester": 3,
+      "path": "Year 2\\Semester 3\\Subject_302"
+    },
+    {
+      "code": "Subject_303",
+      "year": 2,
+      "semester": 3,
+      "path": "Year 2\\Semester 3\\Subject_303"
+    },
+    {
+      "code": "Subject_304",
+      "year": 2,
+      "semester": 3,
+      "path": "Year 2\\Semester 3\\Subject_304"
+    },
+    {
+      "code": "Subject_305",
+      "year": 2,
+      "semester": 3,
+      "path": "Year 2\\Semester 3\\Subject_305"
+    },
+    {
+      "code": "Subject_306",
+      "year": 2,
+      "semester": 3,
+      "path": "Year 2\\Semester 3\\Subject_306"
+    },
+    {
+      "code": "Subject_401",
+      "year": 2,
+      "semester": 4,
+      "path": "Year 2\\Semester 4\\Subject_401"
+    },
+    {
+      "code": "Subject_402",
+      "year": 2,
+      "semester": 4,
+      "path": "Year 2\\Semester 4\\Subject_402"
+    },
+    {
+      "code": "Subject_403",
+      "year": 2,
+      "semester": 4,
+      "path": "Year 2\\Semester 4\\Subject_403"
+    },
+    {
+      "code": "Subject_404",
+      "year": 2,
+      "semester": 4,
+      "path": "Year 2\\Semester 4\\Subject_404"
+    },
+    {
+      "code": "Subject_405",
+      "year": 2,
+      "semester": 4,
+      "path": "Year 2\\Semester 4\\Subject_405"
+    },
+    {
+      "code": "Subject_406",
+      "year": 2,
+      "semester": 4,
+      "path": "Year 2\\Semester 4\\Subject_406"
+    },
+    {
+      "code": "Subject_501",
+      "year": 3,
+      "semester": 5,
+      "path": "Year 3\\Semester 5\\Subject_501"
+    },
+    {
+      "code": "Subject_502",
+      "year": 3,
+      "semester": 5,
+      "path": "Year 3\\Semester 5\\Subject_502"
+    },
+    {
+      "code": "Subject_503",
+      "year": 3,
+      "semester": 5,
+      "path": "Year 3\\Semester 5\\Subject_503"
+    },
+    {
+      "code": "Subject_504",
+      "year": 3,
+      "semester": 5,
+      "path": "Year 3\\Semester 5\\Subject_504"
+    },
+    {
+      "code": "Subject_505",
+      "year": 3,
+      "semester": 5,
+      "path": "Year 3\\Semester 5\\Subject_505"
+    },
+    {
+      "code": "Subject_506",
+      "year": 3,
+      "semester": 5,
+      "path": "Year 3\\Semester 5\\Subject_506"
+    },
+    {
+      "code": "Subject_601",
+      "year": 3,
+      "semester": 6,
+      "path": "Year 3\\Semester 6\\Subject_601"
+    },
+    {
+      "code": "Subject_602",
+      "year": 3,
+      "semester": 6,
+      "path": "Year 3\\Semester 6\\Subject_602"
+    },
+    {
+      "code": "Subject_603",
+      "year": 3,
+      "semester": 6,
+      "path": "Year 3\\Semester 6\\Subject_603"
+    },
+    {
+      "code": "Subject_604",
+      "year": 3,
+      "semester": 6,
+      "path": "Year 3\\Semester 6\\Subject_604"
+    },
+    {
+      "code": "Subject_605",
+      "year": 3,
+      "semester": 6,
+      "path": "Year 3\\Semester 6\\Subject_605"
+    },
+    {
+      "code": "Subject_606",
+      "year": 3,
+      "semester": 6,
+      "path": "Year 3\\Semester 6\\Subject_606"
+    },
+    {
+      "code": "Subject_701",
+      "year": 4,
+      "semester": 7,
+      "path": "Year 4\\Semester 7\\Subject_701"
+    },
+    {
+      "code": "Subject_702",
+      "year": 4,
+      "semester": 7,
+      "path": "Year 4\\Semester 7\\Subject_702"
+    },
+    {
+      "code": "Subject_703",
+      "year": 4,
+      "semester": 7,
+      "path": "Year 4\\Semester 7\\Subject_703"
+    },
+    {
+      "code": "Subject_704",
+      "year": 4,
+      "semester": 7,
+      "path": "Year 4\\Semester 7\\Subject_704"
+    },
+    {
+      "code": "Subject_705",
+      "year": 4,
+      "semester": 7,
+      "path": "Year 4\\Semester 7\\Subject_705"
+    },
+    {
+      "code": "Subject_801",
+      "year": 4,
+      "semester": 8,
+      "path": "Year 4\\Semester 8\\Subject_801"
+    },
+    {
+      "code": "Subject_802",
+      "year": 4,
+      "semester": 8,
+      "path": "Year 4\\Semester 8\\Subject_802"
+    },
+    {
+      "code": "Subject_803",
+      "year": 4,
+      "semester": 8,
+      "path": "Year 4\\Semester 8\\Subject_803"
+    },
+    {
+      "code": "Subject_804",
+      "year": 4,
+      "semester": 8,
+      "path": "Year 4\\Semester 8\\Subject_804"
+    },
+    {
+      "code": "Subject_805",
+      "year": 4,
+      "semester": 8,
+      "path": "Year 4\\Semester 8\\Subject_805"
+    }
+  ]
+}
