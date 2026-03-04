@@ -33,8 +33,8 @@ let folderManifest = null;
 let currentPath = [];
 let currentPDF = null;
 
-// Base path for PDFs (relative to website folder)
-const PDF_BASE_PATH = "../BTech_CSE/";
+// Base path for PDFs (absolute path for GitHub Pages deployment)
+const PDF_BASE_PATH = "/pyq-portal/BTech_CSE/";
 
 // Load folder manifest from JSON
 async function loadFolderManifest() {
