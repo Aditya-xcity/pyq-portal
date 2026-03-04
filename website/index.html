@@ -3,156 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTech CSE - Study Materials Library</title>
+    <title>XVelocity - Study Hub</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon_io/android-chrome-512x512.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="header-content">
-                <h1>📚 BTech CSE Study Materials</h1>
-                <p>Organized PYQs, Notes, Assignments, Books & Lab Materials</p>
+        <!-- Menu Button -->
+        <div class="menu-container">
+            <button class="menu-btn" id="menuBtn">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <span class="menu-text">MENU</span>
+            </button>
+            
+            <!-- Dropdown Menu -->
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#" class="menu-item" onclick="goHome(); return false;">🏠 Home</a>
+                <a href="https://drive.google.com/drive/folders/1pVTpTB8PLrDP3BXFfdnHnxM2oOzNWXt1" class="menu-item" target="_blank" rel="noopener noreferrer">📖 Introduction Page</a>
+                <a href="labmanual.html" class="menu-item">🔬 Lab Manuals</a>
+                <a href="https://www.linkedin.com/in/aditya-bhardwaj-9a9a7a341/" class="menu-item" target="_blank" rel="noopener noreferrer">👤 LinkedIn Profile</a>
             </div>
-        </header>
-
-        <!-- Main Navigation -->
-        <nav class="navbar">
-            <div class="nav-content">
-                <button class="nav-btn active" onclick="showView('yearView')">
-                    <span class="icon">📅</span> By Year
-                </button>
-                <button class="nav-btn" onclick="showView('semesterView')">
-                    <span class="icon">📖</span> By Semester
-                </button>
-                <button class="nav-btn" onclick="showView('subjectView')">
-                    <span class="icon">👨‍🎓</span> All Subjects
-                </button>
-                <button class="nav-btn" onclick="showView('searchView')">
-                    <span class="icon">🔍</span> Search
-                </button>
-            </div>
-        </nav>
-
-        <!-- Breadcrumb Navigation -->
-        <div class="breadcrumb" id="breadcrumb">
-            <a href="javascript:void(0)" onclick="resetNavigation()">Home</a>
         </div>
 
-        <!-- Main Content Area -->
+        <!-- Main Content -->
         <main class="main-content">
-            
-            <!-- Year View -->
-            <div id="yearView" class="view-section active">
-                <h2>Select Year</h2>
-                <div class="cards-grid">
-                    <div class="card card-year" onclick="selectYear(1)">
-                        <h3>Year 1</h3>
-                        <p class="card-desc">Semesters 1-2</p>
-                        <span class="sub-count">12 Subjects</span>
-                    </div>
-                    <div class="card card-year" onclick="selectYear(2)">
-                        <h3>Year 2</h3>
-                        <p class="card-desc">Semesters 3-4</p>
-                        <span class="sub-count">12 Subjects</span>
-                    </div>
-                    <div class="card card-year" onclick="selectYear(3)">
-                        <h3>Year 3</h3>
-                        <p class="card-desc">Semesters 5-6</p>
-                        <span class="sub-count">12 Subjects</span>
-                    </div>
-                    <div class="card card-year" onclick="selectYear(4)">
-                        <h3>Year 4</h3>
-                        <p class="card-desc">Semesters 7-8</p>
-                        <span class="sub-count">10 Subjects</span>
-                    </div>
+            <!-- Title Section -->
+            <div class="title-section">
+                <h1 class="glitch-title" data-text="XVELOCITY">XVELOCITY</h1>
+                <p class="subtitle">Study Materials Library</p>
+            </div>
+
+            <!-- Dynamic Content Section -->
+            <div class="content-section" id="contentSection">
+                <div class="welcome-message">
+                    <h2>Welcome to XVeloCity</h2>
+                    <p>Select a category from the menu or browse by year below</p>
                 </div>
             </div>
-
-            <!-- Year Details View -->
-            <div id="yearDetailsView" class="view-section">
-                <h2 id="yearTitle"></h2>
-                <div class="cards-grid">
-                    <div id="semesterCardsContainer"></div>
-                </div>
-            </div>
-
-            <!-- Semester View -->
-            <div id="semesterView" class="view-section">
-                <h2>Select Semester</h2>
-                <div class="semester-list">
-                    <div id="semesterListContainer"></div>
-                </div>
-            </div>
-
-            <!-- Subject View -->
-            <div id="subjectView" class="view-section">
-                <h2>All Subjects</h2>
-                <div class="subject-filter">
-                    <input type="text" id="subjectSearch" placeholder="🔍 Search subjects..." 
-                           onkeyup="filterSubjects()">
-                </div>
-                <div class="cards-grid" id="subjectCardsContainer"></div>
-            </div>
-
-            <!-- Subject Details View -->
-            <div id="subjectDetailsView" class="view-section">
-                <h2 id="subjectTitle"></h2>
-                <div class="document-types">
-                    <div id="documentTypesContainer"></div>
-                </div>
-            </div>
-
-            <!-- Documents List View -->
-            <div id="documentsView" class="view-section">
-                <h2 id="documentsTitle"></h2>
-                <div class="documents-list" id="documentsList"></div>
-            </div>
-
-            <!-- Search View -->
-            <div id="searchView" class="view-section">
-                <h2>Search Materials</h2>
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="🔍 Search by PDF name, subject code, etc...">
-                    <button onclick="performSearch()" class="btn btn-primary">Search</button>
-                </div>
-                <div class="search-results" id="searchResults"></div>
-            </div>
-
-            <!-- Statistics -->
-            <div id="statsView" class="view-section">
-                <h2>Library Statistics</h2>
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <h3 id="totalPDFs">0</h3>
-                        <p>Total PDFs</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3 id="totalSubjects">0</h3>
-                        <p>Subjects</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3 id="totalDocTypes">5</h3>
-                        <p>Document Types</p>
-                    </div>
-                    <div class="stat-card">
-                        <h3>2.2 GB</h3>
-                        <p>Total Size (Est.)</p>
-                    </div>
-                </div>
-            </div>
-
         </main>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <p>&copy; 2026 BTech CSE Study Materials Library | Organized PDFs for Easy Access</p>
-            <p class="footer-links">
-                <a href="#" onclick="showStats()">Statistics</a> •
-                <a href="#" onclick="showAbout()">About</a> •
-                <a href="https://github.com" target="_blank">GitHub</a>
-            </p>
+        <!-- Bottom Folders (Years) -->
+        <footer class="years-footer">
+            <h3>QUICK ACCESS BY YEAR</h3>
+            <div class="folders-grid">
+                <div class="folder-card" onclick="selectYear(1)">
+                    <div class="folder-icon">📁</div>
+                    <h4>1ST YEAR</h4>
+                    <p>Sem 1-2</p>
+                </div>
+                <div class="folder-card" onclick="selectYear(2)">
+                    <div class="folder-icon">📁</div>
+                    <h4>2ND YEAR</h4>
+                    <p>Sem 3-4</p>
+                </div>
+                <div class="folder-card" onclick="selectYear(3)">
+                    <div class="folder-icon">📁</div>
+                    <h4>3RD YEAR</h4>
+                    <p>Sem 5-6</p>
+                </div>
+                <div class="folder-card" onclick="selectYear(4)">
+                    <div class="folder-icon">📁</div>
+                    <h4>4TH YEAR</h4>
+                    <p>Sem 7-8</p>
+                </div>
+            </div>
         </footer>
+    </div>
+
+    <!-- PDF Viewer Modal -->
+    <div id="pdfModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="pdfTitle">PDF Viewer</h2>
+                <div class="modal-controls">
+                    <button class="modal-btn open-tab-btn" onclick="openPDFInNewTab()">🔗 Open in Tab</button>
+                    <button class="modal-btn download-btn" onclick="downloadCurrentPDF()">📥 Download</button>
+                    <button class="modal-btn close-btn" onclick="closePDFViewer()">✕</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

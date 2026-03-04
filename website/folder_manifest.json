@@ -1,0 +1,460 @@
+{
+  "generated": "2026-03-04T13:22:10.999240",
+  "base_folder": "BTech_CSE",
+  "stats": {
+    "total_folders": 37,
+    "total_files": 26,
+    "total_pdfs": 26
+  },
+  "structure": {
+    "name": "BTech_CSE",
+    "type": "folder",
+    "path": "",
+    "children": [
+      {
+        "name": "Year_1",
+        "type": "folder",
+        "path": "Year_1",
+        "children": [
+          {
+            "name": "Sem1",
+            "type": "folder",
+            "path": "Year_1/Sem1",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem1/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_1/Sem1/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem2",
+            "type": "folder",
+            "path": "Year_1/Sem2",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem2/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_1/Sem2/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Year_2",
+        "type": "folder",
+        "path": "Year_2",
+        "children": [
+          {
+            "name": "Sem3",
+            "type": "folder",
+            "path": "Year_2/Sem3",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_2/Sem3/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_2/Sem3/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem4",
+            "type": "folder",
+            "path": "Year_2/Sem4",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_2/Sem4/End",
+                "children": [
+                  {
+                    "name": "Ai Stats",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/End/Ai Stats",
+                    "children": [
+                      {
+                        "name": "tcs421_endsem_2022_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2022_jun.pdf",
+                        "size": 98785,
+                        "size_mb": 0.09,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_endsem_2023_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2023_jun.pdf",
+                        "size": 105242,
+                        "size_mb": 0.1,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_endsem_2024_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2024_jun.pdf",
+                        "size": 831999,
+                        "size_mb": 0.79,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_endsem_2025_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2025_jun.pdf",
+                        "size": 175697,
+                        "size_mb": 0.17,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Automata",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/End/Automata",
+                    "children": [
+                      {
+                        "name": "tcs402_endsem_2023_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Automata/tcs402_endsem_2023_jun.pdf",
+                        "size": 180879,
+                        "size_mb": 0.17,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs402_endsem_2024_jun_20.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Automata/tcs402_endsem_2024_jun_20.pdf",
+                        "size": 215590,
+                        "size_mb": 0.21,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs402_endsem_2025_jun_2.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Automata/tcs402_endsem_2025_jun_2.pdf",
+                        "size": 28707,
+                        "size_mb": 0.03,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs402_endsem_2025_may.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Automata/tcs402_endsem_2025_may.pdf",
+                        "size": 197166,
+                        "size_mb": 0.19,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "CarrerSkills",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/End/CarrerSkills",
+                    "children": [
+                      {
+                        "name": "xcs400_endsem_2023_jun_setA.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/CarrerSkills/xcs400_endsem_2023_jun_setA.pdf",
+                        "size": 1070169,
+                        "size_mb": 1.02,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "xcs400_endsem_2023_jun_setB.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/CarrerSkills/xcs400_endsem_2023_jun_setB.pdf",
+                        "size": 902630,
+                        "size_mb": 0.86,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "xcs400_endsem_2024_jun_27_setA.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/CarrerSkills/xcs400_endsem_2024_jun_27_setA.pdf",
+                        "size": 6816206,
+                        "size_mb": 6.5,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "xcs400_endsem_2024_jun_27_setB.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/CarrerSkills/xcs400_endsem_2024_jun_27_setB.pdf",
+                        "size": 1798366,
+                        "size_mb": 1.72,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Daa",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/End/Daa",
+                    "children": [
+                      {
+                        "name": "tcs409_endsem_2023_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/tcs409_endsem_2023_jun.pdf",
+                        "size": 570481,
+                        "size_mb": 0.54,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs409_endsem_2024_jun_25.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/tcs409_endsem_2024_jun_25.pdf",
+                        "size": 191726,
+                        "size_mb": 0.18,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs409_endsem_2025_jun_10.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/tcs409_endsem_2025_jun_10.pdf",
+                        "size": 264744,
+                        "size_mb": 0.25,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs409_endsem_back_2025_jan_10.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/tcs409_endsem_back_2025_jan_10.pdf",
+                        "size": 1537430,
+                        "size_mb": 1.47,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Java",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/End/Java",
+                    "children": [
+                      {
+                        "name": "tcs408_endsem_2022_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Java/tcs408_endsem_2022_jun.pdf",
+                        "size": 156425,
+                        "size_mb": 0.15,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs408_endsem_2023_jun.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Java/tcs408_endsem_2023_jun.pdf",
+                        "size": 821283,
+                        "size_mb": 0.78,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs408_endsem_2024_jun_18.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Java/tcs408_endsem_2024_jun_18.pdf",
+                        "size": 136651,
+                        "size_mb": 0.13,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs408_endsem_2025_jun_6.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Java/tcs408_endsem_2025_jun_6.pdf",
+                        "size": 121355,
+                        "size_mb": 0.12,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_2/Sem4/Mid",
+                "children": [
+                  {
+                    "name": "Ai Stats",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/Mid/Ai Stats",
+                    "children": [
+                      {
+                        "name": "even sem 2026.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/Mid/Ai Stats/even sem 2026.pdf",
+                        "size": 598953,
+                        "size_mb": 0.57,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_midsem_2021.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/Mid/Ai Stats/tcs421_midsem_2021.pdf",
+                        "size": 283469,
+                        "size_mb": 0.27,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_midsem_2022_apr.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/Mid/Ai Stats/tcs421_midsem_2022_apr.pdf",
+                        "size": 65267,
+                        "size_mb": 0.06,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_midsem_2023_apr.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/Mid/Ai Stats/tcs421_midsem_2023_apr.pdf",
+                        "size": 67452,
+                        "size_mb": 0.06,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_midsem_2024_mar.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/Mid/Ai Stats/tcs421_midsem_2024_mar.pdf",
+                        "size": 1059480,
+                        "size_mb": 1.01,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_midsem_2024_mar2.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/Mid/Ai Stats/tcs421_midsem_2024_mar2.pdf",
+                        "size": 157969,
+                        "size_mb": 0.15,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Design and Analysis of Algorithms",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/Mid/Design and Analysis of Algorithms",
+                    "children": []
+                  },
+                  {
+                    "name": "Microprocessor",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/Mid/Microprocessor",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Year_3",
+        "type": "folder",
+        "path": "Year_3",
+        "children": [
+          {
+            "name": "Sem5",
+            "type": "folder",
+            "path": "Year_3/Sem5",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_3/Sem5/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_3/Sem5/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem6",
+            "type": "folder",
+            "path": "Year_3/Sem6",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_3/Sem6/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_3/Sem6/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Year_4",
+        "type": "folder",
+        "path": "Year_4",
+        "children": [
+          {
+            "name": "Sem7",
+            "type": "folder",
+            "path": "Year_4/Sem7",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_4/Sem7/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_4/Sem7/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem8",
+            "type": "folder",
+            "path": "Year_4/Sem8",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_4/Sem8/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_4/Sem8/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

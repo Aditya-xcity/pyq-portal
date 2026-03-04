@@ -1,5 +1,9 @@
 # Git ignore file for BTech CSE Study Materials
 
+# Script files - exclude from repo
+*.bat
+*.py
+
 # OS files
 .DS_Store
 .DS_Store?

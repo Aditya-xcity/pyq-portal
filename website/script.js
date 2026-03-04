@@ -1,498 +1,677 @@
-// BTech CSE Study Materials Library - Main JavaScript
-
-// Global variables
-let currentYear = null;
-let currentSemester = null;
-let currentSubject = null;
-let currentDocType = null;
-let allPDFs = {};
-let allSubjects = [];
-
-// Data Structure
-const yearStructure = {
-    1: { semesters: [1, 2], subjects: 12 },
-    2: { semesters: [3, 4], subjects: 12 },
-    3: { semesters: [5, 6], subjects: 12 },
-    4: { semesters: [7, 8], subjects: 10 }
-};
-
-const documentTypes = {
-    'PYQs': { icon: '📋', color: '#e74c3c', desc: 'Previous Year Questions' },
-    'Notes': { icon: '📝', color: '#3498db', desc: 'Study Notes' },
-    'Assignments': { icon: '✏️', color: '#f39c12', desc: 'Assignment Sheets' },
-    'Books': { icon: '📚', color: '#2ecc71', desc: 'Reference Books' },
-    'Lab': { icon: '🔬', color: '#9b59b6', desc: 'Lab Materials' }
-};
-
-const semesterSubjects = {
-    1: ['Mathematics-I', 'Physics-I', 'Chemistry', 'Programming', 'Graphics', 'Environmental Studies'],
-    2: ['Mathematics-II', 'Physics-II', 'Data Structures', 'Web Tech', 'Circuits', 'Communication'],
-    3: ['DBMS', 'Algorithms', 'OOP', 'Networking', 'Linux Admin', 'Web Dev'],
-    4: ['DBMS Impl', 'Design Patterns', 'Cloud Computing', 'Mobile App', 'Web Services', 'IPR'],
-    5: ['Software Engineering', 'AI', 'Machine Learning', 'NLP', 'Big Data', 'Cryptography'],
-    6: ['Compiler Design', 'Operating Systems', 'Cybersecurity', 'Distributed Sys', 'Computer Vision', 'IR'],
-    7: ['Project I', 'Elective 1', 'Elective 2', 'Elective 3', 'Elective 4', 'Seminar'],
-    8: ['Project II', 'Internship', 'Capstone', 'Elective 5', 'Elective 6', 'General Elective']
-};
-
-// Initialize
+// Toggle menu dropdown and initialize
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Initializing BTech CSE Study Materials Library');
-    loadPDFManifest();
-    initializeUI();
-    setupEventListeners();
+    const menuBtn = document.getElementById('menuBtn');
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    
+    if (menuBtn && dropdownMenu) {
+        menuBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            dropdownMenu.classList.toggle('active');
+        });
+        
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!menuBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
+                dropdownMenu.classList.remove('active');
+            }
+        });
+    }
+    
+    // Load folder manifest and initialize
+    loadFolderManifest();
+    
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closePDFViewer();
+        }
+    });
 });
 
-// Load PDF Manifest
-function loadPDFManifest() {
-    // This would load from pdf_manifest.json
-    // For now, we'll use sample data that will be generated
-    fetchPDFManifest();
-}
+// Global state
+let folderManifest = null;
+let currentPath = [];
+let currentPDF = null;
 
-// Fetch PDF Manifest (from JSON file)
-function fetchPDFManifest() {
-    fetch('pdf_manifest.json')
-        .then(response => response.json())
-        .then(data => {
-            allPDFs = data.pdfs;
-            allSubjects = data.subjects;
-            updateStatistics();
-            console.log('PDF Manifest loaded:', allPDFs.length, 'files');
-        })
-        .catch(error => {
-            console.log('Using demo mode - pdf_manifest.json not found');
-            loadDemoData();
-        });
-}
+// Base path for PDFs (relative to website folder)
+const PDF_BASE_PATH = "../BTech_CSE/";
 
-// Demo Data
-function loadDemoData() {
-    allPDFs = {
-        'Year 1': {
-            'Semester 1': {
-                'Subject_101': {
-                    'PYQs': ['Math-I-2023-MidPaper.pdf', 'Math-I-2023-EndPaper.pdf'],
-                    'Notes': ['Math-I-ClassNotes.pdf'],
-                    'Assignments': [],
-                    'Books': [],
-                    'Lab': []
-                }
-            }
+// Load folder manifest from JSON
+async function loadFolderManifest() {
+    try {
+        const response = await fetch('folder_manifest.json');
+        if (!response.ok) {
+            throw new Error('Manifest not found. Please run generate_manifest.py');
         }
-    };
-    allSubjects = generateAllSubjects();
-}
-
-// Generate all subjects list
-function generateAllSubjects() {
-    const subjects = [];
-    for (let sem = 1; sem <= 8; sem++) {
-        for (let subj = 1; subj <= (sem <= 6 ? 6 : 5); subj++) {
-            const code = sem.toString() + subj.toString().padStart(2, '0');
-            subjects.push({
-                code: code,
-                semester: sem,
-                name: semesterSubjects[sem]?.[subj - 1] || `Subject ${code}`,
-                year: sem <= 2 ? 1 : sem <= 4 ? 2 : sem <= 6 ? 3 : 4
-            });
-        }
+        folderManifest = await response.json();
+        console.log('Manifest loaded:', folderManifest.stats);
+        
+        // Show welcome message with stats
+        showWelcomeMessage();
+        
+        // Initialize year folders footer
+        initializeYearFolders();
+    } catch (error) {
+        console.error('Error loading manifest:', error);
+        showError('Could not load folder structure. Please run generate_manifest.py to generate the manifest.');
     }
-    return subjects;
 }
 
-// Initialize UI
-function initializeUI() {
-    populateSemesterList();
-    populateSubjectView();
-    updateStatistics();
-}
-
-// Setup Event Listeners
-function setupEventListeners() {
-    // Search functionality
-    document.getElementById('searchInput').addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') performSearch();
-    });
-
-    // Subject search
-    document.getElementById('subjectSearch').addEventListener('keyup', filterSubjects);
-
-    // Scroll to top
-    window.addEventListener('scroll', toggleScrollToTopButton);
-}
-
-// View Management
-function showView(viewId) {
-    // Hide all views
-    document.querySelectorAll('.view-section').forEach(view => {
-        view.classList.remove('active');
-    });
-
-    // Show selected view
-    document.getElementById(viewId).classList.add('active');
-
-    // Update navbar
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.closest('.nav-btn').classList.add('active');
-
-    // Reset breadcrumb
-    updateBreadcrumb(['Home']);
-}
-
-// Year Selection
-function selectYear(year) {
-    currentYear = year;
-    showYearDetails(year);
-    updateBreadcrumb(['Home', `Year ${year}`]);
-}
-
-function showYearDetails(year) {
-    const yearTitle = document.getElementById('yearTitle');
-    yearTitle.textContent = `Year ${year}`;
-
-    const container = document.getElementById('semesterCardsContainer');
-    container.innerHTML = '';
-
-    const semesters = yearStructure[year].semesters;
-    semesters.forEach(sem => {
-        const card = createSemesterCard(sem, year);
-        container.appendChild(card);
-    });
-
-    // Hide year view and show details
-    document.getElementById('yearView').classList.remove('active');
-    document.getElementById('yearDetailsView').classList.add('active');
-}
-
-function createSemesterCard(semester, year) {
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.style.borderLeftColor = '#2ecc71';
+// Initialize the year folder cards in footer based on manifest
+function initializeYearFolders() {
+    if (!folderManifest || !folderManifest.structure) return;
     
-    const subjectCount = semester <= 6 ? 6 : 5;
+    const foldersGrid = document.querySelector('.folders-grid');
+    if (!foldersGrid) return;
+    
+    // Clear existing folders
+    foldersGrid.innerHTML = '';
+    
+    // Get year folders from manifest
+    const yearFolders = folderManifest.structure.children.filter(child => 
+        child.type === 'folder' && child.name.toLowerCase().includes('year')
+    );
+    
+    if (yearFolders.length === 0) {
+        // Fallback: show all root folders
+        folderManifest.structure.children
+            .filter(child => child.type === 'folder')
+            .forEach(folder => {
+                const card = createFolderCard(folder, folder.name);
+                foldersGrid.appendChild(card);
+            });
+    } else {
+        // Show year folders
+        yearFolders.forEach((folder, index) => {
+            const yearNum = index + 1;
+            const ordinal = getOrdinal(yearNum);
+            const card = createFolderCard(folder, `${ordinal} YEAR`, `Year ${yearNum}`);
+            foldersGrid.appendChild(card);
+        });
+    }
+}
+
+// Create a folder card element for the footer
+function createFolderCard(folder, title, subtitle) {
+    const card = document.createElement('div');
+    card.className = 'folder-card';
+    card.onclick = () => navigateToFolder([folder.name]);
+    
+    // Count subfolders
+    const subfolderCount = folder.children ? folder.children.filter(c => c.type === 'folder').length : 0;
+    const fileCount = folder.children ? folder.children.filter(c => c.type === 'file').length : 0;
+    
+    let subtitleText = subtitle || '';
+    if (!subtitle) {
+        const parts = [];
+        if (subfolderCount > 0) parts.push(`${subfolderCount} folders`);
+        if (fileCount > 0) parts.push(`${fileCount} files`);
+        subtitleText = parts.join(', ') || 'Empty';
+    }
+    
     card.innerHTML = `
-        <h3>Semester ${semester}</h3>
-        <p class="card-desc">6 Subjects</p>
-        <span class="sub-count" onclick="selectSemester(${semester})">
-            View Subjects →
-        </span>
+        <div class="folder-icon">📁</div>
+        <h4>${title}</h4>
+        <p>${subtitleText}</p>
     `;
-    card.onclick = () => selectSemester(semester);
+    
     return card;
 }
 
-function selectSemester(semester) {
-    currentSemester = semester;
-    showSemesterSubjects(semester);
-    updateBreadcrumb(['Home', `Year ${currentYear}`, `Semester ${semester}`]);
+// Get ordinal suffix for a number
+function getOrdinal(n) {
+    const s = ["th", "st", "nd", "rd"];
+    const v = n % 100;
+    return n + (s[(v - 20) % 10] || s[v] || s[0]);
 }
 
-function showSemesterSubjects(semester) {
-    const container = document.getElementById('semesterCardsContainer');
-    container.innerHTML = '';
-
-    const subjectCount = semester <= 6 ? 6 : 5;
-    for (let i = 1; i <= subjectCount; i++) {
-        const code = semester.toString() + i.toString().padStart(2, '0');
-        const subjectName = semesterSubjects[semester][i - 1];
-        
-        const card = document.createElement('div');
-        card.className = 'card';
-        card.innerHTML = `
-            <h3>Subject ${code}</h3>
-            <p class="card-desc">${subjectName}</p>
-            <span class="sub-count">View →</span>
-        `;
-        card.onclick = () => selectSubject(code, semester, subjectName);
-        container.appendChild(card);
-    }
+// Navigate to a specific folder path
+function navigateToFolder(pathArray) {
+    console.log('Navigating to folder:', pathArray);
+    currentPath = pathArray;
+    renderCurrentFolder();
 }
 
-function selectSubject(code, semester, name) {
-    currentSubject = { code, semester, name };
-    showSubjectDetails(code, name);
-    updateBreadcrumb(['Home', `Year ${currentYear}`, `Semester ${semester}`, `${name} (${code})`]);
-}
-
-function showSubjectDetails(code, name) {
-    document.getElementById('subjectTitle').textContent = `${name} (Subject ${code})`;
-
-    const container = document.getElementById('documentTypesContainer');
-    container.innerHTML = '';
-
-    Object.keys(documentTypes).forEach(type => {
-        const docInfo = documentTypes[type];
-        const card = document.createElement('div');
-        card.className = 'doc-type-card';
-        card.style.background = `linear-gradient(135deg, ${docInfo.color} 0%, ${docInfo.color}dd 100%)`;
-        
-        // Count documents (demo data)
-        const count = Math.floor(Math.random() * 10);
-        
-        card.innerHTML = `
-            <div class="doc-count">${count}</div>
-            <h3>${type}</h3>
-            <p>${docInfo.desc}</p>
-        `;
-        card.onclick = () => showDocuments(type, code, name);
-        container.appendChild(card);
-    });
-
-    document.getElementById('yearDetailsView').classList.remove('active');
-    document.getElementById('subjectDetailsView').classList.add('active');
-}
-
-function showDocuments(docType, subjectCode, subjectName) {
-    currentDocType = docType;
-    
-    document.getElementById('documentsTitle').textContent = `${subjectName} - ${docType}`;
-
-    const container = document.getElementById('documentsList');
-    container.innerHTML = '';
-
-    // Generate sample documents
-    const sampleDocs = generateSampleDocuments(subjectCode, docType);
-
-    if (sampleDocs.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state">
-                <h3>No ${docType} available yet</h3>
-                <p>Check back soon for more study materials!</p>
-            </div>
-        `;
-    } else {
-        sampleDocs.forEach(doc => {
-            const item = createDocumentItem(doc, subjectCode);
-            container.appendChild(item);
-        });
-    }
-
-    document.getElementById('subjectDetailsView').classList.remove('active');
-    document.getElementById('documentsView').classList.add('active');
-}
-
-function generateSampleDocuments(subjectCode, docType) {
-    const docs = [];
-    const years = ['2023', '2024', '2025'];
-    const count = docType === 'PYQs' ? 4 : docType === 'Books' ? 3 : 2;
-    
-    for (let i = 0; i < count; i++) {
-        const year = years[Math.floor(Math.random() * years.length)];
-        const docName = `${subjectCode}_${docType}_${year}_${i + 1}.pdf`;
-        docs.push({
-            name: docName,
-            subject: subjectCode,
-            type: docType,
-            size: Math.floor(Math.random() * 5 + 1) + ' MB',
-            uploaded: year
-        });
-    }
-    
-    return docs;
-}
-
-function createDocumentItem(doc, subjectCode) {
-    const item = document.createElement('div');
-    item.className = 'document-item';
-    item.innerHTML = `
-        <div class="document-info">
-            <div class="document-name">📄 ${doc.name}</div>
-            <div class="document-meta">Size: ${doc.size} | Uploaded: ${doc.uploaded}</div>
-        </div>
-        <div class="document-actions">
-            <a href="https://github.com" class="btn btn-download" target="_blank" title="Download">
-                ⬇️ Download
-            </a>
-            <button class="btn btn-secondary" onclick="viewDocument('${doc.name}')" title="View">
-                👁️ View
-            </button>
-        </div>
-    `;
-    return item;
-}
-
-// Subject View
-function populateSubjectView() {
-    const container = document.getElementById('subjectCardsContainer');
-    container.innerHTML = '';
-
-    for (let sem = 1; sem <= 8; sem++) {
-        const subjectCount = sem <= 6 ? 6 : 5;
-        for (let i = 1; i <= subjectCount; i++) {
-            const code = sem.toString() + i.toString().padStart(2, '0');
-            const name = semesterSubjects[sem][i - 1];
-            const year = sem <= 2 ? 1 : sem <= 4 ? 2 : sem <= 6 ? 3 : 4;
-
-            const card = document.createElement('div');
-            card.className = 'card';
-            card.innerHTML = `
-                <h3>Subject ${code}</h3>
-                <p class="card-desc">${name}</p>
-                <span class="sub-count">Year ${year} • Sem ${sem}</span>
-            `;
-            card.onclick = () => {
-                currentYear = year;
-                currentSemester = sem;
-                selectSubject(code, sem, name);
-            };
-            container.appendChild(card);
+// Go back one level
+function goBack() {
+    if (currentPath.length > 0) {
+        currentPath.pop();
+        if (currentPath.length === 0) {
+            showWelcomeMessage();
+        } else {
+            renderCurrentFolder();
         }
+    } else {
+        showWelcomeMessage();
     }
 }
 
-function populateSemesterList() {
-    const container = document.getElementById('semesterListContainer');
-    container.innerHTML = '';
-
-    for (let sem = 1; sem <= 8; sem++) {
-        const year = sem <= 2 ? 1 : sem <= 4 ? 2 : sem <= 6 ? 3 : 4;
-        const item = document.createElement('div');
-        item.className = 'semester-item';
-        item.innerHTML = `
-            <div>
-                <h3>Semester ${sem}</h3>
-                <p>Year ${year} • ${sem <= 6 ? 6 : 5} Subjects</p>
-            </div>
-            <span style="font-size: 1.3em;">→</span>
-        `;
-        item.onclick = () => {
-            currentYear = year;
-            selectSemester(sem);
-        };
-        container.appendChild(item);
+// Go to root
+function goHome() {
+    currentPath = [];
+    showWelcomeMessage();
+    
+    // Close dropdown menu if open
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    if (dropdownMenu) {
+        dropdownMenu.classList.remove('active');
     }
 }
 
-function filterSubjects() {
-    const searchTerm = document.getElementById('subjectSearch').value.toLowerCase();
-    const cards = document.querySelectorAll('#subjectCardsContainer .card');
-
-    cards.forEach(card => {
-        const text = card.textContent.toLowerCase();
-        card.style.display = text.includes(searchTerm) ? 'block' : 'none';
-    });
+// Get folder at current path
+function getFolderAtPath(pathArray) {
+    if (!folderManifest || !folderManifest.structure) return null;
+    
+    let current = folderManifest.structure;
+    
+    for (const segment of pathArray) {
+        if (!current.children) return null;
+        const child = current.children.find(c => c.name === segment && c.type === 'folder');
+        if (!child) return null;
+        current = child;
+    }
+    
+    return current;
 }
 
-// Search Functionality
-function performSearch() {
-    const query = document.getElementById('searchInput').value.toLowerCase();
-    const resultsContainer = document.getElementById('searchResults');
-    resultsContainer.innerHTML = '';
-
-    if (!query.trim()) {
-        resultsContainer.innerHTML = '<p style="color: #95a5a6; text-align: center;">Enter a search term</p>';
+// Render the current folder content
+function renderCurrentFolder() {
+    const contentSection = document.getElementById('contentSection');
+    if (!contentSection) return;
+    
+    const folder = getFolderAtPath(currentPath);
+    if (!folder) {
+        showError('Folder not found');
         return;
     }
-
-    const results = [];
-
-    // Search in all subjects
-    for (let sem = 1; sem <= 8; sem++) {
-        const subjectCount = sem <= 6 ? 6 : 5;
-        for (let i = 1; i <= subjectCount; i++) {
-            const code = sem.toString() + i.toString().padStart(2, '0');
-            const name = semesterSubjects[sem][i - 1];
-
-            if (code.includes(query) || name.toLowerCase().includes(query)) {
-                results.push({
-                    code, name, sem,
-                    year: sem <= 2 ? 1 : sem <= 4 ? 2 : sem <= 6 ? 3 : 4
-                });
-            }
-        }
-    }
-
-    if (results.length === 0) {
-        resultsContainer.innerHTML = `
-            <div class="empty-state">
-                <h3>No results found</h3>
-                <p>Try searching for a subject code or name</p>
+    
+    let html = '';
+    
+    // Breadcrumb navigation
+    html += renderBreadcrumb();
+    
+    // Folder title
+    html += `<h2 style="color: #00f3ff; margin-bottom: 20px;">📁 ${folder.name}</h2>`;
+    
+    // Check if folder has any content
+    if (!folder.children || folder.children.length === 0) {
+        html += `
+            <div class="empty-folder">
+                <div class="empty-icon">📂</div>
+                <p>This folder is empty</p>
+                <p class="empty-hint">Add files to: BTech_CSE/${currentPath.join('/')}</p>
             </div>
         `;
     } else {
-        results.forEach(result => {
-            const item = document.createElement('div');
-            item.className = 'search-result-item';
-            item.innerHTML = `
-                <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <div>
-                        <h3>Subject ${result.code} - ${result.name}</h3>
-                        <p style="color: #95a5a6;">Year ${result.year} • Semester ${result.sem}</p>
-                    </div>
-                    <button class="btn btn-primary" onclick="
-                        currentYear = ${result.year};
-                        currentSemester = ${result.sem};
-                        selectSubject('${result.code}', ${result.sem}, '${result.name}');
-                        showView('documentsView');
-                    ">View</button>
+        html += '<div class="folder-grid">';
+        
+        // Sort: folders first, then files
+        const sortedChildren = [...folder.children].sort((a, b) => {
+            if (a.type === 'folder' && b.type !== 'folder') return -1;
+            if (a.type !== 'folder' && b.type === 'folder') return 1;
+            return a.name.localeCompare(b.name);
+        });
+        
+        sortedChildren.forEach(item => {
+            if (item.type === 'folder') {
+                html += renderFolderItem(item);
+            } else {
+                html += renderFileItem(item);
+            }
+        });
+        
+        html += '</div>';
+    }
+    
+    contentSection.innerHTML = html;
+}
+
+// Render breadcrumb navigation
+function renderBreadcrumb() {
+    let html = '<div class="breadcrumb">';
+    html += `<span class="breadcrumb-item clickable" onclick="goHome()">🏠 Home</span>`;
+    
+    currentPath.forEach((segment, index) => {
+        html += ` <span class="breadcrumb-sep">/</span> `;
+        if (index === currentPath.length - 1) {
+            html += `<span class="breadcrumb-item current">${segment}</span>`;
+        } else {
+            const pathToHere = currentPath.slice(0, index + 1);
+            const pathStr = encodeURIComponent(JSON.stringify(pathToHere));
+            html += `<span class="breadcrumb-item clickable" onclick="navigateToPath('${pathStr}')">${segment}</span>`;
+        }
+    });
+    
+    html += '</div>';
+    return html;
+}
+
+// Helper function to navigate using encoded path string
+function navigateToPath(encodedPath) {
+    try {
+        const pathArray = JSON.parse(decodeURIComponent(encodedPath));
+        navigateToFolder(pathArray);
+    } catch (e) {
+        console.error('Navigation error:', e);
+    }
+}
+
+// Render a folder item
+function renderFolderItem(folder) {
+    const childCount = folder.children ? folder.children.length : 0;
+    const folderCount = folder.children ? folder.children.filter(c => c.type === 'folder').length : 0;
+    const fileCount = childCount - folderCount;
+    
+    let subtitle = '';
+    if (folderCount > 0 && fileCount > 0) {
+        subtitle = `${folderCount} folders, ${fileCount} files`;
+    } else if (folderCount > 0) {
+        subtitle = `${folderCount} folders`;
+    } else if (fileCount > 0) {
+        subtitle = `${fileCount} files`;
+    } else {
+        subtitle = 'Empty';
+    }
+    
+    const newPath = [...currentPath, folder.name];
+    const pathStr = encodeURIComponent(JSON.stringify(newPath));
+    
+    return `
+        <div class="folder-item" onclick="navigateToPath('${pathStr}')">
+            <div class="item-icon folder-icon-large">📁</div>
+            <div class="item-info">
+                <h4>${folder.name}</h4>
+                <p>${subtitle}</p>
+            </div>
+        </div>
+    `;
+}
+
+// Render a file item
+function renderFileItem(file) {
+    const isPDF = file.extension && file.extension.toLowerCase() === '.pdf';
+    const icon = isPDF ? '📄' : getFileIcon(file.extension);
+    const sizeStr = file.size_mb ? `${file.size_mb} MB` : formatFileSize(file.size);
+    
+    const filePath = PDF_BASE_PATH + file.path;
+    const encodedName = encodeURIComponent(file.name);
+    const encodedPath = encodeURIComponent(filePath);
+    
+    return `
+        <div class="file-item">
+            <div class="file-item-header">
+                <div class="file-icon">${icon}</div>
+                <div class="item-info">
+                    <h4>${escapeHtml(file.name)}</h4>
+                    <p>${sizeStr}</p>
                 </div>
-            `;
-            resultsContainer.appendChild(item);
+            </div>
+            <div class="file-actions">
+                ${isPDF ? `<button class="view-btn" onclick="event.stopPropagation(); openPDF('${encodedPath}', '${encodedName}')">👁️ View</button>` : ''}
+                <button class="download-btn" onclick="event.stopPropagation(); downloadPDF('${encodedPath}', '${encodedName}')">📥 Download</button>
+            </div>
+        </div>
+    `;
+}
+
+// Helper to escape HTML entities
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+// Wrapper functions for encoded paths
+function openPDF(encodedPath, encodedName) {
+    const path = decodeURIComponent(encodedPath);
+    const name = decodeURIComponent(encodedName);
+    console.log('Opening PDF:', path, name);
+    openPDFViewer(path, name);
+}
+
+function downloadPDF(encodedPath, encodedName) {
+    const path = decodeURIComponent(encodedPath);
+    const name = decodeURIComponent(encodedName);
+    console.log('Downloading PDF:', path, name);
+    downloadFile(name, path);
+}
+
+// Get icon for file type
+function getFileIcon(extension) {
+    const icons = {
+        '.pdf': '📄',
+        '.doc': '📝',
+        '.docx': '📝',
+        '.xls': '📊',
+        '.xlsx': '📊',
+        '.ppt': '📽️',
+        '.pptx': '📽️',
+        '.jpg': '🖼️',
+        '.jpeg': '🖼️',
+        '.png': '🖼️',
+        '.gif': '🖼️',
+        '.zip': '📦',
+        '.rar': '📦',
+        '.txt': '📃',
+        '.mp4': '🎬',
+        '.mp3': '🎵'
+    };
+    return icons[extension?.toLowerCase()] || '📄';
+}
+
+// Format file size
+function formatFileSize(bytes) {
+    if (!bytes) return 'Unknown';
+    if (bytes < 1024) return bytes + ' B';
+    if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB';
+    return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
+}
+
+// Show welcome message
+function showWelcomeMessage() {
+    const contentSection = document.getElementById('contentSection');
+    if (!contentSection) return;
+    
+    let statsHtml = '';
+    if (folderManifest && folderManifest.stats) {
+        statsHtml = `
+            <div class="stats-bar">
+                <span>📁 ${folderManifest.stats.total_folders} Folders</span>
+                <span>📄 ${folderManifest.stats.total_files} Files</span>
+                <span>📋 ${folderManifest.stats.total_pdfs} PDFs</span>
+            </div>
+        `;
+    }
+    
+    contentSection.innerHTML = `
+        <div class="welcome-message">
+            <h2>Welcome to XVelocity Study Hub</h2>
+            <p>Select a year folder below or use the menu to browse materials</p>
+            ${statsHtml}
+            <p class="sync-note">📡 Auto-synced with BTech_CSE folder</p>
+        </div>
+    `;
+}
+
+// Show error message
+function showError(message) {
+    const contentSection = document.getElementById('contentSection');
+    if (!contentSection) return;
+    
+    contentSection.innerHTML = `
+        <div class="error-message">
+            <div class="error-icon">⚠️</div>
+            <h2>Error</h2>
+            <p>${message}</p>
+        </div>
+    `;
+}
+
+// =====================
+// Menu Section Handlers
+// =====================
+
+function showSection(section) {
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    if (dropdownMenu) {
+        dropdownMenu.classList.remove('active');
+    }
+    
+    // For now, just show the folder browser
+    // You can extend this to filter specific content types
+    switch(section) {
+        case 'pyq':
+            showFilteredContent('PYQ', 'Previous Year Questions');
+            break;
+        case 'notes':
+            showFilteredContent('Notes', 'Study Notes');
+            break;
+        case 'assignments':
+            showFilteredContent('Assignment', 'Assignments');
+            break;
+        case 'books':
+            showFilteredContent('Book', 'Reference Books');
+            break;
+        case 'lab':
+            showFilteredContent('Lab', 'Lab Manuals');
+            break;
+        default:
+            showWelcomeMessage();
+    }
+}
+
+// Show content filtered by keyword (searches in folder/file names)
+function showFilteredContent(keyword, title) {
+    if (!folderManifest) {
+        showError('Manifest not loaded');
+        return;
+    }
+    
+    const contentSection = document.getElementById('contentSection');
+    if (!contentSection) return;
+    
+    const results = searchInStructure(folderManifest.structure, keyword.toLowerCase());
+    
+    let html = `<h2 style="color: #00f3ff; margin-bottom: 20px;">📚 ${title}</h2>`;
+    
+    if (results.length === 0) {
+        html += `
+            <div class="empty-folder">
+                <div class="empty-icon">🔍</div>
+                <p>No ${title.toLowerCase()} found</p>
+                <p class="empty-hint">Add files with "${keyword}" in their name or folder path</p>
+            </div>
+        `;
+    } else {
+        html += '<div class="folder-grid">';
+        
+        results.forEach(item => {
+            if (item.type === 'folder') {
+                html += renderSearchFolderItem(item);
+            } else {
+                html += renderSearchFileItem(item);
+            }
+        });
+        
+        html += '</div>';
+    }
+    
+    contentSection.innerHTML = html;
+}
+
+// Search for items matching keyword
+function searchInStructure(node, keyword, results = [], path = []) {
+    if (node.name.toLowerCase().includes(keyword)) {
+        results.push({ ...node, fullPath: [...path, node.name] });
+    }
+    
+    if (node.children) {
+        node.children.forEach(child => {
+            searchInStructure(child, keyword, results, [...path, node.name]);
         });
     }
-}
-
-// Document Actions
-function viewDocument(docName) {
-    alert('Opening: ' + docName + '\n\nIn a real implementation, this would open a PDF viewer.');
-}
-
-function downloadDocument(docName) {
-    console.log('Downloading:', docName);
-    // Real download would be implemented here
-}
-
-// Navigation
-function resetNavigation() {
-    currentYear = null;
-    currentSemester = null;
-    currentSubject = null;
     
-    document.querySelectorAll('.view-section').forEach(v => v.classList.remove('active'));
-    document.getElementById('yearView').classList.add('active');
-    updateBreadcrumb(['Home']);
+    return results;
+}
+
+// Render folder item from search results
+function renderSearchFolderItem(folder) {
+    const pathStr = folder.fullPath.slice(1).join(' > ');
+    const encodedPath = encodeURIComponent(JSON.stringify(folder.fullPath.slice(1)));
     
-    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
-    document.querySelector('.nav-btn').classList.add('active');
+    return `
+        <div class="folder-item" onclick="navigateToPath('${encodedPath}')">
+            <div class="item-icon folder-icon-large">📁</div>
+            <div class="item-info">
+                <h4>${folder.name}</h4>
+                <p class="path-hint">${pathStr}</p>
+            </div>
+        </div>
+    `;
 }
 
-function updateBreadcrumb(items) {
-    const breadcrumb = document.getElementById('breadcrumb');
-    breadcrumb.innerHTML = items.map((item, idx) => {
-        if (idx === 0) {
-            return `<a href="javascript:void(0)" onclick="resetNavigation()">${item}</a>`;
-        }
-        return `<span style="margin: 0 5px;">/</span><span>${item}</span>`;
-    }).join('');
+// Render file item from search results
+function renderSearchFileItem(file) {
+    const isPDF = file.extension && file.extension.toLowerCase() === '.pdf';
+    const icon = isPDF ? '📄' : getFileIcon(file.extension);
+    const sizeStr = file.size_mb ? `${file.size_mb} MB` : formatFileSize(file.size);
+    const pathStr = file.fullPath.slice(1, -1).join(' > ');
+    
+    const filePath = PDF_BASE_PATH + file.path;
+    const encodedName = encodeURIComponent(file.name);
+    const encodedPath = encodeURIComponent(filePath);
+    
+    return `
+        <div class="file-item">
+            <div class="file-item-header">
+                <div class="file-icon">${icon}</div>
+                <div class="item-info">
+                    <h4>${escapeHtml(file.name)}</h4>
+                    <p>${sizeStr}</p>
+                    <p class="path-hint">${pathStr}</p>
+                </div>
+            </div>
+            <div class="file-actions">
+                ${isPDF ? `<button class="view-btn" onclick="event.stopPropagation(); openPDF('${encodedPath}', '${encodedName}')">👁️ View</button>` : ''}
+                <button class="download-btn" onclick="event.stopPropagation(); downloadPDF('${encodedPath}', '${encodedName}')">📥 Download</button>
+            </div>
+        </div>
+    `;
 }
 
-// Statistics
-function updateStatistics() {
-    document.getElementById('totalPDFs').textContent = '500+';
-    document.getElementById('totalSubjects').textContent = '48';
+// Handle year selection from footer (kept for backwards compatibility)
+function selectYear(year) {
+    const yearName = `Year_${year}`;
+    navigateToFolder([yearName]);
 }
 
-function showStats() {
-    showView('statsView');
-}
+// ==================
+// PDF Viewer Functions
+// ==================
 
-function showAbout() {
-    alert('BTech CSE Study Materials Library\nVersion 1.0\n\nA comprehensive platform for organizing and accessing study materials for BTech CSE students.\n\nFeatures:\n- Organize by Year and Semester\n- Browse by Subject\n- Search functionality\n- Easy PDF access\n- Mobile responsive\n\n© 2026');
-}
-
-// Scroll to Top Button
-function toggleScrollToTopButton() {
-    const btn = document.querySelector('.scroll-to-top');
-    if (!btn) {
-        const newBtn = document.createElement('button');
-        newBtn.className = 'scroll-to-top';
-        newBtn.innerHTML = '↑';
-        newBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-        document.body.appendChild(newBtn);
+function openPDFViewer(pdfPath, pdfName) {
+    const modal = document.getElementById('pdfModal');
+    const pdfViewer = document.getElementById('pdfViewer');
+    const pdfTitle = document.getElementById('pdfTitle');
+    
+    if (modal && pdfViewer && pdfTitle) {
+        // For local files, try to load in iframe
+        // If it fails, the user can use "Open in New Tab" or Download
+        pdfViewer.src = pdfPath;
+        pdfTitle.textContent = pdfName;
+        currentPDF = { path: pdfPath, name: pdfName };
+        
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+        
+        console.log('PDF Modal opened for:', pdfPath);
+    } else {
+        console.error('PDF Modal elements not found');
     }
 }
 
-// Console greeting
-console.log('%c🎓 BTech CSE Study Materials Library', 'font-size: 16px; color: #667eea; font-weight: bold;');
-console.log('%cVersion 1.0 - Ready for GitHub Pages', 'font-size: 12px; color: #764ba2;');
+// Open PDF in a new browser tab
+function openPDFInNewTab() {
+    if (currentPDF) {
+        window.open(currentPDF.path, '_blank');
+    }
+}
+
+function closePDFViewer() {
+    const modal = document.getElementById('pdfModal');
+    const pdfViewer = document.getElementById('pdfViewer');
+    
+    if (modal && pdfViewer) {
+        pdfViewer.src = '';
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+        currentPDF = null;
+    }
+}
+
+function downloadCurrentPDF() {
+    if (currentPDF) {
+        downloadFile(currentPDF.name, currentPDF.path);
+    }
+}
+
+function downloadFile(fileName, filePath) {
+    const link = document.createElement('a');
+    link.href = filePath;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    
+    showNotification(`Downloading: ${fileName}`);
+}
+
+function showNotification(message) {
+    const notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.textContent = message;
+    notification.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #00f3ff;
+        color: #0a0a0a;
+        padding: 15px 25px;
+        border-radius: 10px;
+        font-weight: 600;
+        animation: slideIn 0.3s ease;
+        z-index: 2000;
+    `;
+    
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+        notification.style.animation = 'slideOut 0.3s ease';
+        setTimeout(() => {
+            document.body.removeChild(notification);
+        }, 300);
+    }, 3000);
+}
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+    const modal = document.getElementById('pdfModal');
+    if (event.target === modal) {
+        closePDFViewer();
+    }
+};
+
+// Keep dropdown closed on scroll
+window.addEventListener('scroll', function() {
+    const dropdownMenu = document.getElementById('dropdownMenu');
+    if (dropdownMenu && dropdownMenu.classList.contains('active')) {
+        dropdownMenu.classList.remove('active');
+    }
+});
+
+// Add animations
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes slideOut {
+        from {
+            transform: translateX(0);
+            opacity: 1;
+        }
+        to {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+    }
+`;
+document.head.appendChild(style);
