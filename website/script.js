@@ -555,16 +555,19 @@ function openPDFViewer(pdfPath, pdfName) {
     const pdfTitle = document.getElementById('pdfTitle');
     
     if (modal && pdfViewer && pdfTitle) {
+        // Encode the path for URL (handles spaces and special characters)
+        const encodedPath = pdfPath.split('/').map(segment => encodeURIComponent(segment)).join('/');
+        
         // For local files, try to load in iframe
         // If it fails, the user can use "Open in New Tab" or Download
-        pdfViewer.src = pdfPath;
+        pdfViewer.src = encodedPath;
         pdfTitle.textContent = pdfName;
         currentPDF = { path: pdfPath, name: pdfName };
         
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden';
         
-        console.log('PDF Modal opened for:', pdfPath);
+        console.log('PDF Modal opened for:', encodedPath);
     } else {
         console.error('PDF Modal elements not found');
     }
@@ -573,7 +576,8 @@ function openPDFViewer(pdfPath, pdfName) {
 // Open PDF in a new browser tab
 function openPDFInNewTab() {
     if (currentPDF) {
-        window.open(currentPDF.path, '_blank');
+        const encodedPath = currentPDF.path.split('/').map(segment => encodeURIComponent(segment)).join('/');
+        window.open(encodedPath, '_blank');
     }
 }
 
@@ -596,8 +600,9 @@ function downloadCurrentPDF() {
 }
 
 function downloadFile(fileName, filePath) {
+    const encodedPath = filePath.split('/').map(segment => encodeURIComponent(segment)).join('/');
     const link = document.createElement('a');
-    link.href = filePath;
+    link.href = encodedPath;
     link.download = fileName;
     document.body.appendChild(link);
     link.click();
