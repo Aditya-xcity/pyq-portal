@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Syllabus Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background: #0b0f1c;
+  color: #e8edf5;
+  padding: 2rem;
+}
+
+.top-nav {
+  max-width: 900px;
+  margin: 0 auto 1rem;
+}
+
+.home-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #e8edf5;
+  background: #1b2440;
+  border: 1px solid #2a3861;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.home-btn:hover {
+  background: #25345e;
+  transform: translateY(-1px);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #0f1322;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+/* header */
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #7db8ff;
+}
+
+/* dropdown */
+.year {
+  border: 1px solid #1e253a;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.year-header {
+  padding: 1rem;
+  background: #141b2f;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.year-header:hover {
+  background: #1b2440;
+}
+
+.semesters {
+  display: none;
+  background: #0f1322;
+}
+
+.sem {
+  padding: 0.9rem 1rem;
+  border-top: 1px solid #1e253a;
+  cursor: pointer;
+}
+
+.sem:hover {
+  background: #192246;
+}
+
+.badge {
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 20px;
+  background: #1a2340;
+  margin-left: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top-nav">
+  <a class="home-btn" href="https://aditya-xcity.github.io/pyq-portal/website/">Home</a>
+</div>
+
+<div class="container">
+  <div class="title">📘 Syllabus Hub</div>
+
+  <!-- 1st Year -->
+  <div class="year">
+    <div class="year-header" onclick="toggle(this)">
+      1st Year
+      <span>▼</span>
+    </div>
+    <div class="semesters">
+      <div class="sem" onclick="openLink('https://drive.google.com/drive/folders/1SN9R2QIRsYkZhSLVssScRMouoHh2toha')">
+        Semester 1 <span class="badge">Available</span>
+      </div>
+      <div class="sem" onclick="openLink('https://drive.google.com/drive/folders/1TXT7E8V9SQbuknXXc7y00LX8IAPmCRkT')">
+        Semester 2 <span class="badge">Available</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2nd Year -->
+  <div class="year">
+    <div class="year-header" onclick="toggle(this)">
+      2nd Year
+      <span>▼</span>
+    </div>
+    <div class="semesters">
+      <div class="sem" onclick="openLink('https://drive.google.com/drive/folders/1F6qERm14oH6ZAaB9OOssL4y8i3ewAr1l')">
+        Semester 3 <span class="badge">Available</span>
+      </div>
+      <div class="sem" onclick="openLink('https://drive.google.com/drive/folders/1svgHXe9E5WH8o_bxR4SCN35ZAw_BGuCZ')">
+        Semester 4 <span class="badge">Available</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3rd Year -->
+  <div class="year">
+    <div class="year-header" onclick="toggle(this)">
+      3rd Year
+      <span>▼</span>
+    </div>
+    <div class="semesters">
+      <div class="sem" onclick="openLink(null)">
+        Semester 5 <span class="badge">Coming Soon</span>
+      </div>
+      <div class="sem" onclick="openLink(null)">
+        Semester 6 <span class="badge">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4th Year -->
+  <div class="year">
+    <div class="year-header" onclick="toggle(this)">
+      4th Year
+      <span>▼</span>
+    </div>
+    <div class="semesters">
+      <div class="sem" onclick="openLink(null)">
+        Semester 7 <span class="badge">Coming Soon</span>
+      </div>
+      <div class="sem" onclick="openLink(null)">
+        Semester 8 <span class="badge">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function toggle(header) {
+  const content = header.nextElementSibling;
+  const isOpen = content.style.display === "block";
+
+  document.querySelectorAll(".semesters").forEach(el => el.style.display = "none");
+
+  content.style.display = isOpen ? "none" : "block";
+}
+
+function openLink(link) {
+  if(link){
+    window.open(link, "_blank");
+  } else {
+    alert("🚧 Not uploaded yet");
+  }
+}
+</script>
+
+</body>
+</html>
