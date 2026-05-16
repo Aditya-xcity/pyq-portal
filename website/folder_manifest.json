@@ -1,10 +1,10 @@
 {
-  "generated": "2026-03-04T13:22:10.999240",
+  "generated": "2026-05-16T13:43:17.432231",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 37,
-    "total_files": 26,
-    "total_pdfs": 26
+    "total_folders": 11,
+    "total_files": 27,
+    "total_pdfs": 27
   },
   "structure": {
     "name": "BTech_CSE",
@@ -12,74 +12,10 @@
     "path": "",
     "children": [
       {
-        "name": "Year_1",
-        "type": "folder",
-        "path": "Year_1",
-        "children": [
-          {
-            "name": "Sem1",
-            "type": "folder",
-            "path": "Year_1/Sem1",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_1/Sem1/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_1/Sem1/Mid",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Sem2",
-            "type": "folder",
-            "path": "Year_1/Sem2",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_1/Sem2/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_1/Sem2/Mid",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "Year_2",
         "type": "folder",
         "path": "Year_2",
         "children": [
-          {
-            "name": "Sem3",
-            "type": "folder",
-            "path": "Year_2/Sem3",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_2/Sem3/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_2/Sem3/Mid",
-                "children": []
-              }
-            ]
-          },
           {
             "name": "Sem4",
             "type": "folder",
@@ -282,6 +218,14 @@
                         "size": 121355,
                         "size_mb": 0.12,
                         "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs408_endsem_2026_May_15.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Java/tcs408_endsem_2026_May_15.pdf",
+                        "size": 1122886,
+                        "size_mb": 1.07,
+                        "extension": ".pdf"
                       }
                     ]
                   }
@@ -346,110 +290,8 @@
                         "extension": ".pdf"
                       }
                     ]
-                  },
-                  {
-                    "name": "Design and Analysis of Algorithms",
-                    "type": "folder",
-                    "path": "Year_2/Sem4/Mid/Design and Analysis of Algorithms",
-                    "children": []
-                  },
-                  {
-                    "name": "Microprocessor",
-                    "type": "folder",
-                    "path": "Year_2/Sem4/Mid/Microprocessor",
-                    "children": []
                   }
                 ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Year_3",
-        "type": "folder",
-        "path": "Year_3",
-        "children": [
-          {
-            "name": "Sem5",
-            "type": "folder",
-            "path": "Year_3/Sem5",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_3/Sem5/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_3/Sem5/Mid",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Sem6",
-            "type": "folder",
-            "path": "Year_3/Sem6",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_3/Sem6/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_3/Sem6/Mid",
-                "children": []
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Year_4",
-        "type": "folder",
-        "path": "Year_4",
-        "children": [
-          {
-            "name": "Sem7",
-            "type": "folder",
-            "path": "Year_4/Sem7",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_4/Sem7/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_4/Sem7/Mid",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "Sem8",
-            "type": "folder",
-            "path": "Year_4/Sem8",
-            "children": [
-              {
-                "name": "End",
-                "type": "folder",
-                "path": "Year_4/Sem8/End",
-                "children": []
-              },
-              {
-                "name": "Mid",
-                "type": "folder",
-                "path": "Year_4/Sem8/Mid",
-                "children": []
               }
             ]
           }
