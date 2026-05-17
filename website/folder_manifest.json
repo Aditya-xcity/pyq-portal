@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-17T14:30:23.842111",
+  "generated": "2026-05-17T16:08:28.428476",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 19,
+    "total_folders": 25,
     "total_files": 28,
     "total_pdfs": 28
   },
@@ -354,7 +354,46 @@
         "name": "Year_4",
         "type": "folder",
         "path": "Year_4",
-        "children": []
+        "children": [
+          {
+            "name": "Sem7",
+            "type": "folder",
+            "path": "Year_4/Sem7",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_4/Sem7/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_4/Sem7/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem8",
+            "type": "folder",
+            "path": "Year_4/Sem8",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_4/Sem8/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_4/Sem8/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   }
