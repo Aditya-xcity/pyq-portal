@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-16T13:43:17.432231",
+  "generated": "2026-05-17T14:18:51.184363",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 11,
+    "total_folders": 13,
     "total_files": 27,
     "total_pdfs": 27
   },
@@ -11,6 +11,12 @@
     "type": "folder",
     "path": "",
     "children": [
+      {
+        "name": "Year_1",
+        "type": "folder",
+        "path": "Year_1",
+        "children": []
+      },
       {
         "name": "Year_2",
         "type": "folder",
@@ -296,6 +302,12 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Year_4",
+        "type": "folder",
+        "path": "Year_4",
+        "children": []
       }
     ]
   }

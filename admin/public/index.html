@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PYQ Portal Admin Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .header {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 1024px) {
+      .main-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .panel-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .panel-content {
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: inherit;
+      font-size: 14px;
+    }
+
+    input:focus, textarea:focus, select:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    button {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 14px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    button.secondary {
+      background: #f0f0f0;
+      color: #333;
+      margin-right: 10px;
+    }
+
+    button.secondary:hover {
+      background: #e0e0e0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    button.danger {
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+
+    button.danger:hover {
+      box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+    }
+
+    .file-tree {
+      max-height: 400px;
+      overflow-y: auto;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      padding: 10px;
+    }
+
+    .tree-item {
+      padding: 8px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 3px;
+    }
+
+    .tree-item:hover {
+      background: #f5f5f5;
+    }
+
+    .tree-item.selected {
+      background: #e3f2fd;
+      color: #667eea;
+    }
+
+    .tree-item-name {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .tree-item-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .tree-item-actions button {
+      padding: 4px 8px;
+      font-size: 12px;
+    }
+
+    .icon-folder::before {
+      content: "📁";
+      font-size: 16px;
+    }
+
+    .icon-file::before {
+      content: "📄";
+      font-size: 16px;
+    }
+
+    .message {
+      padding: 12px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      display: none;
+    }
+
+    .message.success {
+      background: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+      display: block;
+    }
+
+    .message.error {
+      background: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+      display: block;
+    }
+
+    .message.info {
+      background: #d1ecf1;
+      color: #0c5460;
+      border: 1px solid #bee5eb;
+      display: block;
+    }
+
+    .git-status {
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 12px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .git-status-line {
+      margin: 3px 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .status-modified {
+      color: #f59e0b;
+    }
+
+    .status-added {
+      color: #10b981;
+    }
+
+    .status-deleted {
+      color: #ef4444;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .full-width {
+      grid-column: 1 / -1;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 10px;
+      border-bottom: 2px solid #eee;
+      margin-bottom: 20px;
+    }
+
+    .tab {
+      padding: 10px 15px;
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-size: 14px;
+      font-weight: 500;
+      color: #999;
+      border-bottom: 3px solid transparent;
+      position: relative;
+      top: 2px;
+    }
+
+    .tab.active {
+      color: #667eea;
+      border-bottom-color: #667eea;
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    .loading {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 2px solid #f3f3f3;
+      border-top: 2px solid #667eea;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .footer {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      color: #999;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>📚 PYQ Portal Admin Dashboard</h1>
+      <p class="subtitle">Manage PDFs, folders, and deploy changes</p>
+    </div>
+
+    <!-- Main Grid -->
+    <div class="main-grid">
+      <!-- Left Column: File Management -->
+      <div class="panel">
+        <div class="panel-header">📂 File Management</div>
+        <div class="panel-content">
+          <div id="message-upload" class="message"></div>
+
+          <div class="tabs">
+            <button class="tab active" onclick="switchTab('upload')">Upload</button>
+            <button class="tab" onclick="switchTab('create')">Create Folder</button>
+            <button class="tab" onclick="switchTab('manage')">Manage</button>
+          </div>
+
+          <!-- Upload Tab -->
+          <div id="upload" class="tab-content active">
+            <div class="form-group">
+              <label>Target Folder Path</label>
+              <input type="text" id="uploadPath" placeholder="e.g., Year_2/Sem4/Daa" value="Year_2/Sem4/Daa">
+            </div>
+
+            <div class="form-group">
+              <label>Select PDF File</label>
+              <input type="file" id="pdfFile" accept=".pdf">
+            </div>
+
+            <button onclick="uploadPDF()" style="width: 100%;">Upload PDF</button>
+          </div>
+
+          <!-- Create Folder Tab -->
+          <div id="create" class="tab-content">
+            <div class="form-group">
+              <label>New Folder Path</label>
+              <input type="text" id="createFolderPath" placeholder="e.g., Year_3/Sem5/DataScience">
+            </div>
+
+            <button onclick="createFolder()" style="width: 100%;">Create Folder</button>
+          </div>
+
+          <!-- Manage Tab -->
+          <div id="manage" class="tab-content">
+            <div class="form-group">
+              <label>Select Item</label>
+              <div class="file-tree" id="fileTree"></div>
+            </div>
+
+            <div id="selectedItemInfo" style="margin-top: 15px; padding: 10px; background: #f5f5f5; border-radius: 5px; display: none;">
+              <p><strong>Selected:</strong> <span id="selectedPath"></span></p>
+              <div class="grid-2" style="margin-top: 10px;">
+                <button onclick="renameItem()" class="secondary">Rename</button>
+                <button onclick="deleteItem()" class="danger">Delete</button>
+              </div>
+            </div>
+
+            <div id="renameForm" style="margin-top: 15px; display: none;">
+              <div class="form-group">
+                <label>New Name</label>
+                <input type="text" id="newName" placeholder="New name">
+              </div>
+              <div class="grid-2">
+                <button onclick="confirmRename()">Confirm</button>
+                <button onclick="cancelRename()" class="secondary">Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Git & Deploy -->
+      <div class="panel">
+        <div class="panel-header">🚀 Deploy & Git</div>
+        <div class="panel-content">
+          <div id="message-git" class="message"></div>
+
+          <div class="tabs">
+            <button class="tab active" onclick="switchGitTab('status')">Status</button>
+            <button class="tab" onclick="switchGitTab('commit')">Commit</button>
+            <button class="tab" onclick="switchGitTab('manifest')">Manifest</button>
+          </div>
+
+          <!-- Status Tab -->
+          <div id="status" class="tab-content active">
+            <button onclick="loadGitStatus()" style="width: 100%; margin-bottom: 15px;">Refresh Status</button>
+            <div id="gitStatusDisplay" class="git-status"></div>
+          </div>
+
+          <!-- Commit Tab -->
+          <div id="commit" class="tab-content">
+            <div class="form-group">
+              <label>Commit Message</label>
+              <textarea id="commitMessage" placeholder="e.g., Add Q1 2025 subjects" rows="3"></textarea>
+            </div>
+
+            <div class="grid-2">
+              <button onclick="commitOnly()">Commit</button>
+              <button onclick="commitAndPush()">Commit & Push</button>
+            </div>
+
+            <div id="commitResult" style="margin-top: 15px;"></div>
+          </div>
+
+          <!-- Manifest Tab -->
+          <div id="manifest" class="tab-content">
+            <p style="margin-bottom: 15px; font-size: 14px; color: #666;">
+              Regenerate the folder_manifest.json file. This usually happens automatically, but you can trigger it manually if needed.
+            </p>
+
+            <button onclick="regenerateManifest()" style="width: 100%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">Regenerate Manifest</button>
+
+            <div id="manifestResult" style="margin-top: 15px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>🔒 This admin dashboard is localhost-only for security. All changes are automatically committed to git.</p>
+    </div>
+  </div>
+
+  <script>
+    // Tab switching
+    function switchTab(tabName) {
+      document.querySelectorAll('#upload, #create, #manage').forEach(el => {
+        el.classList.remove('active');
+      });
+      document.getElementById(tabName).classList.add('active');
+
+      document.querySelectorAll('.tabs .tab').forEach((tab, idx) => {
+        tab.classList.remove('active');
+      });
+      event.target.classList.add('active');
+
+      if (tabName === 'manage') {
+        loadFileTree();
+      }
+    }
+
+    function switchGitTab(tabName) {
+      document.querySelectorAll('#status, #commit, #manifest').forEach(el => {
+        el.classList.remove('active');
+      });
+      document.getElementById(tabName).classList.add('active');
+
+      document.querySelectorAll('.tabs .tab').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      event.target.classList.add('active');
+
+      if (tabName === 'status') {
+        loadGitStatus();
+      }
+    }
+
+    // Messaging
+    function showMessage(elementId, message, type) {
+      const el = document.getElementById(elementId);
+      el.textContent = message;
+      el.className = `message ${type}`;
+      setTimeout(() => {
+        el.className = 'message';
+      }, 5000);
+    }
+
+    // Upload PDF
+    async function uploadPDF() {
+      const file = document.getElementById('pdfFile').files[0];
+      const path = document.getElementById('uploadPath').value.trim();
+
+      if (!file) {
+        showMessage('message-upload', '❌ Please select a PDF file', 'error');
+        return;
+      }
+
+      if (!path) {
+        showMessage('message-upload', '❌ Please enter target path', 'error');
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append('pdf', file);
+      formData.append('path', path);
+
+      try {
+        showMessage('message-upload', '⏳ Uploading...', 'info');
+
+        const response = await fetch('/api/upload', {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        document.getElementById('pdfFile').value = '';
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // Create Folder
+    async function createFolder() {
+      const path = document.getElementById('createFolderPath').value.trim();
+
+      if (!path) {
+        showMessage('message-upload', '❌ Please enter folder path', 'error');
+        return;
+      }
+
+      try {
+        showMessage('message-upload', '⏳ Creating folder...', 'info');
+
+        const response = await fetch('/api/create-folder', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        document.getElementById('createFolderPath').value = '';
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // Load file tree
+    let selectedPath = null;
+
+    async function loadFileTree() {
+      try {
+        const response = await fetch('/api/structure');
+        const structure = await response.json();
+        document.getElementById('fileTree').innerHTML = renderTree(structure, '');
+      } catch (err) {
+        console.error('Error loading structure:', err);
+      }
+    }
+
+    function renderTree(node, parentPath) {
+      let html = '';
+
+      for (const folder of node.folders) {
+        const fullPath = parentPath ? `${parentPath}/${folder.name}` : folder.name;
+        html += `
+          <div class="tree-item" onclick="selectItem('${fullPath}', event)">
+            <div class="tree-item-name">
+              <span class="icon-folder"></span>
+              ${folder.name}
+            </div>
+          </div>
+          <div style="margin-left: 20px;">
+            ${renderTree(folder.children, fullPath)}
+          </div>
+        `;
+      }
+
+      for (const file of node.files) {
+        const fullPath = parentPath ? `${parentPath}/${file.name}` : file.name;
+        html += `
+          <div class="tree-item" onclick="selectItem('${fullPath}', event)">
+            <div class="tree-item-name">
+              <span class="icon-file"></span>
+              ${file.name}
+            </div>
+          </div>
+        `;
+      }
+
+      return html;
+    }
+
+    function selectItem(path, event) {
+      event.stopPropagation();
+      selectedPath = path;
+      document.querySelectorAll('.tree-item').forEach(el => el.classList.remove('selected'));
+      event.currentTarget.classList.add('selected');
+      document.getElementById('selectedItemInfo').style.display = 'block';
+      document.getElementById('selectedPath').textContent = path;
+      document.getElementById('renameForm').style.display = 'none';
+    }
+
+    function renameItem() {
+      document.getElementById('renameForm').style.display = 'block';
+      document.getElementById('newName').focus();
+    }
+
+    async function confirmRename() {
+      const newName = document.getElementById('newName').value.trim();
+
+      if (!newName) {
+        showMessage('message-upload', '❌ Please enter new name', 'error');
+        return;
+      }
+
+      try {
+        showMessage('message-upload', '⏳ Renaming...', 'info');
+
+        const response = await fetch('/api/rename', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ oldPath: selectedPath, newName })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        loadFileTree();
+        selectedPath = null;
+        document.getElementById('selectedItemInfo').style.display = 'none';
+        document.getElementById('renameForm').style.display = 'none';
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    function cancelRename() {
+      document.getElementById('renameForm').style.display = 'none';
+    }
+
+    async function deleteItem() {
+      if (!confirm(`Delete ${selectedPath}? This cannot be undone.`)) return;
+
+      try {
+        showMessage('message-upload', '⏳ Deleting...', 'info');
+
+        const response = await fetch('/api/delete', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path: selectedPath })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        loadFileTree();
+        selectedPath = null;
+        document.getElementById('selectedItemInfo').style.display = 'none';
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // Git operations
+    async function loadGitStatus() {
+      try {
+        const response = await fetch('/api/git/status', { method: 'POST' });
+        const status = await response.json();
+
+        let html = '';
+        if (status.modified && status.modified.length > 0) {
+          html += '<strong>Modified:</strong>\n';
+          status.modified.forEach(file => {
+            html += `<div class="git-status-line status-modified">M ${file}</div>`;
+          });
+        }
+
+        if (status.created && status.created.length > 0) {
+          html += '<strong>Created:</strong>\n';
+          status.created.forEach(file => {
+            html += `<div class="git-status-line status-added">A ${file}</div>`;
+          });
+        }
+
+        if (status.deleted && status.deleted.length > 0) {
+          html += '<strong>Deleted:</strong>\n';
+          status.deleted.forEach(file => {
+            html += `<div class="git-status-line status-deleted">D ${file}</div>`;
+          });
+        }
+
+        if (!html) {
+          html = '<div class="git-status-line">✓ Everything up to date</div>';
+        }
+
+        document.getElementById('gitStatusDisplay').innerHTML = html;
+      } catch (err) {
+        showMessage('message-git', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    async function commitOnly() {
+      const message = document.getElementById('commitMessage').value.trim();
+
+      if (!message) {
+        showMessage('message-git', '❌ Please enter commit message', 'error');
+        return;
+      }
+
+      try {
+        showMessage('message-git', '⏳ Committing...', 'info');
+
+        const response = await fetch('/api/git/commit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-git', `✓ Committed: ${data.commit}`, 'success');
+        document.getElementById('commitMessage').value = '';
+        loadGitStatus();
+      } catch (err) {
+        showMessage('message-git', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    async function commitAndPush() {
+      const message = document.getElementById('commitMessage').value.trim();
+
+      if (!message) {
+        showMessage('message-git', '❌ Please enter commit message', 'error');
+        return;
+      }
+
+      try {
+        showMessage('message-git', '⏳ Committing and pushing...', 'info');
+
+        const response = await fetch('/api/git/commit-and-push', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-git', `✓ Deployed to GitHub!`, 'success');
+        document.getElementById('commitMessage').value = '';
+        loadGitStatus();
+      } catch (err) {
+        showMessage('message-git', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    async function regenerateManifest() {
+      try {
+        document.getElementById('manifestResult').innerHTML = '⏳ Regenerating...';
+
+        const response = await fetch('/api/regenerate-manifest', {
+          method: 'POST'
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        document.getElementById('manifestResult').innerHTML = '✓ Manifest regenerated successfully!';
+        showMessage('message-git', '✓ Manifest updated', 'success');
+      } catch (err) {
+        document.getElementById('manifestResult').innerHTML = `❌ ${err.message}`;
+        showMessage('message-git', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // Initialize
+    window.addEventListener('load', () => {
+      loadGitStatus();
+    });
+  </script>
+</body>
+</html>

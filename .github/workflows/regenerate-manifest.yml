@@ -1,0 +1,38 @@
+name: Regenerate Manifest
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'BTech_CSE/**'
+      - 'generate_manifest.py'
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Run manifest generator
+      run: python generate_manifest.py
+      
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if git diff --quiet website/folder_manifest.json; then
+          echo "Manifest unchanged, skipping commit"
+        else
+          echo "Manifest changed, committing..."
+          git add website/folder_manifest.json
+          git commit -m "chore: regenerate folder_manifest.json [skip ci]"
+          git push
+        fi

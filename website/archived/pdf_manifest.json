@@ -1,0 +1,26 @@
+{
+  "generated": "2026-02-21T22:03:23.616238",
+  "total_pdfs": 530,
+  "pdfs": {
+    "Year 1": {
+      "Semester 1": {
+        "Subject_101": {
+          "PYQs": [
+            {
+              "name": "Artificial Intelligence- MCS-143.pdf",
+              "size": 615646,
+              "size_mb": 0.59,
+              "path": "Year 1\\Semester 1\\Subject_101\\PYQs\\Artificial Intelligence- MCS-143.pdf",
+              "type": "PYQs"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "statistics": {
+    "total_size": 278910321
+  },
+  "archived_reason": "Legacy manifest. Use website/folder_manifest.json instead.",
+  "archived_date": "2026-05-17"
+}
