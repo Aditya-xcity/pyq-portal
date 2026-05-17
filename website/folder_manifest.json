@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-17T14:19:40.681998",
+  "generated": "2026-05-17T14:30:23.842111",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 13,
-    "total_files": 27,
-    "total_pdfs": 27
+    "total_folders": 19,
+    "total_files": 28,
+    "total_pdfs": 28
   },
   "structure": {
     "name": "BTech_CSE",
@@ -15,7 +15,46 @@
         "name": "Year_1",
         "type": "folder",
         "path": "Year_1",
-        "children": []
+        "children": [
+          {
+            "name": "Sem1",
+            "type": "folder",
+            "path": "Year_1/Sem1",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem1/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_1/Sem1/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem2",
+            "type": "folder",
+            "path": "Year_1/Sem2",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem2/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_1/Sem2/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Year_2",
@@ -106,6 +145,14 @@
                         "path": "Year_2/Sem4/End/Automata/tcs402_endsem_2025_may.pdf",
                         "size": 197166,
                         "size_mb": 0.19,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs402_endsem_2025_may_testcase.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Automata/tcs402_endsem_2025_may_testcase.pdf",
+                        "size": 189765,
+                        "size_mb": 0.18,
                         "extension": ".pdf"
                       }
                     ]

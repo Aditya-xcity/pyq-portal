@@ -15,25 +15,20 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       min-height: 100vh;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 1400px;
-      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
     }
 
     .header {
       background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-      margin-bottom: 20px;
+      padding: 20px 30px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
 
     h1 {
       color: #333;
       margin-bottom: 5px;
+      font-size: 24px;
     }
 
     .subtitle {
@@ -41,17 +36,121 @@
       font-size: 14px;
     }
 
-    .main-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+    .main-container {
+      display: flex;
+      flex: 1;
       gap: 20px;
-      margin-bottom: 20px;
+      padding: 20px;
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 100%;
     }
 
-    @media (max-width: 1024px) {
-      .main-grid {
-        grid-template-columns: 1fr;
-      }
+    /* File Explorer Panel */
+    .file-explorer-panel {
+      flex: 0 0 320px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .panel-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px 20px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .file-tree {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px;
+    }
+
+    .tree-node {
+      margin: 2px 0;
+    }
+
+    .tree-node-toggle {
+      background: none;
+      border: none;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      cursor: pointer;
+      color: #667eea;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tree-node-toggle:hover {
+      background: rgba(102, 126, 234, 0.1);
+      border-radius: 3px;
+    }
+
+    .tree-node-toggle.collapsed::before {
+      content: "▶";
+    }
+
+    .tree-node-toggle.expanded::before {
+      content: "▼";
+    }
+
+    .tree-node-toggle.no-children {
+      visibility: hidden;
+    }
+
+    .tree-node-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 8px;
+      cursor: pointer;
+      border-radius: 5px;
+      user-select: none;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+
+    .tree-node-label:hover {
+      background: #f5f5f5;
+    }
+
+    .tree-node-label.selected {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .tree-node-label.context-menu-target {
+      background: #e3f2fd;
+    }
+
+    .tree-icon {
+      font-size: 16px;
+      width: 16px;
+      display: inline-block;
+    }
+
+    .tree-children {
+      margin-left: 20px;
+    }
+
+    .tree-children.hidden {
+      display: none;
+    }
+
+    /* Content Panel */
+    .content-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
     .panel {
@@ -59,51 +158,104 @@
       border-radius: 10px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
       overflow: hidden;
-    }
-
-    .panel-header {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 20px;
-      font-size: 16px;
-      font-weight: 600;
+      display: flex;
+      flex-direction: column;
     }
 
     .panel-content {
       padding: 20px;
+      flex: 1;
+      overflow-y: auto;
     }
 
-    .form-group {
+    /* Breadcrumb */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 0;
       margin-bottom: 15px;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 8px;
-      color: #333;
-      font-weight: 500;
       font-size: 14px;
+      color: #666;
     }
 
-    input, textarea, select {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ddd;
+    .breadcrumb-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .breadcrumb-item::after {
+      content: "›";
+      margin-left: 8px;
+      color: #ccc;
+    }
+
+    .breadcrumb-item:last-child::after {
+      content: "";
+      margin: 0;
+    }
+
+    .breadcrumb-item.home {
+      cursor: pointer;
+      color: #667eea;
+    }
+
+    .breadcrumb-item.home:hover {
+      text-decoration: underline;
+    }
+
+    .current-folder-display {
+      background: #f5f5f5;
+      padding: 12px;
       border-radius: 5px;
-      font-family: inherit;
+      margin-bottom: 15px;
       font-size: 14px;
+      font-weight: 500;
+      color: #333;
     }
 
-    input:focus, textarea:focus, select:focus {
-      outline: none;
-      border-color: #667eea;
-      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    /* Upload Area */
+    .upload-area {
+      border: 2px dashed #667eea;
+      border-radius: 8px;
+      padding: 30px;
+      text-align: center;
+      background: #f9f9ff;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .upload-area:hover {
+      border-color: #764ba2;
+      background: #f5f0ff;
+    }
+
+    .upload-area.drag-over {
+      border-color: #764ba2;
+      background: #f0e6ff;
+    }
+
+    .upload-area-text {
+      color: #667eea;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .upload-area-hint {
+      color: #999;
+      font-size: 13px;
+    }
+
+    .upload-input {
+      display: none;
     }
 
     button {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
       color: white;
-      padding: 12px 20px;
+      padding: 10px 16px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -124,75 +276,17 @@
     button.secondary {
       background: #f0f0f0;
       color: #333;
-      margin-right: 10px;
     }
 
     button.secondary:hover {
       background: #e0e0e0;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
 
     button.danger {
       background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
     }
 
-    button.danger:hover {
-      box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
-    }
-
-    .file-tree {
-      max-height: 400px;
-      overflow-y: auto;
-      border: 1px solid #eee;
-      border-radius: 5px;
-      padding: 10px;
-    }
-
-    .tree-item {
-      padding: 8px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-radius: 3px;
-    }
-
-    .tree-item:hover {
-      background: #f5f5f5;
-    }
-
-    .tree-item.selected {
-      background: #e3f2fd;
-      color: #667eea;
-    }
-
-    .tree-item-name {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .tree-item-actions {
-      display: flex;
-      gap: 8px;
-    }
-
-    .tree-item-actions button {
-      padding: 4px 8px;
-      font-size: 12px;
-    }
-
-    .icon-folder::before {
-      content: "📁";
-      font-size: 16px;
-    }
-
-    .icon-file::before {
-      content: "📄";
-      font-size: 16px;
-    }
-
+    /* Messages */
     .message {
       padding: 12px;
       border-radius: 5px;
@@ -221,45 +315,41 @@
       display: block;
     }
 
-    .git-status {
-      background: #f5f5f5;
-      padding: 15px;
+    /* Context Menu */
+    .context-menu {
+      position: fixed;
+      background: white;
+      border: 1px solid #ddd;
       border-radius: 5px;
-      margin-bottom: 15px;
-      font-family: 'Monaco', 'Courier New', monospace;
-      font-size: 12px;
-      max-height: 200px;
-      overflow-y: auto;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      z-index: 1000;
+      display: none;
     }
 
-    .git-status-line {
-      margin: 3px 0;
-      white-space: pre-wrap;
-      word-break: break-word;
+    .context-menu.show {
+      display: block;
     }
 
-    .status-modified {
-      color: #f59e0b;
-    }
-
-    .status-added {
-      color: #10b981;
-    }
-
-    .status-deleted {
-      color: #ef4444;
-    }
-
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+    .context-menu-item {
+      padding: 10px 15px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
       gap: 10px;
+      font-size: 13px;
+      color: #333;
     }
 
-    .full-width {
-      grid-column: 1 / -1;
+    .context-menu-item:hover {
+      background: #f5f5f5;
     }
 
+    .context-menu-item.danger:hover {
+      background: #ffebee;
+      color: #c41c3b;
+    }
+
+    /* Tabs */
     .tabs {
       display: flex;
       gap: 10px;
@@ -293,108 +383,119 @@
       display: block;
     }
 
-    .loading {
-      display: inline-block;
-      width: 12px;
-      height: 12px;
-      border: 2px solid #f3f3f3;
-      border-top: 2px solid #667eea;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
+    /* Git Status */
+    .git-status {
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 12px;
+      max-height: 200px;
+      overflow-y: auto;
     }
 
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+    .git-status-line {
+      margin: 3px 0;
+      white-space: pre-wrap;
+      word-break: break-word;
     }
 
+    .status-modified { color: #f59e0b; }
+    .status-added { color: #10b981; }
+    .status-deleted { color: #ef4444; }
+
+    /* Form */
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #333;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: inherit;
+      font-size: 14px;
+    }
+
+    textarea:focus {
+      outline: none;
+      border-color: #667eea;
+      box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+
+    /* Footer */
     .footer {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
+      background: rgba(255,255,255,0.9);
+      padding: 15px 20px;
       text-align: center;
       color: #999;
       font-size: 12px;
     }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .main-container {
+        flex-direction: column;
+      }
+
+      .file-explorer-panel {
+        flex: 0 0 auto;
+        max-height: 300px;
+      }
+    }
   </style>
 </head>
 <body>
-  <div class="container">
-    <!-- Header -->
-    <div class="header">
-      <h1>📚 PYQ Portal Admin Dashboard</h1>
-      <p class="subtitle">Manage PDFs, folders, and deploy changes</p>
+  <div class="header">
+    <h1>📚 PYQ Portal Admin Dashboard</h1>
+    <p class="subtitle">Visual file explorer • Drag & drop uploads • Auto-deploy to GitHub</p>
+  </div>
+
+  <div class="main-container">
+    <!-- File Explorer (Left Panel) -->
+    <div class="file-explorer-panel">
+      <div class="panel-header">📂 Folder Structure</div>
+      <div class="file-tree" id="fileTree"></div>
     </div>
 
-    <!-- Main Grid -->
-    <div class="main-grid">
-      <!-- Left Column: File Management -->
+    <!-- Content (Right Panel) -->
+    <div class="content-panel">
+      <!-- Upload & Management -->
       <div class="panel">
-        <div class="panel-header">📂 File Management</div>
+        <div class="panel-header">📤 Upload & Manage</div>
         <div class="panel-content">
           <div id="message-upload" class="message"></div>
 
-          <div class="tabs">
-            <button class="tab active" onclick="switchTab('upload')">Upload</button>
-            <button class="tab" onclick="switchTab('create')">Create Folder</button>
-            <button class="tab" onclick="switchTab('manage')">Manage</button>
+          <!-- Breadcrumb -->
+          <div class="breadcrumb" id="breadcrumb"></div>
+
+          <!-- Current Folder -->
+          <div class="current-folder-display" id="currentFolderDisplay">
+            Select a folder to upload files
           </div>
 
-          <!-- Upload Tab -->
-          <div id="upload" class="tab-content active">
-            <div class="form-group">
-              <label>Target Folder Path</label>
-              <input type="text" id="uploadPath" placeholder="e.g., Year_2/Sem4/Daa" value="Year_2/Sem4/Daa">
-            </div>
-
-            <div class="form-group">
-              <label>Select PDF File</label>
-              <input type="file" id="pdfFile" accept=".pdf">
-            </div>
-
-            <button onclick="uploadPDF()" style="width: 100%;">Upload PDF</button>
+          <!-- Upload Area -->
+          <div class="upload-area" id="uploadArea">
+            <div class="upload-area-text">📁 Click to upload or drag & drop</div>
+            <div class="upload-area-hint" id="uploadHint">Select a folder first</div>
+            <input type="file" id="uploadInput" class="upload-input" accept=".pdf" multiple>
           </div>
 
-          <!-- Create Folder Tab -->
-          <div id="create" class="tab-content">
-            <div class="form-group">
-              <label>New Folder Path</label>
-              <input type="text" id="createFolderPath" placeholder="e.g., Year_3/Sem5/DataScience">
-            </div>
-
-            <button onclick="createFolder()" style="width: 100%;">Create Folder</button>
-          </div>
-
-          <!-- Manage Tab -->
-          <div id="manage" class="tab-content">
-            <div class="form-group">
-              <label>Select Item</label>
-              <div class="file-tree" id="fileTree"></div>
-            </div>
-
-            <div id="selectedItemInfo" style="margin-top: 15px; padding: 10px; background: #f5f5f5; border-radius: 5px; display: none;">
-              <p><strong>Selected:</strong> <span id="selectedPath"></span></p>
-              <div class="grid-2" style="margin-top: 10px;">
-                <button onclick="renameItem()" class="secondary">Rename</button>
-                <button onclick="deleteItem()" class="danger">Delete</button>
-              </div>
-            </div>
-
-            <div id="renameForm" style="margin-top: 15px; display: none;">
-              <div class="form-group">
-                <label>New Name</label>
-                <input type="text" id="newName" placeholder="New name">
-              </div>
-              <div class="grid-2">
-                <button onclick="confirmRename()">Confirm</button>
-                <button onclick="cancelRename()" class="secondary">Cancel</button>
-              </div>
-            </div>
-          </div>
+          <button onclick="createNewFolder()" style="width: 100%;">➕ Create Subfolder</button>
         </div>
       </div>
 
-      <!-- Right Column: Git & Deploy -->
+      <!-- Git & Deploy -->
       <div class="panel">
         <div class="panel-header">🚀 Deploy & Git</div>
         <div class="panel-content">
@@ -419,7 +520,7 @@
               <textarea id="commitMessage" placeholder="e.g., Add Q1 2025 subjects" rows="3"></textarea>
             </div>
 
-            <div class="grid-2">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
               <button onclick="commitOnly()">Commit</button>
               <button onclick="commitAndPush()">Commit & Push</button>
             </div>
@@ -430,7 +531,7 @@
           <!-- Manifest Tab -->
           <div id="manifest" class="tab-content">
             <p style="margin-bottom: 15px; font-size: 14px; color: #666;">
-              Regenerate the folder_manifest.json file. This usually happens automatically, but you can trigger it manually if needed.
+              Regenerate folder_manifest.json manually if needed (usually auto-runs).
             </p>
 
             <button onclick="regenerateManifest()" style="width: 100%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">Regenerate Manifest</button>
@@ -440,31 +541,351 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer -->
-    <div class="footer">
-      <p>🔒 This admin dashboard is localhost-only for security. All changes are automatically committed to git.</p>
-    </div>
+  <!-- Context Menu -->
+  <div class="context-menu" id="contextMenu"></div>
+
+  <!-- Footer -->
+  <div class="footer">
+    🔒 Localhost-only admin dashboard • All changes auto-commit & deploy
   </div>
 
   <script>
-    // Tab switching
-    function switchTab(tabName) {
-      document.querySelectorAll('#upload, #create, #manage').forEach(el => {
-        el.classList.remove('active');
-      });
-      document.getElementById(tabName).classList.add('active');
+    // ====== STATE ======
+    let fileStructure = null;
+    let selectedFolderPath = null;
+    let expandedFolders = new Set(['Year_2', 'Year_2/Sem4']); // Default expanded
 
-      document.querySelectorAll('.tabs .tab').forEach((tab, idx) => {
-        tab.classList.remove('active');
-      });
-      event.target.classList.add('active');
+    // ====== INITIALIZATION ======
+    window.addEventListener('load', async () => {
+      await loadFileStructure();
+      loadGitStatus();
+    });
 
-      if (tabName === 'manage') {
-        loadFileTree();
+    // ====== FILE TREE MANAGEMENT ======
+    async function loadFileStructure() {
+      try {
+        const response = await fetch('/api/structure');
+        fileStructure = await response.json();
+        renderFileTree();
+      } catch (err) {
+        showMessage('message-upload', `❌ Failed to load structure: ${err.message}`, 'error');
       }
     }
 
+    function renderFileTree() {
+      const container = document.getElementById('fileTree');
+      container.innerHTML = renderTreeNode({
+        folders: fileStructure.folders,
+        files: []
+      }, '');
+    }
+
+    function renderTreeNode(node, parentPath) {
+      let html = '';
+
+      // Render folders
+      for (const folder of node.folders) {
+        const fullPath = parentPath ? `${parentPath}/${folder.name}` : folder.name;
+        const isExpanded = expandedFolders.has(fullPath);
+        const hasChildren = folder.children.folders.length > 0;
+
+        html += `
+          <div class="tree-node" data-path="${fullPath}">
+            <button class="tree-node-toggle ${hasChildren ? (isExpanded ? 'expanded' : 'collapsed') : 'no-children'}" 
+                    onclick="toggleFolder('${fullPath}', event)"></button>
+            <div class="tree-node-label" 
+                 onclick="selectFolder('${fullPath}', event)"
+                 oncontextmenu="showContextMenu('${fullPath}', 'folder', event)">
+              <span class="tree-icon">📁</span>
+              <span>${folder.name}</span>
+            </div>
+            <div class="tree-children ${isExpanded ? '' : 'hidden'}" id="children-${fullPath}">
+              ${renderTreeNode(folder.children, fullPath)}
+            </div>
+          </div>
+        `;
+      }
+
+      // Render files
+      for (const file of node.files) {
+        const fullPath = parentPath ? `${parentPath}/${file.name}` : file.name;
+        html += `
+          <div class="tree-node" data-path="${fullPath}">
+            <span class="tree-node-toggle no-children"></span>
+            <div class="tree-node-label" 
+                 oncontextmenu="showContextMenu('${fullPath}', 'file', event)">
+              <span class="tree-icon">📄</span>
+              <span>${file.name}</span>
+            </div>
+          </div>
+        `;
+      }
+
+      return html;
+    }
+
+    function toggleFolder(path, event) {
+      event.stopPropagation();
+
+      if (expandedFolders.has(path)) {
+        expandedFolders.delete(path);
+      } else {
+        expandedFolders.add(path);
+      }
+
+      const childrenEl = document.getElementById(`children-${path}`);
+      if (childrenEl) {
+        childrenEl.classList.toggle('hidden');
+      }
+
+      const btn = event.target;
+      btn.classList.toggle('expanded');
+      btn.classList.toggle('collapsed');
+    }
+
+    function selectFolder(path, event) {
+      event.stopPropagation();
+
+      // Update selected state
+      document.querySelectorAll('.tree-node-label.selected').forEach(el => {
+        el.classList.remove('selected');
+      });
+      event.currentTarget.classList.add('selected');
+
+      selectedFolderPath = path;
+      updateUploadArea();
+    }
+
+    function updateUploadArea() {
+      const display = document.getElementById('currentFolderDisplay');
+      const hint = document.getElementById('uploadHint');
+      const uploadArea = document.getElementById('uploadArea');
+
+      if (selectedFolderPath) {
+        display.textContent = `📁 ${selectedFolderPath}`;
+        hint.textContent = 'PDFs will upload to this folder';
+        uploadArea.style.opacity = '1';
+        uploadArea.style.pointerEvents = 'auto';
+
+        // Update breadcrumb
+        updateBreadcrumb(selectedFolderPath);
+      } else {
+        display.textContent = 'Select a folder to upload files';
+        hint.textContent = 'Select a folder first';
+        uploadArea.style.opacity = '0.5';
+        uploadArea.style.pointerEvents = 'none';
+      }
+    }
+
+    function updateBreadcrumb(path) {
+      const parts = path.split('/');
+      let html = '<span class="breadcrumb-item home" onclick="selectFolder(\'\')">Root</span>';
+
+      let currentPath = '';
+      for (let i = 0; i < parts.length; i++) {
+        currentPath = currentPath ? `${currentPath}/${parts[i]}` : parts[i];
+        const isLast = i === parts.length - 1;
+        html += `<span class="breadcrumb-item ${isLast ? 'active' : ''}">${parts[i]}</span>`;
+      }
+
+      document.getElementById('breadcrumb').innerHTML = html;
+    }
+
+    // ====== UPLOAD ======
+    document.getElementById('uploadArea').addEventListener('click', () => {
+      if (selectedFolderPath) {
+        document.getElementById('uploadInput').click();
+      }
+    });
+
+    document.getElementById('uploadArea').addEventListener('dragover', (e) => {
+      if (selectedFolderPath) {
+        e.preventDefault();
+        document.getElementById('uploadArea').classList.add('drag-over');
+      }
+    });
+
+    document.getElementById('uploadArea').addEventListener('dragleave', () => {
+      document.getElementById('uploadArea').classList.remove('drag-over');
+    });
+
+    document.getElementById('uploadArea').addEventListener('drop', async (e) => {
+      if (!selectedFolderPath) return;
+      
+      e.preventDefault();
+      document.getElementById('uploadArea').classList.remove('drag-over');
+
+      const files = Array.from(e.dataTransfer.files).filter(f => f.name.endsWith('.pdf'));
+      if (files.length === 0) {
+        showMessage('message-upload', '❌ Only PDF files are allowed', 'error');
+        return;
+      }
+
+      for (const file of files) {
+        await uploadFile(file);
+      }
+    });
+
+    document.getElementById('uploadInput').addEventListener('change', async (e) => {
+      const files = Array.from(e.target.files);
+      for (const file of files) {
+        await uploadFile(file);
+      }
+      e.target.value = '';
+    });
+
+    async function uploadFile(file) {
+      if (!selectedFolderPath) {
+        showMessage('message-upload', '❌ Please select a folder first', 'error');
+        return;
+      }
+
+      if (!file.name.endsWith('.pdf')) {
+        showMessage('message-upload', `❌ ${file.name} is not a PDF`, 'error');
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append('pdf', file);
+      formData.append('path', selectedFolderPath);
+
+      try {
+        showMessage('message-upload', `⏳ Uploading ${file.name}...`, 'info');
+
+        const response = await fetch('/api/upload', {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        await loadFileStructure();
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // ====== FOLDER OPERATIONS ======
+    async function createNewFolder() {
+      if (!selectedFolderPath) {
+        showMessage('message-upload', '❌ Please select a parent folder first', 'error');
+        return;
+      }
+
+      const name = prompt('New folder name:');
+      if (!name) return;
+
+      const path = `${selectedFolderPath}/${name}`;
+
+      try {
+        showMessage('message-upload', '⏳ Creating folder...', 'info');
+
+        const response = await fetch('/api/create-folder', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        await loadFileStructure();
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // ====== CONTEXT MENU ======
+    function showContextMenu(path, type, event) {
+      event.preventDefault();
+      event.stopPropagation();
+
+      const menu = document.getElementById('contextMenu');
+      const isFile = type === 'file';
+
+      let html = '';
+
+      if (!isFile) {
+        html += `<div class="context-menu-item" onclick="renamePath('${path}', '${type}')">✏️ Rename</div>`;
+      }
+
+      html += `<div class="context-menu-item danger" onclick="deletePath('${path}')">🗑️ Delete</div>`;
+
+      menu.innerHTML = html;
+      menu.classList.add('show');
+      menu.style.left = event.clientX + 'px';
+      menu.style.top = event.clientY + 'px';
+
+      // Close menu on click elsewhere
+      setTimeout(() => {
+        document.addEventListener('click', closeContextMenu, { once: true });
+      });
+    }
+
+    function closeContextMenu() {
+      document.getElementById('contextMenu').classList.remove('show');
+    }
+
+    async function renamePath(path, type) {
+      const parts = path.split('/');
+      const oldName = parts[parts.length - 1];
+      const newName = prompt('New name:', oldName);
+
+      if (!newName || newName === oldName) return;
+
+      try {
+        showMessage('message-upload', '⏳ Renaming...', 'info');
+
+        const response = await fetch('/api/rename', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ oldPath: path, newName })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        await loadFileStructure();
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    async function deletePath(path) {
+      if (!confirm(`Delete ${path}? This cannot be undone.`)) return;
+
+      try {
+        showMessage('message-upload', '⏳ Deleting...', 'info');
+
+        const response = await fetch('/api/delete', {
+          method: 'DELETE',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ path })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.error);
+
+        showMessage('message-upload', `✓ ${data.message}`, 'success');
+        selectedFolderPath = null;
+        updateUploadArea();
+        await loadFileStructure();
+      } catch (err) {
+        showMessage('message-upload', `❌ ${err.message}`, 'error');
+      }
+    }
+
+    // ====== GIT OPERATIONS ======
     function switchGitTab(tabName) {
       document.querySelectorAll('#status, #commit, #manifest').forEach(el => {
         el.classList.remove('active');
@@ -481,205 +902,6 @@
       }
     }
 
-    // Messaging
-    function showMessage(elementId, message, type) {
-      const el = document.getElementById(elementId);
-      el.textContent = message;
-      el.className = `message ${type}`;
-      setTimeout(() => {
-        el.className = 'message';
-      }, 5000);
-    }
-
-    // Upload PDF
-    async function uploadPDF() {
-      const file = document.getElementById('pdfFile').files[0];
-      const path = document.getElementById('uploadPath').value.trim();
-
-      if (!file) {
-        showMessage('message-upload', '❌ Please select a PDF file', 'error');
-        return;
-      }
-
-      if (!path) {
-        showMessage('message-upload', '❌ Please enter target path', 'error');
-        return;
-      }
-
-      const formData = new FormData();
-      formData.append('pdf', file);
-      formData.append('path', path);
-
-      try {
-        showMessage('message-upload', '⏳ Uploading...', 'info');
-
-        const response = await fetch('/api/upload', {
-          method: 'POST',
-          body: formData
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) throw new Error(data.error);
-
-        showMessage('message-upload', `✓ ${data.message}`, 'success');
-        document.getElementById('pdfFile').value = '';
-      } catch (err) {
-        showMessage('message-upload', `❌ ${err.message}`, 'error');
-      }
-    }
-
-    // Create Folder
-    async function createFolder() {
-      const path = document.getElementById('createFolderPath').value.trim();
-
-      if (!path) {
-        showMessage('message-upload', '❌ Please enter folder path', 'error');
-        return;
-      }
-
-      try {
-        showMessage('message-upload', '⏳ Creating folder...', 'info');
-
-        const response = await fetch('/api/create-folder', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ path })
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) throw new Error(data.error);
-
-        showMessage('message-upload', `✓ ${data.message}`, 'success');
-        document.getElementById('createFolderPath').value = '';
-      } catch (err) {
-        showMessage('message-upload', `❌ ${err.message}`, 'error');
-      }
-    }
-
-    // Load file tree
-    let selectedPath = null;
-
-    async function loadFileTree() {
-      try {
-        const response = await fetch('/api/structure');
-        const structure = await response.json();
-        document.getElementById('fileTree').innerHTML = renderTree(structure, '');
-      } catch (err) {
-        console.error('Error loading structure:', err);
-      }
-    }
-
-    function renderTree(node, parentPath) {
-      let html = '';
-
-      for (const folder of node.folders) {
-        const fullPath = parentPath ? `${parentPath}/${folder.name}` : folder.name;
-        html += `
-          <div class="tree-item" onclick="selectItem('${fullPath}', event)">
-            <div class="tree-item-name">
-              <span class="icon-folder"></span>
-              ${folder.name}
-            </div>
-          </div>
-          <div style="margin-left: 20px;">
-            ${renderTree(folder.children, fullPath)}
-          </div>
-        `;
-      }
-
-      for (const file of node.files) {
-        const fullPath = parentPath ? `${parentPath}/${file.name}` : file.name;
-        html += `
-          <div class="tree-item" onclick="selectItem('${fullPath}', event)">
-            <div class="tree-item-name">
-              <span class="icon-file"></span>
-              ${file.name}
-            </div>
-          </div>
-        `;
-      }
-
-      return html;
-    }
-
-    function selectItem(path, event) {
-      event.stopPropagation();
-      selectedPath = path;
-      document.querySelectorAll('.tree-item').forEach(el => el.classList.remove('selected'));
-      event.currentTarget.classList.add('selected');
-      document.getElementById('selectedItemInfo').style.display = 'block';
-      document.getElementById('selectedPath').textContent = path;
-      document.getElementById('renameForm').style.display = 'none';
-    }
-
-    function renameItem() {
-      document.getElementById('renameForm').style.display = 'block';
-      document.getElementById('newName').focus();
-    }
-
-    async function confirmRename() {
-      const newName = document.getElementById('newName').value.trim();
-
-      if (!newName) {
-        showMessage('message-upload', '❌ Please enter new name', 'error');
-        return;
-      }
-
-      try {
-        showMessage('message-upload', '⏳ Renaming...', 'info');
-
-        const response = await fetch('/api/rename', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ oldPath: selectedPath, newName })
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) throw new Error(data.error);
-
-        showMessage('message-upload', `✓ ${data.message}`, 'success');
-        loadFileTree();
-        selectedPath = null;
-        document.getElementById('selectedItemInfo').style.display = 'none';
-        document.getElementById('renameForm').style.display = 'none';
-      } catch (err) {
-        showMessage('message-upload', `❌ ${err.message}`, 'error');
-      }
-    }
-
-    function cancelRename() {
-      document.getElementById('renameForm').style.display = 'none';
-    }
-
-    async function deleteItem() {
-      if (!confirm(`Delete ${selectedPath}? This cannot be undone.`)) return;
-
-      try {
-        showMessage('message-upload', '⏳ Deleting...', 'info');
-
-        const response = await fetch('/api/delete', {
-          method: 'DELETE',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ path: selectedPath })
-        });
-
-        const data = await response.json();
-
-        if (!response.ok) throw new Error(data.error);
-
-        showMessage('message-upload', `✓ ${data.message}`, 'success');
-        loadFileTree();
-        selectedPath = null;
-        document.getElementById('selectedItemInfo').style.display = 'none';
-      } catch (err) {
-        showMessage('message-upload', `❌ ${err.message}`, 'error');
-      }
-    }
-
-    // Git operations
     async function loadGitStatus() {
       try {
         const response = await fetch('/api/git/status', { method: 'POST' });
@@ -795,9 +1017,21 @@
       }
     }
 
-    // Initialize
-    window.addEventListener('load', () => {
-      loadGitStatus();
+    // ====== HELPERS ======
+    function showMessage(elementId, message, type) {
+      const el = document.getElementById(elementId);
+      el.textContent = message;
+      el.className = `message ${type}`;
+      setTimeout(() => {
+        el.className = 'message';
+      }, 5000);
+    }
+
+    // Close context menu on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeContextMenu();
+      }
     });
   </script>
 </body>
