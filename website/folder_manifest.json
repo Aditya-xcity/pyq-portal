@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-17T16:13:19.776160",
+  "generated": "2026-05-17T16:31:15.974379",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 32,
-    "total_files": 28,
-    "total_pdfs": 28
+    "total_folders": 44,
+    "total_files": 36,
+    "total_pdfs": 36
   },
   "structure": {
     "name": "BTech_CSE",
@@ -61,6 +61,12 @@
         "type": "folder",
         "path": "Year_2",
         "children": [
+          {
+            "name": "Sem3",
+            "type": "folder",
+            "path": "Year_2/Sem3",
+            "children": []
+          },
           {
             "name": "Sem4",
             "type": "folder",
@@ -370,7 +376,141 @@
                 "name": "Mid",
                 "type": "folder",
                 "path": "Year_3/Sem5/Mid",
-                "children": []
+                "children": [
+                  {
+                    "name": "CBNST",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/CBNST",
+                    "children": []
+                  },
+                  {
+                    "name": "Computer Networks-I",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/Computer Networks-I",
+                    "children": [
+                      {
+                        "name": "Computer Networks-I, TCS-514.pdf",
+                        "type": "file",
+                        "path": "Year_3/Sem5/Mid/Computer Networks-I/Computer Networks-I, TCS-514.pdf",
+                        "size": 616535,
+                        "size_mb": 0.59,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Computer Networks-I, TCS-514",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/Computer Networks-I, TCS-514",
+                    "children": [
+                      {
+                        "name": "TCS-511 Computer Networks.pdf",
+                        "type": "file",
+                        "path": "Year_3/Sem5/Mid/Computer Networks-I, TCS-514/TCS-511 Computer Networks.pdf",
+                        "size": 859937,
+                        "size_mb": 0.82,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Computer System Security",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/Computer System Security",
+                    "children": [
+                      {
+                        "name": "Computer System Security TCS-591.pdf",
+                        "type": "file",
+                        "path": "Year_3/Sem5/Mid/Computer System Security/Computer System Security TCS-591.pdf",
+                        "size": 534746,
+                        "size_mb": 0.51,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "Computer System Security TCS-597.pdf",
+                        "type": "file",
+                        "path": "Year_3/Sem5/Mid/Computer System Security/Computer System Security TCS-597.pdf",
+                        "size": 353423,
+                        "size_mb": 0.34,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "DataBase Managment system",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/DataBase Managment system",
+                    "children": []
+                  },
+                  {
+                    "name": "Machine Learning TCS-509",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/Machine Learning TCS-509",
+                    "children": []
+                  },
+                  {
+                    "name": "Machine Learning TCS-509.pdf",
+                    "type": "file",
+                    "path": "Year_3/Sem5/Mid/Machine Learning TCS-509.pdf",
+                    "size": 508549,
+                    "size_mb": 0.48,
+                    "extension": ".pdf"
+                  },
+                  {
+                    "name": "Operating System",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/Operating System",
+                    "children": []
+                  },
+                  {
+                    "name": "Security Audit and Complisnce-I TCS-595",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/Security Audit and Complisnce-I TCS-595",
+                    "children": []
+                  },
+                  {
+                    "name": "Security Audit and Complisnce-I TCS-595.pdf",
+                    "type": "file",
+                    "path": "Year_3/Sem5/Mid/Security Audit and Complisnce-I TCS-595.pdf",
+                    "size": 524364,
+                    "size_mb": 0.5,
+                    "extension": ".pdf"
+                  },
+                  {
+                    "name": "System Software",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/System Software",
+                    "children": []
+                  },
+                  {
+                    "name": "TCS-552 Cloud-Based Application Development & Managemenet",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/TCS-552 Cloud-Based Application Development & Managemenet",
+                    "children": []
+                  },
+                  {
+                    "name": "TCS-552 Cloud-Based Application Development & Managemenet.pdf",
+                    "type": "file",
+                    "path": "Year_3/Sem5/Mid/TCS-552 Cloud-Based Application Development & Managemenet.pdf",
+                    "size": 372999,
+                    "size_mb": 0.36,
+                    "extension": ".pdf"
+                  },
+                  {
+                    "name": "TCS-564 Natural Language Processing and Computer Vision",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/TCS-564 Natural Language Processing and Computer Vision",
+                    "children": []
+                  },
+                  {
+                    "name": "TCS-564 Natural Language Processing and Computer Vision.pdf",
+                    "type": "file",
+                    "path": "Year_3/Sem5/Mid/TCS-564 Natural Language Processing and Computer Vision.pdf",
+                    "size": 558056,
+                    "size_mb": 0.53,
+                    "extension": ".pdf"
+                  }
+                ]
               }
             ]
           },
