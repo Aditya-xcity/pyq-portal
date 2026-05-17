@@ -1,8 +1,8 @@
 {
-  "generated": "2026-05-17T16:08:28.428476",
+  "generated": "2026-05-17T16:13:19.776160",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 25,
+    "total_folders": 32,
     "total_files": 28,
     "total_pdfs": 28
   },
@@ -17,39 +17,39 @@
         "path": "Year_1",
         "children": [
           {
-            "name": "Sem1",
+            "name": "Sem1(Chemistry Group)",
             "type": "folder",
-            "path": "Year_1/Sem1",
+            "path": "Year_1/Sem1(Chemistry Group)",
             "children": [
               {
                 "name": "End",
                 "type": "folder",
-                "path": "Year_1/Sem1/End",
+                "path": "Year_1/Sem1(Chemistry Group)/End",
                 "children": []
               },
               {
                 "name": "Mid",
                 "type": "folder",
-                "path": "Year_1/Sem1/Mid",
+                "path": "Year_1/Sem1(Chemistry Group)/Mid",
                 "children": []
               }
             ]
           },
           {
-            "name": "Sem2",
+            "name": "Sem2(Physics Group)",
             "type": "folder",
-            "path": "Year_1/Sem2",
+            "path": "Year_1/Sem2(Physics Group)",
             "children": [
               {
                 "name": "End",
                 "type": "folder",
-                "path": "Year_1/Sem2/End",
+                "path": "Year_1/Sem2(Physics Group)/End",
                 "children": []
               },
               {
                 "name": "Mid",
                 "type": "folder",
-                "path": "Year_1/Sem2/Mid",
+                "path": "Year_1/Sem2(Physics Group)/Mid",
                 "children": []
               }
             ]
@@ -345,6 +345,51 @@
                     ]
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Year_3",
+        "type": "folder",
+        "path": "Year_3",
+        "children": [
+          {
+            "name": "Sem5",
+            "type": "folder",
+            "path": "Year_3/Sem5",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_3/Sem5/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_3/Sem5/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem6",
+            "type": "folder",
+            "path": "Year_3/Sem6",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_3/Sem6/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_3/Sem6/Mid",
+                "children": []
               }
             ]
           }
