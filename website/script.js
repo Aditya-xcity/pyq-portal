@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.getElementById('menuBtn');
     const dropdownMenu = document.getElementById('dropdownMenu');
+    const themeToggle = document.getElementById('themeToggle');
     
     if (menuBtn && dropdownMenu) {
         menuBtn.addEventListener('click', function(e) {
@@ -14,6 +15,15 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!menuBtn.contains(e.target) && !dropdownMenu.contains(e.target)) {
                 dropdownMenu.classList.remove('active');
             }
+        });
+    }
+
+    // Theme initialization
+    initTheme();
+
+    if (themeToggle) {
+        themeToggle.addEventListener('click', function() {
+            toggleTheme();
         });
     }
     
@@ -680,3 +690,46 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+/* ===== Theme switching ===== */
+function applyThemeClass(isLight) {
+    if (isLight) document.body.classList.add('light-theme');
+    else document.body.classList.remove('light-theme');
+}
+
+function setTheme(theme) {
+    if (theme === 'light') {
+        applyThemeClass(true);
+        localStorage.setItem('siteTheme', 'light');
+    } else {
+        applyThemeClass(false);
+        localStorage.setItem('siteTheme', 'dark');
+    }
+    updateThemeToggleUI();
+}
+
+function initTheme() {
+    const saved = localStorage.getItem('siteTheme');
+    if (saved) {
+        setTheme(saved);
+        return;
+    }
+
+    // default: dark, but respect user system pref only if explicitly set to light
+    const prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+    if (prefersLight) setTheme('light');
+    else setTheme('dark');
+}
+
+function toggleTheme() {
+    const isLight = document.body.classList.contains('light-theme');
+    setTheme(isLight ? 'dark' : 'light');
+}
+
+function updateThemeToggleUI() {
+    const btn = document.getElementById('themeToggle');
+    if (!btn) return;
+    const isLight = document.body.classList.contains('light-theme');
+    btn.setAttribute('aria-pressed', isLight ? 'true' : 'false');
+    btn.querySelector('.menu-text').textContent = isLight ? 'Light' : 'Dark';
+}

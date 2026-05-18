@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-17T16:58:35.286243",
+  "generated": "2026-05-18T22:07:44.335634",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 47,
-    "total_files": 48,
-    "total_pdfs": 48
+    "total_files": 49,
+    "total_pdfs": 49
   },
   "structure": {
     "name": "BTech_CSE",
@@ -121,6 +121,14 @@
                     "type": "folder",
                     "path": "Year_2/Sem4/End/Automata",
                     "children": [
+                      {
+                        "name": "automata_may_2026_Aditya.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Automata/automata_may_2026_Aditya.pdf",
+                        "size": 756949,
+                        "size_mb": 0.72,
+                        "extension": ".pdf"
+                      },
                       {
                         "name": "tcs402_endsem_2023_jun.pdf",
                         "type": "file",

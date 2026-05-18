@@ -17,27 +17,47 @@
 </head>
 <body>
     <div class="container">
-        <!-- Menu Button -->
-        <div class="menu-container">
-            <button class="menu-btn" id="menuBtn">
-                <div class="menu-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <!-- Site Header -->
+        <header class="site-header">
+            <div class="brand">
+                <div class="logo">PYQ</div>
+                <div>
+                    <h1>XVELOCITY</h1>
+                    <p>Study Materials Library</p>
                 </div>
-                <span class="menu-text">MENU</span>
-            </button>
-            
-            <!-- Dropdown Menu -->
-            <div class="dropdown-menu" id="dropdownMenu">
-                <a href="#" class="menu-item" onclick="goHome(); return false;">🏠 Home</a>
-                <a href="https://drive.google.com/drive/folders/1pVTpTB8PLrDP3BXFfdnHnxM2oOzNWXt1" class="menu-item" target="_blank" rel="noopener noreferrer">📖 Introduction Page</a>
-                <a href="labmanual.html" class="menu-item">🔬 Lab Manuals</a>
-                <a href="https://www.linkedin.com/in/aditya-bhardwaj-9a9a7a341/" class="menu-item" target="_blank" rel="noopener noreferrer">👤 LinkedIn Profile</a>
-
-                <a href="syllabus.html" class="menu-item">📘 Syllabus</a>
             </div>
-        </div>
+
+                <div class="header-actions">
+                    <button id="themeToggle" class="menu-btn" aria-label="Toggle theme">
+                        <span class="menu-icon"><span></span></span>
+                        <span class="menu-text">Theme</span>
+                    </button>
+                <nav class="quick-links" aria-label="quick links">
+                    <a class="menu-item" href="#" onclick="goHome(); return false;">🏠 Home</a>
+                    <a class="menu-item" href="labmanual.html">🔬 Lab Manuals</a>
+                    <a class="menu-item" href="syllabus.html">📘 Syllabus</a>
+                </nav>
+
+                <div class="menu-container">
+                    <button class="menu-btn" id="menuBtn">
+                        <div class="menu-icon">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="menu-text">MENU</span>
+                    </button>
+
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <a href="#" class="menu-item" onclick="goHome(); return false;">🏠 Home</a>
+                        <a href="https://drive.google.com/drive/folders/1pVTpTB8PLrDP3BXFfdnHnxM2oOzNWXt1" class="menu-item" target="_blank" rel="noopener noreferrer">📖 Introduction Page</a>
+                        <a href="labmanual.html" class="menu-item">🔬 Lab Manuals</a>
+                        <a href="https://www.linkedin.com/in/aditya-bhardwaj-9a9a7a341/" class="menu-item" target="_blank" rel="noopener noreferrer">👤 LinkedIn Profile</a>
+                        <a href="syllabus.html" class="menu-item">📘 Syllabus</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
         <!-- Main Content -->
         <main class="main-content">
