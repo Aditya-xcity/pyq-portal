@@ -17,111 +17,90 @@
     <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 <body>
-    <div class="container">
+    <button class="mobile-sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar" aria-controls="sidebar" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 
-        <!-- ===== SITE HEADER ===== -->
-        <header class="site-header">
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
-            <!-- Brand Identity -->
-            <div class="brand">
-                <div class="logo">PYQ</div>
-                <div class="brand-text">
-                    <h1>XVELOCITY</h1>
-                    <p>Study Materials Library</p>
+    <div class="dashboard-shell">
+        <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+            <div class="sidebar-header">
+                <div class="brand">
+                    <div class="logo">PYQ</div>
+                    <div class="brand-text">
+                        <h1>XVELOCITY</h1>
+                        <p>Study Dashboard</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Header Actions: Theme + Nav + Menu -->
-            <div class="header-actions">
+            <nav class="sidebar-nav">
+                <p class="nav-label">Navigation</p>
+                <button class="sidebar-link active" data-nav="home" onclick="goHome(); return false;">🏠 Home</button>
+                <button class="sidebar-link" data-nav="pyq" onclick="showSection('pyq'); return false;">📄 PYQs</button>
+                <button class="sidebar-link" data-nav="lab" onclick="window.location.href='labmanual.html';">🧪 Lab Manuals</button>
+                <button class="sidebar-link" data-nav="notes" onclick="showSection('notes'); return false;">📚 Notes</button>
+                <button class="sidebar-link" data-nav="syllabus" onclick="window.location.href='syllabus.html';">📑 Syllabus</button>
 
-                <!-- Theme Toggle -->
-                <button id="themeToggle" class="menu-btn" aria-label="Toggle theme">
-                    <span class="menu-icon"><span></span></span>
-                    <span class="menu-text">Theme</span>
-                </button>
+                <p class="nav-label">Academic Years</p>
+                <button class="sidebar-link" data-nav="year1" onclick="selectYear(1); return false;">📁 1st Year</button>
+                <button class="sidebar-link" data-nav="year2" onclick="selectYear(2); return false;">📁 2nd Year</button>
+                <button class="sidebar-link" data-nav="year3" onclick="selectYear(3); return false;">📁 3rd Year</button>
+                <button class="sidebar-link" data-nav="year4" onclick="selectYear(4); return false;">📁 4th Year</button>
 
-                <!-- Quick Navigation Links -->
-                <nav class="quick-links" aria-label="Quick links">
-                    <a class="menu-item" href="#" onclick="goHome(); return false;">🏠 Home</a>
-                    <a class="menu-item" href="labmanual.html">🔬 Lab Manuals</a>
-                    <a class="menu-item" href="syllabus.html">📘 Syllabus</a>
-                </nav>
+                <p class="nav-label">System</p>
+                <button id="themeToggle" class="sidebar-link" data-nav="theme" aria-label="Toggle theme" aria-pressed="false">⚙ Theme</button>
+            </nav>
+        </aside>
 
-                <!-- Hamburger Dropdown Menu -->
-                <div class="menu-container">
-                    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="dropdownMenu">
-                        <div class="menu-icon" aria-hidden="true">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <span class="menu-text">MENU</span>
-                    </button>
+        <div class="main-pane">
+            <header class="site-header">
+                <section class="title-section" aria-label="Site title">
+                    <h1 class="glitch-title" data-text="XVELOCITY">XVELOCITY</h1>
+                    <p class="subtitle">Modern Student Productivity Hub</p>
+                </section>
 
-                    <nav class="dropdown-menu" id="dropdownMenu" aria-label="Dropdown navigation">
-                        <a href="#" class="menu-item" onclick="goHome(); return false;">🏠 Home</a>
-                        <a href="https://drive.google.com/drive/folders/1pVTpTB8PLrDP3BXFfdnHnxM2oOzNWXt1" class="menu-item" target="_blank" rel="noopener noreferrer">📖 Introduction Page</a>
-                        <a href="labmanual.html" class="menu-item">🔬 Lab Manuals</a>
-                        <a href="https://www.linkedin.com/in/aditya-bhardwaj-9a9a7a341/" class="menu-item" target="_blank" rel="noopener noreferrer">👤 LinkedIn Profile</a>
-                        <a href="syllabus.html" class="menu-item">📘 Syllabus</a>
+                <div class="header-actions">
+                    <nav class="quick-links" aria-label="Quick links">
+                        <a class="quick-link" href="#" onclick="goHome(); return false;">Home</a>
+                        <a class="quick-link" href="labmanual.html">Lab Manuals</a>
+                        <a class="quick-link" href="syllabus.html">Syllabus</a>
                     </nav>
+
+                    <div class="menu-container">
+                        <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="dropdownMenu">
+                            <div class="menu-icon" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="menu-text">Menu</span>
+                        </button>
+
+                        <nav class="dropdown-menu" id="dropdownMenu" aria-label="Dropdown navigation">
+                            <a href="#" class="menu-item" onclick="goHome(); return false;">🏠 Home</a>
+                            <a href="https://drive.google.com/drive/folders/1pVTpTB8PLrDP3BXFfdnHnxM2oOzNWXt1" class="menu-item" target="_blank" rel="noopener noreferrer">📖 Introduction Page</a>
+                            <a href="labmanual.html" class="menu-item">🔬 Lab Manuals</a>
+                            <a href="https://www.linkedin.com/in/aditya-bhardwaj-9a9a7a341/" class="menu-item" target="_blank" rel="noopener noreferrer">👤 LinkedIn Profile</a>
+                            <a href="syllabus.html" class="menu-item">📘 Syllabus</a>
+                        </nav>
+                    </div>
                 </div>
+            </header>
 
-            </div>
-        </header>
-
-        <!-- ===== MAIN CONTENT ===== -->
-        <main class="main-content">
-
-            <!-- Hero / Title Section -->
-            <section class="title-section" aria-label="Site title">
-                <h1 class="glitch-title" data-text="XVELOCITY">XVELOCITY</h1>
-                <p class="subtitle">Study Materials Library</p>
-            </section>
-
-            <!-- Dynamic Content Area (JS-controlled) -->
-            <section class="content-section" id="contentSection" aria-live="polite">
-                <div class="welcome-message">
-                    <h2>Welcome to XVeloCity</h2>
-                    <p>Select a category from the menu or browse by year below</p>
-                </div>
-            </section>
-
-        </main>
-
-        <!-- ===== YEARS FOOTER ===== -->
-        <footer class="years-footer">
-            <h3>QUICK ACCESS BY YEAR</h3>
-            <div class="folders-grid">
-
-                <article class="folder-card" onclick="selectYear(1)" role="button" tabindex="0" aria-label="1st Year - Semester 1 and 2">
-                    <div class="folder-icon" aria-hidden="true">📁</div>
-                    <h4>1ST YEAR</h4>
-                    <p>Sem 1-2</p>
-                </article>
-
-                <article class="folder-card" onclick="selectYear(2)" role="button" tabindex="0" aria-label="2nd Year - Semester 3 and 4">
-                    <div class="folder-icon" aria-hidden="true">📁</div>
-                    <h4>2ND YEAR</h4>
-                    <p>Sem 3-4</p>
-                </article>
-
-                <article class="folder-card" onclick="selectYear(3)" role="button" tabindex="0" aria-label="3rd Year - Semester 5 and 6">
-                    <div class="folder-icon" aria-hidden="true">📁</div>
-                    <h4>3RD YEAR</h4>
-                    <p>Sem 5-6</p>
-                </article>
-
-                <article class="folder-card" onclick="selectYear(4)" role="button" tabindex="0" aria-label="4th Year - Semester 7 and 8">
-                    <div class="folder-icon" aria-hidden="true">📁</div>
-                    <h4>4TH YEAR</h4>
-                    <p>Sem 7-8</p>
-                </article>
-
-            </div>
-        </footer>
-
-    </div><!-- /.container -->
+            <main class="main-content">
+                <section class="content-section" id="contentSection" aria-live="polite">
+                    <div class="welcome-message">
+                        <h2>Welcome to XVeloCity</h2>
+                        <p>Select a category from the left sidebar to begin</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
 
     <!-- ===== PDF VIEWER MODAL ===== -->
     <dialog id="pdfModal" class="modal" aria-modal="true" aria-labelledby="pdfTitle">
