@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-18T22:10:34.490554",
+  "generated": "2026-05-19T17:36:02.059370",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 47,
-    "total_files": 49,
-    "total_pdfs": 49
+    "total_folders": 50,
+    "total_files": 52,
+    "total_pdfs": 52
   },
   "structure": {
     "name": "BTech_CSE",
@@ -293,6 +293,50 @@
                         "size": 1122886,
                         "size_mb": 1.07,
                         "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Microprocessor",
+                    "type": "folder",
+                    "path": "Year_2/Sem4/End/Microprocessor",
+                    "children": [
+                      {
+                        "name": "End",
+                        "type": "folder",
+                        "path": "Year_2/Sem4/End/Microprocessor/End",
+                        "children": [
+                          {
+                            "name": "TCS-403,END TERM,JUNE-2024.pdf",
+                            "type": "file",
+                            "path": "Year_2/Sem4/End/Microprocessor/End/TCS-403,END TERM,JUNE-2024.pdf",
+                            "size": 808437,
+                            "size_mb": 0.77,
+                            "extension": ".pdf"
+                          },
+                          {
+                            "name": "TCS-403-END-2023.pdf",
+                            "type": "file",
+                            "path": "Year_2/Sem4/End/Microprocessor/End/TCS-403-END-2023.pdf",
+                            "size": 172317,
+                            "size_mb": 0.16,
+                            "extension": ".pdf"
+                          },
+                          {
+                            "name": "TCS-403-END-2025.pdf",
+                            "type": "file",
+                            "path": "Year_2/Sem4/End/Microprocessor/End/TCS-403-END-2025.pdf",
+                            "size": 56037,
+                            "size_mb": 0.05,
+                            "extension": ".pdf"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Mid",
+                        "type": "folder",
+                        "path": "Year_2/Sem4/End/Microprocessor/Mid",
+                        "children": []
                       }
                     ]
                   }
