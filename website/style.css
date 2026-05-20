@@ -51,6 +51,12 @@ body.light-theme {
   --border-soft: rgba(74, 110, 170, 0.16);
 
   --shadow-main: 0 16px 30px rgba(22, 45, 81, 0.16);
+
+  color: #111827;
+  background:
+    radial-gradient(circle at 8% 12%, rgba(0, 126, 171, 0.12), transparent 40%),
+    radial-gradient(circle at 96% 86%, rgba(43, 94, 255, 0.1), transparent 44%),
+    linear-gradient(135deg, var(--bg-primary), #f7fbff 45%, var(--bg-secondary));
 }
 
 html,
@@ -66,6 +72,26 @@ body {
     linear-gradient(135deg, var(--bg-primary), #090f1d 45%, var(--bg-secondary));
   color: var(--text-primary);
   overflow-x: hidden;
+}
+
+body.light-theme .glitch-title,
+body.light-theme .brand-text h1,
+body.light-theme .menu-btn,
+body.light-theme .sidebar-link,
+body.light-theme .quick-link,
+body.light-theme .menu-item,
+body.light-theme .welcome-message h2,
+body.light-theme .item-info h4,
+body.light-theme .file-item h4,
+body.light-theme .view-btn,
+body.light-theme .download-btn,
+body.light-theme .modal-btn {
+  color: #111827;
+}
+
+body.light-theme .glitch-title,
+body.light-theme .logo {
+  text-shadow: none;
 }
 
 .dashboard-shell {
