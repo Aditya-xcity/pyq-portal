@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-19T17:36:02.059370",
+  "generated": "2026-05-20T22:16:35.957318",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 50,
-    "total_files": 52,
-    "total_pdfs": 52
+    "total_files": 55,
+    "total_pdfs": 55
   },
   "structure": {
     "name": "BTech_CSE",
@@ -215,6 +215,30 @@
                     "type": "folder",
                     "path": "Year_2/Sem4/End/Daa",
                     "children": [
+                      {
+                        "name": "TCS-409,END TERM,JUNE-2024.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/TCS-409,END TERM,JUNE-2024.pdf",
+                        "size": 776229,
+                        "size_mb": 0.74,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TCS-409-END-2023.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/TCS-409-END-2023.pdf",
+                        "size": 427782,
+                        "size_mb": 0.41,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TCS-409-END-2025.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/TCS-409-END-2025.pdf",
+                        "size": 154646,
+                        "size_mb": 0.15,
+                        "extension": ".pdf"
+                      },
                       {
                         "name": "tcs409_endsem_2023_jun.pdf",
                         "type": "file",
