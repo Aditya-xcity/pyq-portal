@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-22T22:18:39.831064",
+  "generated": "2026-05-23T15:22:08.919883",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 51,
-    "total_files": 58,
-    "total_pdfs": 58
+    "total_files": 59,
+    "total_pdfs": 59
   },
   "structure": {
     "name": "BTech_CSE",
@@ -237,6 +237,14 @@
                         "path": "Year_2/Sem4/End/Daa/TCS-409,END TERM,JUNE-2024.pdf",
                         "size": 776229,
                         "size_mb": 0.74,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TCS-409,END TERM,may-2026_aditya.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Daa/TCS-409,END TERM,may-2026_aditya.pdf",
+                        "size": 999111,
+                        "size_mb": 0.95,
                         "extension": ".pdf"
                       },
                       {

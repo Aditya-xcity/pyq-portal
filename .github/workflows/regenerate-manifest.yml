@@ -7,28 +7,33 @@ on:
       - 'BTech_CSE/**'
       - 'generate_manifest.py'
 
+permissions:
+  contents: write
+
 jobs:
   regenerate:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
-      
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
-        
+
     - name: Run manifest generator
       run: python generate_manifest.py
-      
+
     - name: Commit and push if changed
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        
-        if git diff --quiet website/folder_manifest.json; then
+
+        if git diff --quiet -- website/folder_manifest.json; then
           echo "Manifest unchanged, skipping commit"
         else
           echo "Manifest changed, committing..."
