@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T21:49:04.250859",
+  "generated": "2026-05-24T23:06:06.576124",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 51,
@@ -12,10 +12,61 @@
     "path": "",
     "children": [
       {
+        "name": "Year_1",
+        "type": "folder",
+        "path": "Year_1",
+        "children": [
+          {
+            "name": "Sem1(Chemistry Group)",
+            "type": "folder",
+            "path": "Year_1/Sem1(Chemistry Group)",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem1(Chemistry Group)/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_1/Sem1(Chemistry Group)/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem2(Physics Group)",
+            "type": "folder",
+            "path": "Year_1/Sem2(Physics Group)",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem2(Physics Group)/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_1/Sem2(Physics Group)/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Year_2",
         "type": "folder",
         "path": "Year_2",
         "children": [
+          {
+            "name": "Sem3",
+            "type": "folder",
+            "path": "Year_2/Sem3",
+            "children": []
+          },
           {
             "name": "Sem4",
             "type": "folder",
@@ -351,6 +402,12 @@
                             "extension": ".pdf"
                           }
                         ]
+                      },
+                      {
+                        "name": "Mid",
+                        "type": "folder",
+                        "path": "Year_2/Sem4/End/Microprocessor/Mid",
+                        "children": []
                       }
                     ]
                   }
@@ -432,6 +489,12 @@
             "type": "folder",
             "path": "Year_3/Sem5",
             "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_3/Sem5/End",
+                "children": []
+              },
               {
                 "name": "Mid",
                 "type": "folder",
@@ -659,6 +722,12 @@
                     ]
                   },
                   {
+                    "name": "System Software",
+                    "type": "folder",
+                    "path": "Year_3/Sem5/Mid/System Software",
+                    "children": []
+                  },
+                  {
                     "name": "TCS 512",
                     "type": "folder",
                     "path": "Year_3/Sem5/Mid/TCS 512",
@@ -689,6 +758,70 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "name": "Sem6",
+            "type": "folder",
+            "path": "Year_3/Sem6",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_3/Sem6/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_3/Sem6/Mid",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Year_4",
+        "type": "folder",
+        "path": "Year_4",
+        "children": [
+          {
+            "name": "Sem7",
+            "type": "folder",
+            "path": "Year_4/Sem7",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_4/Sem7/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_4/Sem7/Mid",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Sem8",
+            "type": "folder",
+            "path": "Year_4/Sem8",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_4/Sem8/End",
+                "children": []
+              },
+              {
+                "name": "Mid",
+                "type": "folder",
+                "path": "Year_4/Sem8/Mid",
+                "children": []
               }
             ]
           }
