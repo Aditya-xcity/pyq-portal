@@ -149,6 +149,12 @@ function initializeAccessibility() {
 
 async function loadFolderManifest() {
     try {
+        if (window.__PYQ_FOLDER_MANIFEST__) {
+            folderManifest = window.__PYQ_FOLDER_MANIFEST__;
+            showWelcomeMessage();
+            return;
+        }
+
         const response = await fetch('folder_manifest.json');
         if (!response.ok) {
             throw new Error('Manifest not found. Please run generate_manifest.py');

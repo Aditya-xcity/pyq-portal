@@ -1,4 +1,4 @@
-{
+window.__PYQ_FOLDER_MANIFEST__ = {
   "generated": "2026-05-24T23:08:58.104559",
   "base_folder": "BTech_CSE",
   "stats": {
@@ -829,4 +829,4 @@
       }
     ]
   }
-}
+};

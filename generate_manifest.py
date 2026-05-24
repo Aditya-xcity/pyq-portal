@@ -19,6 +19,7 @@ from pathlib import Path
 # Configuration
 BTECH_CSE_FOLDER = "BTech_CSE"
 OUTPUT_FILE = "website/folder_manifest.json"
+OUTPUT_JS_FILE = "website/folder_manifest.js"
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
 def get_folder_structure(root_path, relative_base=""):
@@ -120,9 +121,15 @@ def generate_manifest():
     # Write to file
     output_path = os.path.join(BASE_PATH, OUTPUT_FILE)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    manifest_json = json.dumps(manifest, indent=2, ensure_ascii=False)
     
     with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump(manifest, f, indent=2, ensure_ascii=False)
+        f.write(manifest_json)
+
+    js_output_path = os.path.join(BASE_PATH, OUTPUT_JS_FILE)
+    with open(js_output_path, 'w', encoding='utf-8') as f:
+        f.write(f"window.__PYQ_FOLDER_MANIFEST__ = {manifest_json};\n")
     
     print(f"\nManifest generated successfully!")
     print(f"Output: {output_path}")

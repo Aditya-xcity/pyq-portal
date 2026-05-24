@@ -33,11 +33,12 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
 
-        if git diff --quiet -- website/folder_manifest.json; then
+        if git diff --quiet -- website/folder_manifest.json website/folder_manifest.js; then
           echo "Manifest unchanged, skipping commit"
         else
           echo "Manifest changed, committing..."
           git add website/folder_manifest.json
+          git add website/folder_manifest.js
           git commit -m "chore: regenerate folder_manifest.json [skip ci]"
           git push
         fi
