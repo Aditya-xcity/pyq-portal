@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "generated": "2026-05-24T16:20:01.001949",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 30,
+=======
+  "generated": "2026-05-24T21:49:04.250859",
+  "base_folder": "BTech_CSE",
+  "stats": {
+    "total_folders": 51,
+>>>>>>> 20bc232 (added new file)
     "total_files": 60,
     "total_pdfs": 60
   },
