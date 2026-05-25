@@ -1,16 +1,45 @@
 window.__PYQ_FOLDER_MANIFEST__ = {
-  "generated": "2026-05-24T17:40:33.537560",
+  "generated": "2026-05-25T17:14:02.151266",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 30,
-    "total_files": 60,
-    "total_pdfs": 60
+    "total_folders": 33,
+    "total_files": 61,
+    "total_pdfs": 61
   },
   "structure": {
     "name": "BTech_CSE",
     "type": "folder",
     "path": "",
     "children": [
+      {
+        "name": "Year_1",
+        "type": "folder",
+        "path": "Year_1",
+        "children": [
+          {
+            "name": "Sem1(Chemistry Group)",
+            "type": "folder",
+            "path": "Year_1/Sem1(Chemistry Group)",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_1/Sem1(Chemistry Group)/End",
+                "children": [
+                  {
+                    "name": "MCS-129 END 2025.pdf",
+                    "type": "file",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/MCS-129 END 2025.pdf",
+                    "size": 531201,
+                    "size_mb": 0.51,
+                    "extension": ".pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {
         "name": "Year_2",
         "type": "folder",
