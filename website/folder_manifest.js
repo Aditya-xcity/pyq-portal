@@ -1,5 +1,5 @@
 window.__PYQ_FOLDER_MANIFEST__ = {
-  "generated": "2026-05-26T15:41:25.984826",
+  "generated": "2026-05-26T15:45:48.003876",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 33,
@@ -109,9 +109,9 @@ window.__PYQ_FOLDER_MANIFEST__ = {
                         "extension": ".pdf"
                       },
                       {
-                        "name": "tcs421_endsem_2026_May_aditya.pdf",
+                        "name": "tcs421_endsem_2026_May_adityaa.pdf",
                         "type": "file",
-                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2026_May_aditya.pdf",
+                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2026_May_adityaa.pdf",
                         "size": 1302917,
                         "size_mb": 1.24,
                         "extension": ".pdf"
