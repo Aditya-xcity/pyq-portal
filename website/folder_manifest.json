@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-25T17:14:02.151266",
+  "generated": "2026-05-26T15:41:25.984826",
   "base_folder": "BTech_CSE",
   "stats": {
     "total_folders": 33,
-    "total_files": 61,
-    "total_pdfs": 61
+    "total_files": 62,
+    "total_pdfs": 62
   },
   "structure": {
     "name": "BTech_CSE",
@@ -106,6 +106,14 @@
                         "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2025_jun.pdf",
                         "size": 175697,
                         "size_mb": 0.17,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "tcs421_endsem_2026_May_aditya.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem4/End/Ai Stats/tcs421_endsem_2026_May_aditya.pdf",
+                        "size": 1302917,
+                        "size_mb": 1.24,
                         "extension": ".pdf"
                       }
                     ]
