@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-26T15:47:22.578204",
+  "generated": "2026-06-05T17:03:36.260229",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 33,
-    "total_files": 62,
-    "total_pdfs": 62
+    "total_folders": 36,
+    "total_files": 64,
+    "total_pdfs": 64
   },
   "structure": {
     "name": "BTech_CSE",
@@ -45,6 +45,43 @@
         "type": "folder",
         "path": "Year_2",
         "children": [
+          {
+            "name": "Sem3",
+            "type": "folder",
+            "path": "Year_2/Sem3",
+            "children": [
+              {
+                "name": "End",
+                "type": "folder",
+                "path": "Year_2/Sem3/End",
+                "children": [
+                  {
+                    "name": "Ds",
+                    "type": "folder",
+                    "path": "Year_2/Sem3/End/Ds",
+                    "children": [
+                      {
+                        "name": "TCS-302 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem3/End/Ds/TCS-302 END 2025.pdf",
+                        "size": 1507213,
+                        "size_mb": 1.44,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TCS-302,END-2024.pdf",
+                        "type": "file",
+                        "path": "Year_2/Sem3/End/Ds/TCS-302,END-2024.pdf",
+                        "size": 545991,
+                        "size_mb": 0.52,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           {
             "name": "Sem4",
             "type": "folder",
