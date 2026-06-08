@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-05T17:03:36.260229",
+  "generated": "2026-06-08T05:13:48.768050",
   "base_folder": "BTech_CSE",
   "stats": {
-    "total_folders": 36,
-    "total_files": 64,
-    "total_pdfs": 64
+    "total_folders": 48,
+    "total_files": 78,
+    "total_pdfs": 78
   },
   "structure": {
     "name": "BTech_CSE",
@@ -27,11 +27,207 @@
                 "path": "Year_1/Sem1(Chemistry Group)/End",
                 "children": [
                   {
-                    "name": "MCS-129 END 2025.pdf",
+                    "name": "Electronics",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Electronics",
+                    "children": [
+                      {
+                        "name": "TEC-101 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Electronics/TEC-101 END 2025.pdf",
+                        "size": 796818,
+                        "size_mb": 0.76,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TEC-101, END, 2024.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Electronics/TEC-101, END, 2024.pdf",
+                        "size": 220357,
+                        "size_mb": 0.21,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TEC-101-MID-2023.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Electronics/TEC-101-MID-2023.pdf",
+                        "size": 143538,
+                        "size_mb": 0.14,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Environmental Science",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Environmental Science",
+                    "children": [
+                      {
+                        "name": "TEV-101 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Environmental Science/TEV-101 END 2025.pdf",
+                        "size": 396921,
+                        "size_mb": 0.38,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Fundamentals of Computers & Introduction to Programming",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Fundamentals of Computers & Introduction to Programming",
+                    "children": [
+                      {
+                        "name": "TCS-101 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Fundamentals of Computers & Introduction to Programming/TCS-101 END 2025.pdf",
+                        "size": 1129940,
+                        "size_mb": 1.08,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mathematics for Artificial Intelligence",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Mathematics for Artificial Intelligence",
+                    "children": [
+                      {
+                        "name": "TMA-102 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Mathematics for Artificial Intelligence/TMA-102 END 2025.pdf",
+                        "size": 523949,
+                        "size_mb": 0.5,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maths",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Maths",
+                    "children": [
+                      {
+                        "name": "TMA-101 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Maths/TMA-101 END 2025.pdf",
+                        "size": 520457,
+                        "size_mb": 0.5,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Professional Communication",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Professional Communication",
+                    "children": [
+                      {
+                        "name": "THU-101 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Professional Communication/THU-101 END 2025.pdf",
+                        "size": 936943,
+                        "size_mb": 0.89,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Python",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/Python",
+                    "children": [
+                      {
+                        "name": "TCS-102 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/Python/TCS-102 END 2025.pdf",
+                        "size": 718531,
+                        "size_mb": 0.69,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "chemistry",
+                    "type": "folder",
+                    "path": "Year_1/Sem1(Chemistry Group)/End/chemistry",
+                    "children": [
+                      {
+                        "name": "TCH-101 END 2025.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/chemistry/TCH-101 END 2025.pdf",
+                        "size": 551202,
+                        "size_mb": 0.53,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TCH-101, END, 2024.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/chemistry/TCH-101, END, 2024.pdf",
+                        "size": 105108,
+                        "size_mb": 0.1,
+                        "extension": ".pdf"
+                      },
+                      {
+                        "name": "TCH-101-END-2023.pdf",
+                        "type": "file",
+                        "path": "Year_1/Sem1(Chemistry Group)/End/chemistry/TCH-101-END-2023.pdf",
+                        "size": 189607,
+                        "size_mb": 0.18,
+                        "extension": ".pdf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Sem2(Physics Group)",
+            "type": "folder",
+            "path": "Year_1/Sem2(Physics Group)",
+            "children": [
+              {
+                "name": "Healthy Living and Fitness",
+                "type": "folder",
+                "path": "Year_1/Sem2(Physics Group)/Healthy Living and Fitness",
+                "children": [
+                  {
+                    "name": "THF-101 END 2025.pdf",
                     "type": "file",
-                    "path": "Year_1/Sem1(Chemistry Group)/End/MCS-129 END 2025.pdf",
-                    "size": 531201,
-                    "size_mb": 0.51,
+                    "path": "Year_1/Sem2(Physics Group)/Healthy Living and Fitness/THF-101 END 2025.pdf",
+                    "size": 1695896,
+                    "size_mb": 1.62,
+                    "extension": ".pdf"
+                  }
+                ]
+              },
+              {
+                "name": "Physics",
+                "type": "folder",
+                "path": "Year_1/Sem2(Physics Group)/Physics",
+                "children": [
+                  {
+                    "name": "TPH-101 END 2025.pdf",
+                    "type": "file",
+                    "path": "Year_1/Sem2(Physics Group)/Physics/TPH-101 END 2025.pdf",
+                    "size": 732493,
+                    "size_mb": 0.7,
+                    "extension": ".pdf"
+                  }
+                ]
+              },
+              {
+                "name": "electrical",
+                "type": "folder",
+                "path": "Year_1/Sem2(Physics Group)/electrical",
+                "children": [
+                  {
+                    "name": "TEE-101 END 2025.pdf",
+                    "type": "file",
+                    "path": "Year_1/Sem2(Physics Group)/electrical/TEE-101 END 2025.pdf",
+                    "size": 618300,
+                    "size_mb": 0.59,
                     "extension": ".pdf"
                   }
                 ]
